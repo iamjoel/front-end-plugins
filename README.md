@@ -97,6 +97,7 @@
     * [ckeditor](http://ckeditor.com/)
     * [ueditor](http://ueditor.baidu.com/website/) 百度做的
     * [tinymce](http://www.tinymce.com/tryit/full.php) 对html内容进行实时的编辑
+    * [summernote](https://github.com/summernote/summernote) 在移动设备上用也不错
 * 美化/高亮语法代码
     * [google-code-prettify](https://code.google.com/p/google-code-prettify/)
     * [DlHighlight](http://mihai.bazon.net/projects/javascript-syntax-highlighting-engine) 仅支持JavaScript、CSS、XML、HTML 这4语法高亮
