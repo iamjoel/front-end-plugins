@@ -149,7 +149,7 @@
 ## 用户体验增强
 * [Intro.js](http://usablica.github.io/intro.js/) 用来介绍网站的功能很不错。也可以做新手引导。
 * [blockUI](http://jquery.malsup.com/block/) Lolding组件。
-* [simple-hint](https://github.com/catc/simple-hint) 提示框架,靠css做的
+* [simple-hint](https://github.com/catc/simple-hint) 提示信息。用css做的。兼容性IE 9+。
 * [dotdotdot](https://github.com/BeSite/jQuery.dotdotdot) 文字溢出时，添加在文字末尾加省略号
 * [jQuery-menu-aim](https://github.com/kamens/jQuery-menu-aim) 二级菜单的切换如Amazon主页上一样迅速
 * [AnythingZoomer](https://github.com/CSS-Tricks/AnythingZoomer/) 放大镜功能
