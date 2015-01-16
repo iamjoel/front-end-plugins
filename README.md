@@ -1,9 +1,16 @@
 # Plugins整理
-## JS Plugins分类
- * [jster](http://jster.net/)
- * [node modules](https://nodejsmodules.org/)
+## 目录
+* [工具类](#tool)
+* [浏览器增强类](#browser-strong)
+* [表单类](#form)
+* [图片类](#img)
+* [UI组件类](#ui)
+* [用户体验增强](#ux)
+* [其他类](#other)
+* [Bootstrap相关类](#bootstrap)
+* [JS Plugins仓库](#repository)
 
-## 工具
+## <a name="tool">工具类</a>
 * 方便操作对象，数组等的工具库
     * [underscore.js](http://underscorejs.org/)
     * [lo-dash](http://lodash.com/) 与underscore.js的api基本一致。与underscore比其优势是，效率高；可自定义构建
@@ -29,7 +36,7 @@
 * [BigDecimal.js](https://github.com/dtrebbien/BigDecimal.js) 提高精度的数字操作
 
 
-## 浏览器增强（shim polyfill）
+## <a name="browser-strong">浏览器增强类</a>
 ### 让一些旧浏览器变牛逼的库
 * [Selectivizr](https://github.com/keithclark/selectivizr)  让IE 6-8支持如下的css3选择器
 * [ieBetter](https://github.com/zhangxinxu/ieBetter.js) 让ie6-8有高级浏览器的特性
@@ -41,7 +48,7 @@
 ### 未归类
 * [prefixfree](https://github.com/LeaVerou/prefixfree/) 用了它，写css时，就不需要加浏览器的前缀了
 
-## 表单组件
+## <a name="form">表单类</a>
 * [jquery-file-upload](https://github.com/blueimp/jQuery-File-Upload) 上传文件组件
 * [zTree](http://www.ztree.me/v3/main.php#_zTreeInfo) 文件树形视图控件
 
@@ -56,7 +63,7 @@
 * [switchery](http://abpetkov.github.io/switchery/) ios7风格的开关组件
 * [nouislider](http://refreshless.com/nouislider/) 用滚动条来设置/控制（音量等）
 
-## 图片
+## <a name="img">图片类</a>
 * [holderjs](http://imsky.github.io/holder/) 生成占位图片
 * lazyload
 * [imagesLoaded](http://desandro.github.io/imagesloaded/) 选取的图片都加载好后执行回调
@@ -68,7 +75,7 @@
 ### 图片墙
 * [wookmark](http://www.wookmark.com/jquery-plugin)
 
-## UI组件
+## <a name="ui">UI组件类</a>
 ### 数据可视化(图标)
 * [Echarts](http://echarts.baidu.com/) 百度出品
 * [highcharts](http://www.highcharts.com/) 功能强大。是收费的。。。 390$ * 6 = 2400左右
@@ -106,7 +113,6 @@
 * [tinymce](http://www.tinymce.com/tryit/full.php) 对html内容进行实时的编辑
 * [summernote](https://github.com/summernote/summernote) 在移动设备上用不错
 
-## 多媒体
 ### HTML5播放器
 * [jwplayer](http://www.jwplayer.com/) 被大量网站使用
 * [html5media](http://html5media.info/) 简单的h5player，轻量级
@@ -146,7 +152,7 @@
 ### flash
 * [swfobj](http://code.google.com/p/swfobject/wiki/documentation) 能够自动检测PC、Mac机器上各种主流浏览器对Flash插件的支持情况。它使得插入Flash媒体资源尽量简捷、安全。而且它是非常符合搜索引擎优化的原则的。此外，它能够避免您的HTML、XHTML中出现object、embed等非标准标签，从而符合更加标准。
 
-## 用户体验增强
+## <a name="ux">用户体验增强类</a>
 * [Intro.js](http://usablica.github.io/intro.js/) 用来介绍网站的功能很不错。也可以做新手引导。
 * [blockUI](http://jquery.malsup.com/block/) Lolding组件。
 * [simple-hint](https://github.com/catc/simple-hint) 提示信息。用css做的。兼容性IE 9+。
@@ -156,11 +162,9 @@
 * 美化/高亮语法代码
     * [google-code-prettify](https://code.google.com/p/google-code-prettify/)
     * [DlHighlight](http://mihai.bazon.net/projects/javascript-syntax-highlighting-engine) 仅支持JavaScript、CSS、XML、HTML 这4语法高亮
-
-## 设计
 * [please](http://www.checkman.io/please/) 按要求随机舒服的颜色
 
-## 其他
+## <a name="other">其他类</a>
 * [Ink](http://zurb.com/ink/) 响应式html邮件框架
 * [性能测试](http://benchmarkjs.com/)
 * 抓取，解析RSS内容（不能跨域，所以后台要做代理，所谓的解析Rss其实就是解析xml）
@@ -168,7 +172,10 @@
     * [jRss](https://github.com/malderete/jRss)  简单版的jFeed
 * [scriptcam](http://www.scriptcam.com/) 与摄像头交互
 
-## bootstrap 免费皮肤
-* [AdminLTE](http://www.almsaeedstudio.com/) (github)[https://github.com/almasaeed2010/AdminLTE]
+## <a name="bootstrap">Bootstrap相关类</a>
+* 免费皮肤
+    * [AdminLTE](http://www.almsaeedstudio.com/) (github)[https://github.com/almasaeed2010/AdminLTE]
 
-
+## <a name="repository">JS Plugins仓库</a>
+ * [jster](http://jster.net/)
+ * [node modules](https://nodejsmodules.org/)
