@@ -1,28 +1,40 @@
 # Plugins整理
-## 插件库
+## JS Plugins分类
  * [jster](http://jster.net/)
  * [node modules](https://nodejsmodules.org/)
 
-## 工具库
- * javascript底层工具库[underscore.js](http://underscorejs.org/) [lo-dash](http://lodash.com/)
- * [fanta](http://madscript.com/fanta/) JavaScript函数式编程的原生扩展库
- * 时间操作库   
+## 工具
+* 方便操作对象，数组等的工具库
+    * [underscore.js](http://underscorejs.org/)
+    * [lo-dash](http://lodash.com/) 与underscore.js的api基本一致。与underscore比其优势是，效率高；可自定义构建
+    * [Sugar](https://github.com/andrewplummer/Sugar/) 在原生对象上增加一些工具方法
+    * [functional.js](https://github.com/leecrossley/functional-js/) 提够了一些Curry的支持
+    * [bacon.js](https://github.com/baconjs/bacon.js/) 函数式编程，cool
+* 异步流程控制
+    * 发布订阅
+        * [eventproxy](https://github.com/JacksonTian/eventproxy) 朴灵出品
+        * [Arbiter.js](http://arbiterjs.com/)
+    * [q](https://github.com/kriskowal/q/) Promise风格的
+    * [Async.js](https://github.com/caolan/async/)
+* 时间库
     * [moment](http://momentjs.com/)
     * [datejs](http://www.datejs.com/)
- * 发布订阅  [Arbiter.js](http://arbiterjs.com/)
- * 浏览器探测 [Bowser](https://github.com/ded/bowser)
- * 输出调试信息（替代console的方案） [JavaScript Debug](http://benalman.com/projects/javascript-debug-console-log/)
- * 让log有颜色，部分浏览器支持 https://github.com/adamschwartz/log
- * 图片占位 [holderjs](http://imsky.github.io/holder/)
- * 让ie6-8有高级浏览器的特性 [ieBetter](https://github.com/zhangxinxu/ieBetter.js)
- * uri操作 [uri.js](https://github.com/medialize/URI.js) 
+* 浏览器探测
+    * [Bowser](https://github.com/ded/bowser) 探测具体浏览器和版本
+* 调试
+    * [JavaScript Debug](http://benalman.com/projects/javascript-debug-console-log/) 对console.log的简单封装，当浏览器不支持console.log时，输出在一个页面元素里
+    * [log](https://github.com/adamschwartz/log) 让控制台输出的log有样式
+ * [uri.js](https://github.com/medialize/URI.js) uri操作
  * [cookie](https://github.com/ScottHamper/Cookies)
- * [bowser](https://github.com/ded/bowser) 浏览器探测
  * [BigDecimal.js](https://github.com/dtrebbien/BigDecimal.js) 提高精度的数字操作
 
+## 美观
+    * [holderjs](http://imsky.github.io/holder/) 生成占位图片
+
 ## 让一些旧浏览器变牛逼的库
-* [Selectivizr](https://github.com/keithclark/selectivizr)  让IE 6-8支持如下的css3选择器    
+* [Selectivizr](https://github.com/keithclark/selectivizr)  让IE 6-8支持如下的css3选择器
 ![Selectivizr支持的css3选择器](md-img/Selectivizr-support.png)
+* [ieBetter](https://github.com/zhangxinxu/ieBetter.js)让ie6-8有高级浏览器的特性
 
 ## 选择器增强
 * [Lining.js](https://github.com/zmmbreeze/lining.js) 让浏览器实现类似`::nth-line(), ::nth-last-line()`的效果
