@@ -175,7 +175,7 @@
 
 ## <a name="bootstrap">Bootstrap相关类</a>
 * 免费皮肤
-    * [AdminLTE](http://www.almsaeedstudio.com/) (github)[https://github.com/almasaeed2010/AdminLTE]
+    * [AdminLTE](https://github.com/almasaeed2010/AdminLTE)
 
 ## <a name="repository">JS Plugins仓库</a>
  * [jster](http://jster.net/)
