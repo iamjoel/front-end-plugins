@@ -28,6 +28,7 @@
     * [datejs](http://www.datejs.com/)
 * 浏览器探测
     * [Bowser](https://github.com/ded/bowser) 探测具体浏览器和版本
+    * [ua-parser-js](https://github.com/faisalman/ua-parser-js) 探测具体浏览器和版本，操作系统，设备类型等
 * 调试
     * [JavaScript Debug](http://benalman.com/projects/javascript-debug-console-log/) 对console.log的简单封装，当浏览器不支持console.log时，输出在一个页面元素里
     * [log](https://github.com/adamschwartz/log) 让控制台输出的log有样式
@@ -38,7 +39,7 @@
 
 ## <a name="browser-strong">浏览器增强类</a>
 ### 让一些旧浏览器变牛逼的库
-* [Selectivizr](https://github.com/keithclark/selectivizr)  让IE 6-8支持如下的css3选择器
+* [Selectivizr](https://github.com/keithclark/selectivizr)  让IE 6-8一些的css3选择器
 * [ieBetter](https://github.com/zhangxinxu/ieBetter.js) 让ie6-8有高级浏览器的特性
 * [ExplorerCanvas](https://github.com/arv/ExplorerCanvas) 让IE8-的浏览器支持canvas
 
@@ -78,7 +79,7 @@
 ## <a name="ui">UI组件类</a>
 ### 数据可视化(图标)
 * [Echarts](http://echarts.baidu.com/) 百度出品
-* [highcharts](http://www.highcharts.com/) 功能强大。是收费的。。。 390$ * 6 = 2400左右
+* [highcharts](http://www.highcharts.com/) 功能强大。是收费的。
 * [flot](http://www.flotcharts.org/) 文档不给力
 * [chartJs](http://www.chartjs.org/) [中文文档](http://www.bootcss.com/p/chart.js/docs/)  demo很漂亮，很清晰。比较轻量级。
 * [ichartJs](http://www.ichartjs.com/) 中国的一个家伙搞的，感觉还不错。
