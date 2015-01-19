@@ -138,7 +138,7 @@
 * [layer](https://github.com/sentsin/layer) 国人开发的，兼容ie6+。不喜欢其调用方式。
 
 ### 动画效果
-* [mixitup](https://mixitup.kunkalabs.com/) 排序，筛选后，进行都很漂亮的动画的
+* [mixitup](https://mixitup.kunkalabs.com/) 用漂亮的动画效果来完成排序和筛选
 * [jQuery.Marquee](https://github.com/aamirafridi/jQuery.Marquee) 跑马灯效果
 * [quickflip](http://jonraasch.com/blog/quickflip-jquery-plugin) 卡片翻转效果
 * [卡片翻转效果2](http://nnattawat.github.io/flip/) 兼容性可以。写的比较简单：1，只支持x方向翻转 2,类名都是规定好的 3，只能被调用一次。 需要改写一下。我的改进版见[这里](https://github.com/iamjoel/be-grace-front-end-developer/tree/master/my-lib/flip/quickflip.js)
