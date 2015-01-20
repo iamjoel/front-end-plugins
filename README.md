@@ -78,7 +78,7 @@
 * [wookmark](http://www.wookmark.com/jquery-plugin)
 
 ## <a name="ui">UI组件类</a>
-### 数据可视化(图标)
+### 数据可视化(图表)
 * [Echarts](http://echarts.baidu.com/) 百度出品
 * [highcharts](http://www.highcharts.com/) 功能强大。是收费的。
 * [Plottable.JS](http://plottablejs.org/) 基于D3的一个图表库
