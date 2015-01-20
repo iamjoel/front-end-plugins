@@ -17,6 +17,7 @@
     * [Sugar](https://github.com/andrewplummer/Sugar/) 在原生对象上增加一些工具方法
     * [functional.js](https://github.com/leecrossley/functional-js/) 提够了一些Curry的支持
     * [bacon.js](https://github.com/baconjs/bacon.js/) 函数式编程，cool
+    * [streamjs](https://github.com/winterbe/streamjs) 用流的方式来对数组，对象进行系列操作
 * 异步流程控制
     * 发布订阅
         * [eventproxy](https://github.com/JacksonTian/eventproxy) 朴灵出品
@@ -80,6 +81,7 @@
 ### 数据可视化(图标)
 * [Echarts](http://echarts.baidu.com/) 百度出品
 * [highcharts](http://www.highcharts.com/) 功能强大。是收费的。
+* [Plottable.JS](http://plottablejs.org/) 基于D3的一个图表库
 * [flot](http://www.flotcharts.org/) 文档不给力
 * [chartJs](http://www.chartjs.org/) [中文文档](http://www.bootcss.com/p/chart.js/docs/)  demo很漂亮，很清晰。比较轻量级。
 * [ichartJs](http://www.ichartjs.com/) 中国的一个家伙搞的，感觉还不错。
