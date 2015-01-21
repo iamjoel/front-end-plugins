@@ -64,11 +64,12 @@
 * [DropKick](http://robdel12.github.io/DropKick/) 下拉框，单，多选。外观比uniform好
 * [switchery](http://abpetkov.github.io/switchery/) ios7风格的开关组件
 * [nouislider](http://refreshless.com/nouislider/) 用滚动条来设置/控制（音量等）
+* [range.css](http://danielstern.ca/range.css/) 美化`input[type=range]`元素的外观
 
 ## <a name="img">图片类</a>
 * [holderjs](http://imsky.github.io/holder/) 生成占位图片
 * lazyload
-* [imagesLoaded](http://desandro.github.io/imagesloaded/) 选取的图片都加载好后执行回调
+* [imagesLoaded](http://desandro.github.io/imagesloaded/) 选取的图片都加载好后执行调回
 
 ### 浏览图片
 * [fancybox](http://fancyapps.com/fancybox/) 弹出查看图片，视屏等等 [demo](http://fancyapps.com/fancybox/demo/)
