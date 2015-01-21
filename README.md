@@ -183,5 +183,6 @@
     * [AdminLTE](https://github.com/almasaeed2010/AdminLTE)
 
 ## <a name="repository">JS Plugins仓库</a>
- * [jster](http://jster.net/)
- * [node modules](https://nodejsmodules.org/)
+* [jster](http://jster.net/)
+* [node modules](https://nodejsmodules.org/)
+* [awesome-nodejs](https://github.com/vndmtrx/awesome-nodejs)
