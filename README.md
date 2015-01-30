@@ -127,6 +127,7 @@
 ### 展示
 * [Impress.js](https://developer.cdn.mozilla.net/media/uploads/demos/b/a/bartaz/54e3827142e4149a5c01db64c9517c84/impressjs_1333223745_demo_package/index.html#/bored) 各种旋转，和奇特的体验
 * [fullPage](http://alvarotrigo.com/fullPage) 全屏显示。用滚轮来翻页
+* [pagePiling](http://alvarotrigo.com/pagePiling/) 和fullPage类似
 * [turn.js](https://github.com/blasten/turn.js) 做一本书，带漂亮的翻页的效果
 
 ### 幻灯
@@ -135,7 +136,7 @@
 * [cycle2](http://jquery.malsup.com/cycle2/) 普通的幻灯，竟然不支持垂直滚动。。。
 * [jcarousel](http://sorgalla.com/jcarousel/) 普通的幻灯，不兼容IE6
 * [reveal](https://github.com/hakimel/reveal.js) 3d滚动。做ppt相当不错
-* [nodePPT](https://github.com/ksky521/nodePPT) 国人做的，做ppt也相当不错。有些方面比 reveal做的还好。顶！
+* [nodePPT](https://github.com/ksky521/nodePPT) 国人做的，做ppt也相当不错。有些方面比 reveal做的还好。但生成导出的html有些问题
 * [roundabout](https://github.com/fredleblanc/roundabout) 3d切换，看的后面图片的边
 
 ### 弹出框
