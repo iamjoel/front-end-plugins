@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>.Validate demo</title>
+    <link rel="stylesheet" href="assets/css/form.css">
+    <link rel="stylesheet" href="assets/css/demo.css">
+</head>
+
+<body>
+    <div class="container">
+        <form class="form form-horizontal valid-in-js-form" action="###" method="POST" role="form">
+            <legend>表单验证-验证规则写在js中</legend>
+            <div class="form-group">
+                <label for="name" class="col-sm-2 control-label">姓名</label>
+                <div class="col-sm-6">
+                    <input type="text" class=" form-control" id="name" placeholder="请输入姓名" name="name">
+                </div>
+                <div class="status col-sm-4"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="email" class="col-sm-2 control-label">邮箱</label>
+                <div class="col-sm-6">
+                    <input type="text" class=" form-control" id="email" name="email">
+                </div>
+                <div class="status col-sm-4"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="password" class="col-sm-2 control-label">密码</label>
+                <div class="col-sm-6">
+                    <input type="password" class=" form-control" id="password" name="password">
+                </div>
+                <div class="status col-sm-4"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="password-again" class="col-sm-2 control-label">确认密码</label>
+                <div class="col-sm-6">
+                    <input type="password" class=" form-control" id="password-again" name="password-again">
+                </div>
+                <div class="status col-sm-4"></div>
+            </div>
+
+            <!-- <fieldset>
+                <legend>联系方式(至少选择一个)</legend>
+                <div class="form-group">
+                    <label for="password-again" class="col-sm-2 control-label">固定电话</label>
+                    <div class="col-sm-6">
+                        <input type="text" class=" form-control contract-group" id="phone" name="phone">
+                    </div>
+                    <div class="status col-sm-4"></div>
+                </div>
+                <div class="form-group">
+                    <label for="password-again" class="col-sm-2 control-label">移动电话</label>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control contract-group" id="mobile" name="mobile">
+                    </div>
+                    <div class="status col-sm-4"></div>
+                </div>
+            </fieldset> -->
+            <div class="form-group">
+                <label for="agree" class="col-sm-2 control-label">是否同意</label>
+                <div class="col-sm-6">
+                    <input type="checkbox" class="" id="agree" name="agree">
+                </div>
+                <div class="status col-sm-4"></div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="submit-btn">提交</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="../vendor/jquery.js"></script>
+    <script src="assets/vendor/jquery.validate.js"></script>
+    <script src="assets/js/demo.js"></script>
+</body>
+
+</html>

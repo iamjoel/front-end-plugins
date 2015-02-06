@@ -58,7 +58,7 @@
 * [zTree](http://www.ztree.me/v3/main.php#_zTreeInfo) 文件树形视图控件
 
 ### 表单验证
-* [jquery-validation](https://github.com/jzaefferer/jquery-validation)
+* [.Validate](https://github.com/jzaefferer/jquery-validation) [详细](detail/validate)
 * [jQuery-Validation-Engine](http://posabsolute.github.io/jQuery-Validation-Engine/)
 
 ### 表单元素美化

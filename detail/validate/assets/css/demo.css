@@ -1,0 +1,24 @@
+.form .form-group .status label {
+    display: block;
+    line-height: 32px;
+    background-repeat: no-repeat;
+    background-position: 7px center;
+    margin-bottom: 0;
+}
+.form .form-group .status label.error {
+    color: #a73242;
+    padding-left: 30px;
+    padding-right: 10px;
+    border: 1px solid #ebb3b3;
+    background-color: #ffebeb;
+    background-image: url(../img/error-icon.png);
+}
+.form .form-group .status label.checked {
+    display: block;
+    width: 30px;
+    padding: 0;
+    border: none;
+    background-color: #fff;
+    background-image: url(../img/succ-icon.png);
+    margin-bottom: 0;
+}
