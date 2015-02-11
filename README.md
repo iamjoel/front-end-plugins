@@ -4,6 +4,7 @@
 * [浏览器增强类](#browser-strong)
 * [表单类](#form)
 * [图片类](#img)
+* [图标类](#icon)
 * [UI组件类](#ui)
 * [用户体验增强](#ux)
 * [其他类](#other)
@@ -73,6 +74,16 @@
 * [holderjs](http://imsky.github.io/holder/) 生成占位图片
 * lazyload
 * [imagesLoaded](http://desandro.github.io/imagesloaded/) 选取的图片都加载好后执行调回
+
+## <a name="icon">图标类</a>
+* [Icon Font汇总](https://github.com/lvwzhen/iconpark)
+* SVG做的图标
+    * [svgicons](http://svgicons.sparkk.fr/)
+    * [iconic](https://useiconic.com/icons/)
+* HTML字符实体图标
+    * http://www.amp-what.com/
+* [transformicons](http://www.transformicons.com/) 图标点击时，会有一些变换效果。如，加号变成叉号
+
 
 ### 浏览图片
 * [fancybox](http://fancyapps.com/fancybox/) 弹出查看图片，视屏等等 [demo](http://fancyapps.com/fancybox/demo/)
