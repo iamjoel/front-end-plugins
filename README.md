@@ -84,6 +84,7 @@
 * HTML字符实体图标
     * http://www.amp-what.com/
 * [transformicons](http://www.transformicons.com/) 图标点击时，会有一些变换效果。如，加号变成叉号
+* [css3patterns](http://lea.verou.me/css3patterns) css3 做的可平铺纹理。浏览器兼容性不好。
 
 
 ### 浏览图片
