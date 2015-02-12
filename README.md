@@ -38,6 +38,7 @@
 * [uri.js](https://github.com/medialize/URI.js) uri操作
 * [cookie](https://github.com/ScottHamper/Cookies) 增删改cookie的工具库
 * [BigDecimal.js](https://github.com/dtrebbien/BigDecimal.js) 提高精度的数字操作
+* [JSDoc](http://usejsdoc.org/) 根据javascript文件中注释的信息，生成API文档 [详细](detail/JSDoc)
 
 
 ## <a name="browser-strong">浏览器增强类</a>
@@ -173,7 +174,7 @@
 * [scrolldeck](https://github.com/johnpolacek/scrolldeck.js)
 
 ### flash
-* [swfobj](http://code.google.com/p/swfobject/wiki/documentation) 能够自动检测PC、Mac机器上各种主流浏览器对Flash插件的支持情况。它使得插入Flash媒体资源尽量简捷、安全。而且它是非常符合搜索引擎优化的原则的。此外，它能够避免您的HTML、XHTML中出现object、embed等非标准标签，从而符合更加标准。
+* [swfobj](http://code.google.com/p/swfobject/wiki/documentation) 能够自动检测PC、Mac机器上各种主流浏览器对Flash插件的支持情况。它使得插入Flash媒体资源尽量简捷、安全。而且它是非常符合搜索引擎优化的原则的。此外，它能够避免您的HTML、XHTML中出现object、embed等非标准标签，从而符合更加标准。 [详细](detail/flash)
 
 ## <a name="ux">用户体验增强类</a>
 * [Intro.js](http://usablica.github.io/intro.js/) 用来介绍网站的功能很不错。也可以做新手引导。

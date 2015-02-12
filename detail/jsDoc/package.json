@@ -1,0 +1,23 @@
+{
+  "name": "jsdoc",
+  "version": "0.0.0",
+  "description": "jsdoc demo",
+  "scripts": {
+    "test": "todo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iamjoel/fontEnd.git"
+  },
+  "author": "joel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamjoel/fontEnd/issues"
+  },
+  "homepage": "https://github.com/iamjoel/fontEnd",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "load-grunt-tasks": "~0.4.0",
+    "grunt-jsdoc": "~0.5.1"
+  }
+}
