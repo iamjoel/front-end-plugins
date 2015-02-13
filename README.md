@@ -7,6 +7,7 @@
 * [图标类](#icon)
 * [UI组件类](#ui)
 * [用户体验增强](#ux)
+* [动画](#anim)
 * [SVG](#svg)
 * [其他类](#other)
 * [Bootstrap相关类](#bootstrap)
@@ -187,6 +188,9 @@
     * [google-code-prettify](https://code.google.com/p/google-code-prettify/)
     * [DlHighlight](http://mihai.bazon.net/projects/javascript-syntax-highlighting-engine) 仅支持JavaScript、CSS、XML、HTML 这4语法高亮
 * [please](http://www.checkman.io/please/) 按要求随机舒服的颜色
+
+## <a name="anim">动画</a>
+* [velocity](https://github.com/julianshapiro/velocity) 提高Jquery动画的性能。以及颜色动画之类的新特性。
 
 ## <a name="svg">SVG</a>
 * [Snap.svg](http://snapsvg.io/) 控制SVG的JS库
