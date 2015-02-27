@@ -6,7 +6,7 @@ $(document).ready(function() {
 	// });
     var $validInJsForm = $('.valid-in-js-form');
     // 表单验证
-    $validInJsForm.validate({
+    var validator = $validInJsForm.validate({
         rules: {
             "name": {
             	"required": true,
@@ -76,7 +76,15 @@ $(document).ready(function() {
         }
     });
 
+    // 主动验证
+    $('.valid-btn').click(function () {
+        $validInJsForm.valid();
+    });
 
+    // 隐藏所有错误信息
+    $('.hide-error-btn').click(function () {
+        validator.resetForm();
+    });
     // fix jquery http://bugs.jquery.com/ticket/3016
 	// https://github.com/spencertipping/jquery.fix.clone/blob/master/jquery.fix.clone.js
     $.fn.cloneForm = function() {
