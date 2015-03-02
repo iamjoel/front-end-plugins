@@ -106,7 +106,7 @@
 * [ichartJs](http://www.ichartjs.com/) 中国的一个家伙搞的，感觉还不错。
 
 ### 日历
-* [DatePicker](https://github.com/foxrunsoftware/DatePicker/) 一个简单的日历 [详细](detail/datePicker)
+* [DatePicker](https://github.com/foxrunsoftware/DatePicker/) 一个简单的日历 [详细](detail/datepicker)
 * [full calendar](http://arshaw.com/fullcalendar/) 支持脱放的方式来改变待办事宜的时间
 * [Simple Events Calendar](http://codecanyon.net/item/simple-events-calendar-js/full_screen_preview/462149?ref=themespotters) 外观很喜欢。收费 5$
 
