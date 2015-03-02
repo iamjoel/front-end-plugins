@@ -36,6 +36,7 @@
 * 调试
     * [console-polyfill](https://github.com/paulmillr/console-polyfill/) 能放心的使用 console.log()之类的console方法
     * [log](https://github.com/adamschwartz/log) 让控制台输出的log有样式
+    * [Konsole.js](https://github.com/eatcodeplay/Konsole.js) 在页面的一个元素里输出log信息
 * [uri.js](https://github.com/medialize/URI.js) uri操作
 * [cookie](https://github.com/ScottHamper/Cookies) 增删改cookie的工具库
 * [BigDecimal.js](https://github.com/dtrebbien/BigDecimal.js) 提高精度的数字操作
