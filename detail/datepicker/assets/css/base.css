@@ -1,0 +1,178 @@
+div.datepicker {
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  width: 196px;
+  height: 147px;
+  position: absolute;
+  cursor: default;
+  top: 0;
+  left: 0;
+  display: none;
+}
+.datepickerContainer {
+  position: absolute;
+}
+
+/* Hide border divs by default */
+.datepickerBorderT,
+.datepickerBorderB,
+.datepickerBorderL,
+.datepickerBorderR,
+.datepickerBorderTL,
+.datepickerBorderTR,
+.datepickerBorderBL,
+.datepickerBorderBR {
+  display:none;
+}
+
+.datepickerHidden {
+  display: none;
+}
+div.datepicker table {
+  border-collapse:collapse;
+}
+div.datepicker a {
+  color: black;
+  text-decoration: none;
+  cursor: default;
+  outline: none;
+}
+div.datepicker table td {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+div.datepicker th {
+  text-align: center;
+  color: #666666;
+  font-weight: normal;
+  padding:0;
+}
+div.datepicker tbody a {
+  display: block;
+}
+.datepickerDays a {
+  width: 20px;
+  line-height: 16px;
+  height: 16px;
+  padding-right: 2px;
+}
+.datepickerYears a,
+.datepickerMonths a{
+  width: 39px;
+  line-height: 36px;
+  height: 36px;
+  text-align: center;
+}
+.datepickerMonths td:first-child a,
+.datepickerMonths td:last-child a,
+.datepickerYears td:first-child a,
+.datepickerYears td:last-child a {
+  width:38px;
+}
+td.datepickerNotInMonth a {
+  color: #666666;
+}
+tbody.datepickerDays td.datepickerSelected{
+  background: #136A9F;
+}
+tbody.datepickerDays td.datepickerNotInMonth.datepickerSelected {
+  background: #17384d;
+}
+tbody.datepickerYears td.datepickerSelected,
+tbody.datepickerMonths td.datepickerSelected{
+  background: #17384d;
+}
+div.datepicker td.datepickerSelected a {
+  color:white;
+}
+div.datepicker a:hover,
+div.datepicker a:hover {
+  color: #88c5eb;
+}
+div.datepicker td.datepickerNotInMonth a:hover {
+  color: #999999;
+}
+.datepickerSpace div {
+  width: 20px;
+}
+.datepickerBlock {
+  vertical-align:top;
+}
+a.datepickerGoNext,
+a.datepickerGoPrev,
+a.datepickerMonth {
+  text-align: center;
+  height: 20px;
+  line-height: 20px;
+  float:left;
+}
+div.datepicker th a.datepickerGoNext,
+div.datepicker th a.datepickerGoPrev {
+  width: 20px;
+  color: #666666;
+  display:none;
+}
+div.datepicker th a.datepickerMonth {
+  width:114px;
+  display:block;
+}
+/* Only display the previous/next arrows on the first/last calendars */
+div.datepicker .datepickerFirstView th a.datepickerGoPrev,
+div.datepicker .datepickerLastView th a.datepickerGoNext {
+  display:block;
+}
+/* Compensate for the space lost by not having a previous arrow */
+div.datepicker th a.datepickerMonth {
+  margin-left:20px;
+}
+div.datepicker .datepickerFirstView th a.datepickerMonth {
+  margin-left:0;
+}
+/* Day mode calendar body */
+table.datepickerViewDays tbody.datepickerMonths,
+table.datepickerViewDays tbody.datepickerYears {
+  display: none;
+}
+/* Month mode calendar body */
+table.datepickerViewMonths tbody.datepickerDays,
+table.datepickerViewMonths tbody.datepickerYears,
+table.datepickerViewMonths tr.datepickerDoW {
+  display: none;
+}
+/* Year mode calendar body */
+table.datepickerViewYears tbody.datepickerDays,
+table.datepickerViewYears tbody.datepickerMonths,
+table.datepickerViewYears tr.datepickerDoW {
+  display: none;
+}
+td.datepickerDisabled a,
+td.datepickerDisabled.datepickerNotInMonth a{
+  color: #555555;
+}
+td.datepickerDisabled a:hover {
+  color: #333333;
+}
+/* Not used by default, calendar cells can be marked as special if desired (doesn't seem to be totally working) */
+div.datepicker tbody.datepickerDays td.datepickerSpecial a {
+  background: #770000;
+  color:white;
+}
+div.datepicker tbody.datepickerDays td.datepickerSpecial.datepickerSelected a {
+  background: #aa0000;
+}
+
+/* style the 'not in month' day cell away */
+tbody.datepickerDays td.datepickerNotInMonth.datepickerSelected {
+  background-color:transparent;
+}
+div.datepicker td.datepickerNotInMonth a span {
+  display:none;
+}
+div.datepicker td.datepickerNotInMonth a:hover span {
+  display:none;
+}
+div.datepicker tbody.datepickerDays td.datepickerNotInMonth:hover {
+  background-color: transparent;
+}
