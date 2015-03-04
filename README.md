@@ -19,6 +19,7 @@
     * [lo-dash](http://lodash.com/) 与underscore.js的api基本一致。与underscore比其优势是，效率高；可自定义构建
     * [Sugar](https://github.com/andrewplummer/Sugar/) 在原生对象上增加一些工具方法
     * [functional.js](https://github.com/leecrossley/functional-js/) 提够了一些Curry的支持
+    * [Watch.js](https://github.com/melanke/Watch.JS) 监视对象或属性的变化
     * [bacon.js](https://github.com/baconjs/bacon.js/) 函数式编程，cool
     * [streamjs](https://github.com/winterbe/streamjs) 用流的方式来对数组，对象进行系列操作
 * 异步流程控制
