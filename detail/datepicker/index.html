@@ -9,7 +9,10 @@
 </head>
 
 <body>
-    <input type="text" id="inputDate">
+    <label for="after-today-date">只能选今天以及今天之后的</label>
+    <input type="text" id="after-today-date" class="calender input">
+    <label for="after-today-date">只能选今天以及今天之前的</label>
+    <input type="text" id="before-today-date" class="calender input">
     <script src="../vendor/jquery.js"></script>
     <script src="assets/js/datepicker.js"></script>
     <script>
@@ -32,11 +35,16 @@
         var now = new Date();
         var min = new Date();
         min.setDate(min.getDate() - 10);
-        var $input = $('#inputDate');
+        var $input = $('.calender.input');
         $input.val(timeTool.formatTime(now));
+
+        var todayStartTime = getTodayTime('start');
+        var todayEndTime = getTodayTime('end');
+
         // $input.val('2014/05/19');
-        $('#inputDate').DatePicker({
+        $('#after-today-date').DatePicker({
             mode: 'single',
+            date: timeTool.formatTime(now),
             onBeforeShow: function(el) {
                 if ($('#inputDate').val()) {
                     $('#inputDate').DatePickerSetDate($('#inputDate').val(), true);
@@ -45,8 +53,66 @@
             onChange: function(date, el) {
                 $(el).val(timeTool.formatTime(date));
                 $(el).DatePickerHide();
-            }
+            },
+            onRenderCell: function(elem, date){
+                    var disabled;
+                    var className;
+                    // 不能选择今天以及之前的时间
+                    if(date.getTime() < todayStartTime){
+                        disabled = true;
+                        className='disabled-cell';
+                    } else{
+                        disabled = false;
+                        className='enabled-cell';
+                    }
+                    return {
+                        disabled: disabled,
+                        className: className
+                    };
+                }
         });
+
+        $('#before-today-date').DatePicker({
+            mode: 'single',
+            date: timeTool.formatTime(now),
+            onBeforeShow: function(el) {
+                if ($('#inputDate').val()) {
+                    $('#inputDate').DatePickerSetDate($('#inputDate').val(), true);
+                }
+            },
+            onChange: function(date, el) {
+                $(el).val(timeTool.formatTime(date));
+                $(el).DatePickerHide();
+            },
+            onRenderCell: function(elem, date){
+                    var disabled;
+                    var className;
+                    if(date.getTime() > todayEndTime){
+                        disabled = true;
+                        className='disabled-cell';
+                    } else{
+                        disabled = false;
+                        className='enabled-cell';
+                    }
+                    return {
+                        disabled: disabled,
+                        className: className
+                    };
+                }
+        });
+
+        function getTodayTime(type){
+            var now = new Date();
+            var d = new Date([now.getFullYear(), now.getMonth() + 1 ,now.getDate()].join('/'));
+            var time;
+            if(type == 'start'){
+                time = d.getTime() - 1;
+            } else{
+                d.setDate(d.getDate() + 1);
+                time = d.getTime() - 1;
+            }
+            return time;
+        }
     });
     </script>
 </body>

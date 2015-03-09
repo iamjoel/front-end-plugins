@@ -176,3 +176,13 @@ div.datepicker td.datepickerNotInMonth a:hover span {
 div.datepicker tbody.datepickerDays td.datepickerNotInMonth:hover {
   background-color: transparent;
 }
+
+div.datepicker td.disabled-cell a{
+  color: #DDDDDD !important;
+}
+div.datepicker td.enabled-cell a{
+  color: black !important;
+}
+div.datepicker td.datepickerSelected a{
+  color: #fff !important;
+}
