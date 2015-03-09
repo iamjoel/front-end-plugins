@@ -5,6 +5,11 @@ $(document).ready(function() {
 	//   success: "valid"
 	// });
     var $validInJsForm = $('.valid-in-js-form');
+
+    $.validator.addMethod("kouling", function(value, element, params) {
+        $.validator.messages["kouling"] = '随机错误信息' + Math.random(); // 控制错误信息
+        return this.optional(element) || value === 'abc' ;
+    }, "请输入正确的口令");
     // 表单验证
     var validator = $validInJsForm.validate({
         rules: {
@@ -20,6 +25,10 @@ $(document).ready(function() {
 			        //   }
 			        // }
            //  	}
+            },
+            "kouling": {
+                "required": true,
+                "kouling": true
             },
             "email": "email", // 要么不输入，要么是正确的邮箱格式
             password: {
@@ -68,11 +77,13 @@ $(document).ready(function() {
         highlight: function(input, errorClass) {
             $(input).closest('.form-group').find("." + errorClass).removeClass("checked");
         },
-        submitHandler: function() {
+        submitHandler: function(form) {
         	// fix 循环进这个方法的bug
-        	var clonedForm = $validInJsForm.cloneForm();
-        	$('body').append(clonedForm);
-            clonedForm.submit();
+        	// var clonedForm = $validInJsForm.cloneForm();
+        	// $('body').append(clonedForm);
+         //    clonedForm.submit();
+          //  $validInJsForm.submit(); // 用这个方式会进入无限循环提交。。。
+            form.submit();// 只需这样写即可，呵呵呵
         }
     });
 
