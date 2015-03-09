@@ -96,6 +96,9 @@ $(document).ready(function() {
     $('.hide-error-btn').click(function () {
         validator.resetForm();
     });
+
+    // formnovalidate 是放在提交按钮上的，要么就是整个表单都不验证，要么都验证
+
     // fix jquery http://bugs.jquery.com/ticket/3016
 	// https://github.com/spencertipping/jquery.fix.clone/blob/master/jquery.fix.clone.js
     $.fn.cloneForm = function() {
