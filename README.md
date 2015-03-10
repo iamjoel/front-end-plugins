@@ -216,3 +216,4 @@
 * [jster](http://jster.net/)
 * [node modules](https://nodejsmodules.org/)
 * [awesome-nodejs](https://github.com/vndmtrx/awesome-nodejs)
+* [OniUI](http://ued.qunar.com/oniui/index.html#avalon.accordion.doc.html) 去哪儿网做的一套基于Avalon的框架
