@@ -1,19 +1,24 @@
 var gulp = require('gulp');
 var clean = require('gulp-clean');
+var uglify = require('gulp-uglify');
 var rename = require('gulp-rename');
 
-var distSrc = 'dist/**/*';
+// 清空目标文件夹的内容
 gulp.task('remove', function() {
-    return gulp.src(distSrc, {
+    return gulp.src('dist/**/*', {
             read: false
         })
         .pipe(clean());
 });
-gulp.task('js', function() {
-    return gulp.src('asserts/js/test-a.js')
-        .pipe(gulp.dest('dist/js'))
-        .pipe(rename(function(path) {
-        	console.log(path);
-            path.suffix = ".min";
-        }));
+
+// 压缩
+gulp.task('js-min', function() {
+    return gulp.src('asserts/**/*.js')
+        .pipe(uglify())
+        .pipe(rename({
+            suffix: ".min"
+        }))
+        .pipe(gulp.dest('dist'));
 });
+
+gulp.task('default', ['remove', 'js-min']);
