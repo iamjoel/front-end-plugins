@@ -1,4 +1,7 @@
 # Plugins整理
+## 项目文件结构
+* [detail/](detail) 一些组件的详细说明，以及使用 Demo
+
 ## 目录
 * [工具类](#tool)
 * [浏览器增强类](#browser-strong)
