@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>带排序，删除，编辑功能</title>
+    <link rel="stylesheet" href="assets/vendor/jsGrid/jsgrid.min.css">
+    <link rel="stylesheet" href="assets/vendor/jsGrid/jsgrid-theme.min.css">
+</head>
+
+<body>
+    <h1>带排序，删除，编辑功能</h1>
+    <div id="jsGrid"></div>
+    <script src="../vendor/jquery.js"></script>
+    <script src="assets/vendor/jsGrid/jsgrid.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        var data = [{
+            name: 'joel',
+            job: '前端工程师'
+        }, {
+            name: 'jack',
+            job: '后端端工程师'
+        }];
+
+        $("#jsGrid").jsGrid({
+            // height: "300px",
+            width: "100%",
+            data: data,
+            filtering: true,
+            editing: true,
+            sorting: true,
+            controller:{
+                loadData: function(filter) {
+                    return $.grep(data, function(item) {
+                        return (!filter.name || item.name.indexOf(filter.name) > -1) && (!filter.job || item.job.indexOf(filter.job) > -1);
+                    });
+                }
+            },
+            onItemInserted: function(obj, item){
+                window.console && console.info('inserted!');
+                window.console && console.info(obj.item);// 也可以做一些异步的东东
+            },
+            onItemUpdated: function(){
+                window.console && console.info('updated!');
+            },
+            onItemDeleted: function(){
+                window.console && console.info('deleted!');
+            },
+            deleteConfirm: "确定删除这行数据?",
+            fields: [{
+                title: '姓名',
+                name: "name",
+                type: "text"
+            }, {
+                title: '职位',
+                name: "job",
+                type: "text"
+            }, {
+                type: "control"// 删除，编辑
+            }]
+        });
+
+
+    });
+    </script>
+
+</body>
+
+</html>

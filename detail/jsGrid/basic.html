@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>基本的使用</title>
+    <link rel="stylesheet" href="assets/vendor/jsGrid/jsgrid.min.css">
+    <link rel="stylesheet" href="assets/vendor/jsGrid/jsgrid-theme.min.css">
+</head>
+
+<body>
+    <h1>基本的使用</h1>
+    <div id="jsGrid"></div>
+    <script src="../vendor/jquery.js"></script>
+    <script src="assets/vendor/jsGrid/jsgrid.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        var data = [{
+            name: 'joel',
+            job: '前端工程师'
+        },{
+            name: 'jack',
+            job: '后端端工程师'
+        }];
+
+        $("#jsGrid").jsGrid({
+            // height: "300px",
+            width: "100%",
+            data: data,// 数据
+            fields: [{
+                title: '姓名',
+                name: "name",
+                type: "text"
+            },{
+                title: '职位',
+                name: "job",
+                type: "text"
+            }]
+        });
+
+
+    });
+    </script>
+
+</body>
+
+</html>

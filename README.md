@@ -110,12 +110,10 @@
 * [chartJs](http://www.chartjs.org/) [中文文档](http://www.bootcss.com/p/chart.js/docs/)  demo很漂亮，很清晰。比较轻量级。
 * [ichartJs](http://www.ichartjs.com/) 中国的一个家伙搞的，感觉还不错。
 
-### 日历
+### 时间选取组件
 * [DatePicker](https://github.com/foxrunsoftware/DatePicker/) 一个简单的日历 [详细](detail/datepicker)
 * [full calendar](http://arshaw.com/fullcalendar/) 支持脱放的方式来改变待办事宜的时间
 * [Simple Events Calendar](http://codecanyon.net/item/simple-events-calendar-js/full_screen_preview/462149?ref=themespotters) 外观很喜欢。收费 5$
-
-### 时间选取组件
 * [jQuery ui datepicker](http://jqueryui.com/datepicker/) 经典，不是很好看
 * [pickadate](http://amsul.ca/pickadate.js/) 轻量级，手机友好的，漂亮。但貌似只能在弹出层中显示，而没有下拉这种方式显示。
 * [zebra-datepicker](http://stefangabos.ro/jquery/zebra-datepicker/) 可配置性很强。但貌似只能在弹出在右上方。。。
@@ -127,9 +125,10 @@
 * [iscroll](http://iscrolljs.com) 在移动设备上用不错
 
 ### 表格组件
-* [datatables](http://www.datatables.net/) 表格可交互（对内容进行排序，删除等）
-* [backgrid](http://backgridjs.com/) 各种功能，带分页，可编辑表格内容。很棒。
+* [jsGrid](http://js-grid.com/) Data Grid。 [详细](detail/jsGrid)
+* [backgrid](http://backgridjs.com/) 基于Backbone.js的DataGrid
 * [excellentexport](https://github.com/jmaister/excellentexport) 把表格的内容生成excel。兼容 Firefox, Chrome, IE6+
+* [datatables](http://www.datatables.net/) 表格可交互（对内容进行排序，删除等）
 
 ### 选取颜色
 * [Spectrum](http://bgrins.github.io/spectrum/?color=&color2=%233355cc&color3=%23000000#toc0)
