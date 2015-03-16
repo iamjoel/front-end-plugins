@@ -133,6 +133,9 @@
 ### 选取颜色
 * [Spectrum](http://bgrins.github.io/spectrum/?color=&color2=%233355cc&color3=%23000000#toc0)
 
+### 分享到SNS
+* [JiaThis](http://www.jiathis.com/) 生成分享代码。
+
 ### 编辑器
 * [ace](http://ace.c9.io) 代码编辑器，可以用来做demo演示
 * [ckeditor](http://ckeditor.com/)
