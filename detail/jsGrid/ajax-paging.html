@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>异步拿数据带分页</title>
+    <link rel="stylesheet" href="assets/vendor/jsGrid/jsgrid.min.css">
+    <link rel="stylesheet" href="assets/vendor/jsGrid/jsgrid-theme.min.css">
+</head>
+
+<body>
+    <h1>异步拿数据带分页</h1>
+    <p>下面的例子是，一下子请求所有的数据；如果每次请求一页的，可以用自定制的分页来做</p>
+    <button id="query-btn">更新数据</button>
+    <div id="jsGrid"></div>
+    <!-- 放分页 -->
+    <div id="paging"></div>
+    <script src="../vendor/jquery.js"></script>
+    <script src="assets/vendor/jsGrid/jsgrid.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        var $grid = $("#jsGrid");
+        $grid.jsGrid({
+            // height: "300px",
+            width: "100%",
+            filtering: true,
+            editing: true,
+            sorting: true,
+            autoload: true,
+            pagerContainer: "#paging",
+            paging: true,
+            // pageLoading: true,
+            pagerFormat: "当前页: {pageIndex} &nbsp;&nbsp; {first} {prev} {pages} {next} {last} &nbsp;&nbsp; 总页数: {pageCount}",
+            pageSize: 2,
+            pagePrevText: "上一页",
+            pageNextText: "下一页",
+            pageFirstText: "首页",
+            pageLastText: "末页",
+            controller: {
+                loadData: function(filter) {
+                          return $.ajax({
+                        url: "assets/data/worker.json" + getQueryStr(),
+                        dataType: 'json'
+                    });
+                }
+            },
+            onItemInserted: function(obj, item) {
+                window.console && console.info('inserted!');
+                window.console && console.info(obj.item); // 也可以做一些异步的东东
+            },
+            onItemUpdated: function() {
+                window.console && console.info('updated!');
+            },
+            onItemDeleted: function() {
+                window.console && console.info('deleted!');
+            },
+            deleteConfirm: "确定删除这行数据?",
+            fields: [{
+                title: '姓名',
+                name: "name",
+                type: "text"
+            }, {
+                title: '职位',
+                name: "job",
+                type: "text"
+            }, {
+                type: "control" // 删除，编辑
+            }]
+        });
+
+        function getQueryStr() {
+            return '?v=' + Math.random();
+        }
+
+        $('#query-btn').click(function() {
+            $grid.jsGrid("render"); // 更新数据
+        });
+
+
+    });
+    </script>
+
+</body>
+
+</html>

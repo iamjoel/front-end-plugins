@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>单元格被点击</title>
+    <link rel="stylesheet" href="assets/vendor/jsGrid/jsgrid.min.css">
+    <link rel="stylesheet" href="assets/vendor/jsGrid/jsgrid-theme.min.css">
+</head>
+
+<body>
+    <h1>单元格被点击</h1>
+    <div id="jsGrid"></div>
+    <script src="../vendor/jquery.js"></script>
+    <script src="assets/vendor/jsGrid/jsgrid.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        var data = [{
+            name: 'joel',
+            job: '前端工程师'
+        },{
+            name: 'jack',
+            job: '后端端工程师'
+        }];
+
+        $("#jsGrid").jsGrid({
+            width: "100%",
+            data: data,// 数据
+            rowClick: function(args){
+                var rowIndex = args.itemIndex;
+                var data = args.item;
+                var $item = $(args.event.target);
+                var colIndex = $item.index();
+                window && window.console.info('第%s行第%s列数据被点击，数据为%o',rowIndex,colIndex,data);
+
+            },
+            fields: [{
+                title: '姓名',
+                name: "name",
+                type: "text"
+            },{
+                title: '职位',
+                name: "job",
+                type: "text"
+            }]
+        });
+
+
+    });
+    </script>
+
+</body>
+
+</html>

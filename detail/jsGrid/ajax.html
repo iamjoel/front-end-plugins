@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>异步拿数据</title>
+    <link rel="stylesheet" href="assets/vendor/jsGrid/jsgrid.min.css">
+    <link rel="stylesheet" href="assets/vendor/jsGrid/jsgrid-theme.min.css">
+</head>
+
+<body>
+    <h1>异步拿数据</h1>
+    <button id="query-btn">更新数据</button>
+    <div id="jsGrid"></div>
+    <script src="../vendor/jquery.js"></script>
+    <script src="assets/vendor/jsGrid/jsgrid.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        var $grid = $("#jsGrid");
+        $grid.jsGrid({
+            // height: "300px",
+            width: "100%",
+            filtering: true,
+            editing: true,
+            sorting: true,
+            autoload: true,
+
+            controller: {
+                loadData: function(filter) {
+                    // var d = $.Deferred();
+                    // $.ajax({
+                    //     url: "assets/data/worker.json" + getQueryStr(),
+                    //     dataType: "json"
+                    // }).done(function(response) {
+                    //     d.resolve(response);// 用这种形式的话，可以控制输出，和回调
+                    // });
+
+                    // return d.promise();
+                    return $.ajax({
+                        url: "assets/data/worker.json" + getQueryStr(),
+                        dataType: 'json'
+                    });
+                }
+            },
+            onItemInserted: function(obj, item) {
+                window.console && console.info('inserted!');
+                window.console && console.info(obj.item); // 也可以做一些异步的东东
+            },
+            onItemUpdated: function() {
+                window.console && console.info('updated!');
+            },
+            onItemDeleted: function() {
+                window.console && console.info('deleted!');
+            },
+            deleteConfirm: "确定删除这行数据?",
+            fields: [{
+                title: '姓名',
+                name: "name",
+                type: "text"
+            }, {
+                title: '职位',
+                name: "job",
+                type: "text"
+            }, {
+                type: "control" // 删除，编辑
+            }]
+        });
+
+        function getQueryStr(){
+            return '?v=' + Math.random();
+        }
+
+        $('#query-btn').click(function(){
+            $grid.jsGrid("render");// 更新数据
+        });
+
+
+    });
+    </script>
+
+</body>
+
+</html>

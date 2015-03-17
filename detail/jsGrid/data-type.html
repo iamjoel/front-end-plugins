@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>不同的数据类型</title>
+    <link rel="stylesheet" href="assets/vendor/jsGrid/jsgrid.min.css">
+    <link rel="stylesheet" href="assets/vendor/jsGrid/jsgrid-theme.min.css">
+</head>
+
+<body>
+    <h1>不同的数据类型</h1>
+    <div id="jsGrid"></div>
+    <script src="../vendor/jquery.js"></script>
+    <script src="assets/vendor/jsGrid/jsgrid.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        var data = [{
+            name: 'joel',
+            age: 18,
+            country: 1,
+            married: true
+        }, {
+            name: 'jack',
+            age: 20,
+            country: 2,
+            married: false
+        }];
+
+        var countries = [{
+            name: "",
+            id: 0
+        }, {
+            name: "中国",
+            id: 1
+        }, {
+            name: "美国",
+            id: 2
+        }];
+
+
+        $("#jsGrid").jsGrid({
+            // height: "300px",
+            width: "100%",
+            data: data, // 数据
+            editing: true,
+            fields: [{
+                title: '姓名',
+                name: "name",
+                type: "text"
+            }, {
+                title: '年龄',
+                name: "age",
+                type: "number"
+            }, {
+                name: "country",
+                type: "select",
+                items: countries,
+                valueField: "id",
+                textField: "name"
+            }, {
+                name: "married",
+                type: "checkbox",
+                title: "是否结婚",
+                sorting: false
+            }, {
+                type: "control",
+                modeSwitchButton: false,
+                editButton: false,
+                headerTemplate: function() {
+                    return $("<button>").attr("type", "button").text("添加")
+                        .on("click", function() {
+                            window.console && console.info('弹出添加框');
+                        });
+                }
+            }]
+        });
+
+
+    });
+    </script>
+
+</body>
+
+</html>
