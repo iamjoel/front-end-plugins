@@ -3,22 +3,25 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>异步 自带分页 </title>
+    <title>异步 自定义分页 </title>
     <link rel="stylesheet" href="assets/vendor/jsGrid/jsgrid.min.css">
     <link rel="stylesheet" href="assets/vendor/jsGrid/jsgrid-theme.min.css">
+    <link rel="stylesheet" href="assets/vendor/pager/jquery.paging.css">
 </head>
 
 <body>
-    <h1>异步 自带分页</h1>
+    <h1>异步 自定义分页</h1>
     <p>下面的例子是，一下子请求所有的数据；如果每次请求一页的，可以用自定制的分页来做</p>
     <button id="query-btn">更新数据</button>
     <div id="jsGrid"></div>
     <!-- 放分页 -->
-    <div id="paging"></div>
+    <div class="paging-wrap"></div>
     <script src="../vendor/jquery.js"></script>
     <script src="assets/vendor/jsGrid/jsgrid.min.js"></script>
+    <script src="assets/vendor/pager/jquery.paging.js"></script>
     <script>
     $(document).ready(function() {
+        var pager;
         var $grid = $("#jsGrid");
         $grid.jsGrid({
             // height: "300px",
@@ -27,23 +30,25 @@
             editing: true,
             sorting: true,
             autoload: true,
-            pagerContainer: "#paging",
-            paging: true,
-            // pageLoading: true,
-            pagerFormat: "当前页: {pageIndex} &nbsp;&nbsp; {first} {prev} {pages} {next} {last} &nbsp;&nbsp; 总页数: {pageCount}",
-            pageSize: 2,
-            pagePrevText: "上一页",
-            pageNextText: "下一页",
-            pageFirstText: "首页",
-            pageLastText: "末页",
             controller: {
                 loadData: function(filter) {
+
                     var d = $.Deferred();
                     $.ajax({
-                        url: "assets/data/worker.json" + getQueryStr(),
+                        url: "assets/data/worker.json" + getQueryStr(pager),
                         dataType: "json"
                     }).done(function(response) {
                         d.resolve(response.data);
+                        if (!pager) {// 第一次
+                            pager = $('.paging-wrap').paging({
+                                pageNum: response.pageNum,
+                                onPageChange: function(pageAt) {
+                                    $grid.jsGrid("render");
+                                }
+                            });
+                        } else {
+                            pager.setPageNum(response.pageNum, response.pageAt)
+                        }
                     });
                     return d.promise();
                 }
@@ -72,8 +77,12 @@
             }]
         });
 
-        function getQueryStr() {
-            return '?v=' + Math.random();
+        function getQueryStr(pager) {
+            var pageStr = '';
+            if(pager){
+                pageStr = '&' + ['pageAt',pager.pageAt].join('=');
+            }
+            return '?v=' + Math.random() + pageStr;
         }
 
         $('#query-btn').click(function() {

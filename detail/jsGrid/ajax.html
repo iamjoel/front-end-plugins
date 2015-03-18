@@ -27,19 +27,14 @@
 
             controller: {
                 loadData: function(filter) {
-                    // var d = $.Deferred();
-                    // $.ajax({
-                    //     url: "assets/data/worker.json" + getQueryStr(),
-                    //     dataType: "json"
-                    // }).done(function(response) {
-                    //     d.resolve(response);// 用这种形式的话，可以控制输出，和回调
-                    // });
-
-                    // return d.promise();
-                    return $.ajax({
+                    var d = $.Deferred();
+                    $.ajax({
                         url: "assets/data/worker.json" + getQueryStr(),
-                        dataType: 'json'
+                        dataType: "json"
+                    }).done(function(response) {
+                        d.resolve(response.data);
                     });
+                    return d.promise();
                 }
             },
             onItemInserted: function(obj, item) {
