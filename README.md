@@ -177,9 +177,10 @@
 * [midnight.js](https://github.com/Aerolab/midnight.js) 文字颜色随着背景变，屌炸了
 * [color-animation](http://www.bitstorm.org/jquery/color-animation/) jquery的颜色渐变动画插件。jquery的动画不支持颜色值的变化。改库提供了这个支持。
 * [transit](https://github.com/rstacruz/jquery.transit) 对元素进行css的变换
+* [tagcanvas](http://www.goat1000.com/tagcanvas.php) 3D标签云效果 [详细](detail/tagcanvas)
 
 #### 视觉差插件
-* [scrollorama](https://github.com/johnpolacek/scrollorama) 比较简单 
+* [scrollorama](https://github.com/johnpolacek/scrollorama) 比较简单
 * [superscrollorama](https://github.com/johnpolacek/superscrollorama) 能做的效果更多，但要用第三方Tween的库，使用起来比较复杂。
 * [scrolldeck](https://github.com/johnpolacek/scrolldeck.js)
 

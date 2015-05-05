@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>demo</title>
+    <style type="text/css">
+    li{
+    	list-style: none;
+    }
+    #canvas-wrap{
+    	position: relative;
+    }
+    #canvas{
+    	display: block;
+    	margin: 0 auto;
+    }
+    .anim-start {
+    	width: 200px;
+    	height: 200px;
+    	background-color: #ddd;
+    	position: absolute;
+    	left: 50%;
+    	top: 50%;
+    	margin-left: -100px;
+    	margin-top: -100px;
+    }
+    .anim-start img {
+    	width: 100%;
+    	height: 100%;
+    }
+    .avatar {
+        display: block;
+        height: 50px;
+        width: 50px;
+    	background-color: #ddd;
+    }
+    .tags{
+    	display: block !important;
+    }
+    </style>
+</head>
+
+<body>
+	<p>签到人数为 <span id="total-num">50</span></p>
+
+	<button id="pause-btn">暂停</button>
+    <button id="resume-btn">开始</button>
+    <button id="add-btn">新人加入</button>
+    <button id="add-multi-btn">新人加20</button>
+    <div id="canvas-wrap">
+		<!-- <div class="avatar outstand"></div> -->
+        <canvas width="1000" height="1000" id="canvas">
+            <p>Anything in here will be replaced on browsers that support the canvas element</p>
+        </canvas>
+    </div>
+    <div id="tags">
+        <ul>
+        </ul>
+    </div>
+    <script src="../vendor/jquery.js"></script>
+    <script src="assets/vendor/jquery.tagcanvas.js"></script>
+    <script src="demo.js"></script>
+</body>
+
+</html>
