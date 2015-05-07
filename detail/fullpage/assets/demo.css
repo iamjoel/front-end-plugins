@@ -1,0 +1,112 @@
+/*arrow start*/
+
+.tip-arrow {
+	position: fixed;
+	bottom: 15px;
+    width: 24px;
+    left: 50%;
+    margin-left: -12px;
+    animation-name: arrowing;
+    -webkit-animation-name: arrowing;
+    animation-duration: 1.5s;
+    -webkit-animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes arrowing {
+    0% {
+        transform: translateY(0%);
+    }
+    50% {
+        transform: translateY(50%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@-webkit-keyframes arrowing {
+    0% {
+        -webkit-transform: translateY(0%);
+    }
+    50% {
+        -webkit-transform: translateY(50%);
+    }
+    100% {
+        -webkit-transform: translateY(0%);
+    }
+}
+/*arrow end*/
+
+#fullpage .section {
+    text-align: center;
+    color: #fff;
+}
+
+#fullpage .section .anim {
+    transition: all .5s ease-out;
+}
+
+#fullpage .section .anim {
+    opacity: 0;
+}
+
+#fullpage .section.page-active .anim {
+    opacity: 1;
+}
+
+#fullpage .section:nth-child(1) {
+    background-color: rgb(114, 183, 191);
+}
+
+#fullpage .section:nth-child(1) .anim {
+    opacity: 0;
+}
+
+#fullpage .section:nth-child(1).page-active .anim {
+    opacity: 1;
+}
+
+#fullpage .section:nth-child(2) {
+    position: relative;
+    background-color: rgb(120, 191, 114);
+}
+
+#fullpage .section:nth-child(2) .anim {
+    position: absolute;
+    left: 45%;
+    top: -100px;
+}
+
+#fullpage .section:nth-child(2).page-active .anim {
+    top: 45%;
+    opacity: 1;
+}
+
+#fullpage .section:nth-child(3) {
+    position: relative;
+    background-color: rgb(114, 191, 185);
+}
+
+#fullpage .section:nth-child(3) .anim {
+    position: absolute;
+    left: -100px;
+    top: 45%;
+}
+
+#fullpage .section:nth-child(3).page-active .anim {
+    left: 45%;
+}
+
+#fullpage .section:nth-child(4) {
+    background-color: rgb(189, 114, 191);
+}
+
+#fullpage .section:nth-child(4) .anim {
+    opacity: 0;
+}
+
+#fullpage .section:nth-child(4).page-active .anim {
+    opacity: 1;
+}

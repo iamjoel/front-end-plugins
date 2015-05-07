@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimal-ui">
+    <title>fullpage的demo</title>
+    <link rel="stylesheet" href="assets/vendor/css/jquery.fullPage.css">
+    <link rel="stylesheet" href="assets/demo.css">
+</head>
+
+<body>
+    <!--
+滚动动画的不同缓动函数
+进入/离开某个页面的回调
+
+注意
+要用js的jquery不支持的缓动动画引用下面的脚本
+<script src="vendors/jquery.easings.min.js"></script>
+用属性`scrollOverflow:true`时，引用下面的脚本
+<script type="text/javascript" src="vendors/jquery.slimscroll.min.js"></script>
+-->
+    <div id="fullpage">
+        <div class="section">
+        	<h2 class="anim">世界是噪音的花园</h2>
+        </div>
+        <div class="section">
+        	<h2 class="anim">生活在现场</h2>
+        </div>
+        <div class="section">
+        	<h2 class="anim">假如你还记得</h2>
+        </div>
+        <div class="section">
+        	<h2 class="anim">总有当初模样</h2>
+        </div>
+    </div>
+    <img src="assets/img/arrow.png" class="tip-arrow">
+    <script src="../vendor/jquery.js"></script>
+    <script src="assets/vendor/js/jquery.fullPage.min.js"></script>
+    <script src="assets/demo.js"></script>
+</body>
+
+</html>
