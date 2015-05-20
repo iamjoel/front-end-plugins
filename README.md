@@ -31,6 +31,7 @@
         * [Arbiter.js](http://arbiterjs.com/)
     * [q](https://github.com/kriskowal/q/) Promise风格的
     * [Async.js](https://github.com/caolan/async/)
+* [jquery-mockjax](https://github.com/jakerella/jquery-mockjax) [mock](http://baike.baidu.com/view/2445748.htm) ajax请求
 * 时间库
     * [moment](http://momentjs.com/)
     * [datejs](http://www.datejs.com/)

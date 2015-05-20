@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>mock ajax</title>
+</head>
+
+<body>
+    <script src="../vendor/jquery.js"></script>
+    <script src="assets/vendor/jquery.mockjax.js"></script>
+    <script>
+    $(function() {
+        $.mockjax({
+            url: "/get-test",
+            type: 'get',
+            responseText: {
+                data: "get success~"
+            }
+        });
+
+        $.ajax({
+        	url: '/get-test',
+        	dataType: 'json'
+        }).done(function (data) {
+        	console.log(data.data);
+        });
+
+        $.mockjax({
+            url: "/post-test",
+            type: 'post',
+            responseText: {
+                data: "post success~"
+            }
+        });
+
+
+        $.ajax({
+        	url: '/post-test',
+        	dataType: 'json',
+        	type: 'post',
+        	data: {
+        		data: 'post data'
+        	}
+        }).done(function (data) {
+        	console.log(data.data);
+        });
+
+
+        $.mockjax({
+            url: "/dyn-res",
+            response: function (setting){
+            	this.responseText = setting.data;
+            }
+        });
+
+        $.ajax({
+        	url: '/dyn-res',
+        	dataType: 'json',
+        	data: {data:'sth'}
+        }).done(function (data) {
+        	console.log('get data: %s', JSON.stringify(data));
+        });
+
+
+
+
+    })
+    </script>
+</body>
+
+</html>
