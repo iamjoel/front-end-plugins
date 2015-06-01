@@ -190,6 +190,9 @@
 ### flash
 * [swfobj](http://code.google.com/p/swfobject/wiki/documentation) 能够自动检测PC、Mac机器上各种主流浏览器对Flash插件的支持情况。它使得插入Flash媒体资源尽量简捷、安全。而且它是非常符合搜索引擎优化的原则的。此外，它能够避免您的HTML、XHTML中出现object、embed等非标准标签，从而符合更加标准。 [详细](detail/flash)
 
+## 抽奖
+* [wScratchPad](https://github.com/websanova/wScratchPad) 刮刮卡刮奖效果
+
 ## <a name="ux">用户体验增强类</a>
 * [Intro.js](http://usablica.github.io/intro.js/) 用来介绍网站的功能很不错。也可以做新手引导。
 * [blockUI](http://jquery.malsup.com/block/) Lolding组件。
