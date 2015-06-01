@@ -192,6 +192,7 @@
 
 ## 抽奖
 * [wScratchPad](https://github.com/websanova/wScratchPad) 刮刮卡刮奖效果
+* [jqueryrotate](http://beneposto.pl/jqueryrotate/) 旋转插件。可以用来做转盘抽奖效果
 
 ## <a name="ux">用户体验增强类</a>
 * [Intro.js](http://usablica.github.io/intro.js/) 用来介绍网站的功能很不错。也可以做新手引导。
