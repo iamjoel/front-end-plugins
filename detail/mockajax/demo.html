@@ -20,10 +20,10 @@
         });
 
         $.ajax({
-        	url: '/get-test',
-        	dataType: 'json'
-        }).done(function (data) {
-        	console.log(data.data);
+            url: '/get-test',
+            dataType: 'json'
+        }).done(function(data) {
+            console.log(data.data);
         });
 
         $.mockjax({
@@ -36,30 +36,76 @@
 
 
         $.ajax({
-        	url: '/post-test',
-        	dataType: 'json',
-        	type: 'post',
-        	data: {
-        		data: 'post data'
-        	}
-        }).done(function (data) {
-        	console.log(data.data);
+            url: '/post-test',
+            dataType: 'json',
+            type: 'post',
+            data: {
+                data: 'post data'
+            }
+        }).done(function(data) {
+            console.log(data.data);
         });
 
 
         $.mockjax({
             url: "/dyn-res",
-            response: function (setting){
-            	this.responseText = setting.data;
+            response: function(setting) {
+                this.responseText = setting.data;
             }
         });
 
         $.ajax({
-        	url: '/dyn-res',
-        	dataType: 'json',
-        	data: {data:'sth'}
+            url: '/dyn-res',
+            dataType: 'json',
+            data: {
+                data: 'sth'
+            }
+        }).done(function(data) {
+            console.log('get data: %s', JSON.stringify(data));
+        });
+
+        $.mockjax({
+            url: "/data",
+            data: {
+                action: "foo1"
+            },
+            response: function(setting) {
+                // 返回值
+                this.responseText = {
+                    data1: 'text1'
+                };
+            }
+        });
+
+        $.mockjax({
+            url: "/data",
+            data: {
+                action: "foo2"
+            },
+            response: function(setting) {
+                // 返回值
+                this.responseText = {
+                    data2: 'text2'
+                };
+            }
+        });
+
+        $.ajax({
+            url:"/data",
+            data: {
+                action: "foo1"
+            }
         }).done(function (data) {
-        	console.log('get data: %s', JSON.stringify(data));
+            console.log(data);// {data1: "text1"}
+        });
+
+        $.ajax({
+            url:"/data",
+            data: {
+                action: "foo2"
+            }
+        }).done(function (data) {
+            console.log(data);// {data2: "text2"}
         });
 
 
