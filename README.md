@@ -28,7 +28,7 @@
 * 异步流程控制
     * 发布订阅
         * [eventproxy](https://github.com/JacksonTian/eventproxy) 朴灵出品
-        * [Arbiter.js](http://arbiterjs.com/)
+        * [Arbiter.js](http://arbiterjs.com/) [详细](detail/Arbiter)
     * [q](https://github.com/kriskowal/q/) Promise风格的
     * [Async.js](https://github.com/caolan/async/)
 * [jquery-mockjax](https://github.com/jakerella/jquery-mockjax) [mock](http://baike.baidu.com/view/2445748.htm) ajax请求
