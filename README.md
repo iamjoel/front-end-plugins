@@ -181,6 +181,7 @@
 * [transit](https://github.com/rstacruz/jquery.transit) 对元素进行css的变换
 * [tagcanvas](http://www.goat1000.com/tagcanvas.php) 3D标签云效果 [详细](detail/tagcanvas)
 * [iconate](https://github.com/bitshadow/iconate) 图片切换动画
+* [Snap.js](https://github.com/jakiestfu/Snap.js/) 左/右侧导航的出现效果
 
 #### 视觉差插件
 * [scrollorama](https://github.com/johnpolacek/scrollorama) 比较简单
