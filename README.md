@@ -65,7 +65,7 @@
 * [prefixfree](https://github.com/LeaVerou/prefixfree/) 用了它，写css时，就不需要加浏览器的前缀了
 
 ## <a name="form">表单类</a>
-* [jquery-file-upload](https://github.com/blueimp/jQuery-File-Upload) 上传文件组件 [详细](fileUpload)
+* [jquery-file-upload](https://github.com/blueimp/jQuery-File-Upload) 上传文件组件 [详细](detail/fileUpload)
 * [zTree](http://www.ztree.me/v3/main.php#_zTreeInfo) 文件树形视图控件
 
 ### 表单验证
