@@ -158,6 +158,7 @@
 * [turn.js](https://github.com/blasten/turn.js) 做一本书，带漂亮的翻页的效果
 
 ### 幻灯
+* [iSlider](https://github.com/BE-FE/iSlider) 无任何插件依赖的手机平台javascript滑动组件 [详细](detail/iSlider)
 * [coin-slider](https://github.com/kopipejst/coin-slider/) 兼容IE6。蛮好的~。不过其切换方式是一块块的。不能配置切换方式。。。
 * [wowslider](http://wowslider.com/rq/jquery-image-viewer/)  幻灯切换时各种很炫的效果。收费。
 * [cycle2](http://jquery.malsup.com/cycle2/) 普通的幻灯，竟然不支持垂直滚动。。。
