@@ -35,6 +35,12 @@
         /*-webkit-background-size: 100% 100% !important;
     	background-size: 100% 100% !important;*/
     }
+    .islider-dot-wrap{
+        top: 330px;
+    }
+    .islider-btn-outer{
+        top: 10%;
+    }
     </style>
 </head>
 
@@ -90,6 +96,9 @@
             isOverspread: true, // 让图片平铺整个浏览器屏幕
             useZoom: true
         });
+        islider.addBtn(); //添加左右点击按钮
+        islider.addDot(); //添加圆点导航 坑爹啊，尽然生成在幻灯外面。。。
+
     })
     </script>
 </body>
