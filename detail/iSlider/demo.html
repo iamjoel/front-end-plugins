@@ -13,32 +13,53 @@
     }
     
     #text-scroll-wrap {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
         padding: 0 10px;
         background-color: #ddd;
+        height: 30px;
     }
     
     #text-scroll {
+        position: absolute;
+        overflow: hidden;
+        width: 90%;
         height: 30px;
         line-height: 30px;
-        color: #fff;
+        color: #ff0;
     }
     
     #text-scroll .islider-dom {
+        white-space: nowrap;
+        overflow: hidden;
         text-overflow: ellipsis;
+        -o-text-overflow: ellipsis;
+    }
+    
+    #img-scroll-wrap {
+        height: 200px;
     }
     
     #img-scroll {
+        position: absolute;
+        /* 页面会有横向滚动条 */
+        
+        overflow: hidden;
         height: 200px;
+        width: 100%;
     }
     
     #img-scroll .islider-pic {
         /*-webkit-background-size: 100% 100% !important;
-    	background-size: 100% 100% !important;*/
+        background-size: 100% 100% !important;*/
     }
-    .islider-dot-wrap{
+    
+    .islider-dot-wrap {
         top: 330px;
     }
-    .islider-btn-outer{
+    
+    .islider-btn-outer {
         top: 10%;
     }
     </style>
@@ -50,7 +71,9 @@
         <div id="text-scroll"></div>
     </div>
     <h2>图片轮播</h2>
-    <div id="img-scroll"></div>
+    <div id="img-scroll-wrap">
+        <div id="img-scroll"></div>
+    </div>
     <script src="../vendor/jquery.js"></script>
     <script src="assets/vendor/islider.js"></script>
     <script>
@@ -58,7 +81,7 @@
         var textList = [{
             'content': '如何成为一个伟大的 JavaScript 程序员如何成为一个伟大的 JavaScript 程序员'
         }, {
-            'content': '从测试人员的角度看敏捷中的障碍'
+            'content': '从测试人员的角度看敏捷中的障碍vaScript'
         }, {
             'content': '雅虎牵手甲骨文，利用Java推广搜索业务'
         }, {
