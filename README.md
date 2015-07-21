@@ -104,6 +104,9 @@
 * [wookmark](http://www.wookmark.com/jquery-plugin)
 
 ## <a name="ui">UI组件类</a>
+### 拖拽
+* [dragula](https://github.com/bevacqua/dragula) 支持Draggable，Dropable和Sortable。感觉比jqueryUI的轻量级，好用的样子
+
 ### 数据可视化(图表)
 * [Echarts](http://echarts.baidu.com/) 百度出品
 * [highcharts](http://www.highcharts.com/) 功能强大。是收费的。
@@ -183,6 +186,7 @@
 * [tagcanvas](http://www.goat1000.com/tagcanvas.php) 3D标签云效果 [详细](detail/tagcanvas)
 * [iconate](https://github.com/bitshadow/iconate) 图片切换动画
 * [Snap.js](https://github.com/jakiestfu/Snap.js/) 左/右侧导航的出现效果
+* [CSS shake](http://elrumordelaluz.github.io/csshake/) 抖动动画
 
 #### 视觉差插件
 * [scrollorama](https://github.com/johnpolacek/scrollorama) 比较简单
