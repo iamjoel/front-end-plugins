@@ -224,6 +224,7 @@
 
 ## <a name="other">其他类</a>
 * [ZeroClipboard](https://github.com/zeroclipboard/ZeroClipboard) 将内容复制到剪切板兼容主流浏览器的解决方案 [详细](http://www.jianshu.com/p/1a74c112f962)
+* [html2canvas](http://html2canvas.hertzen.com/) html转化成canvas，可以用来做截图。[详细](detail/html2canvas)
 * [Ink](http://zurb.com/ink/) 响应式html邮件框架
 * [性能测试](http://benchmarkjs.com/)
 * 抓取，解析RSS内容（不能跨域，所以后台要做代理，所谓的解析Rss其实就是解析xml）
