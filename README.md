@@ -190,6 +190,7 @@
 * [iconate](https://github.com/bitshadow/iconate) 图片切换动画
 * [Snap.js](https://github.com/jakiestfu/Snap.js/) 左/右侧导航的出现效果
 * [CSS shake](http://elrumordelaluz.github.io/csshake/) 抖动动画
+* [ClickSpark.js](http://www.ymc.ch/sandbox/clickspark/demo.html) 点击后的一些酷炫的效果
 
 #### 视觉差插件
 * [scrollorama](https://github.com/johnpolacek/scrollorama) 比较简单
