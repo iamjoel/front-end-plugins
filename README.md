@@ -136,6 +136,8 @@
 * [backgrid](http://backgridjs.com/) 基于Backbone.js的DataGrid
 * [excellentexport](https://github.com/jmaister/excellentexport) 把表格的内容生成excel。兼容 Firefox, Chrome, IE6+
 * [datatables](http://www.datatables.net/) 表格可交互（对内容进行排序，删除等）
+* [handsontable](http://handsontable.com/) 生成Excel外观的数据
+* [JSpreadsheets](http://jspreadsheets.com/)
 
 ### 选取颜色
 * [Spectrum](http://bgrins.github.io/spectrum/?color=&color2=%233355cc&color3=%23000000#toc0)
