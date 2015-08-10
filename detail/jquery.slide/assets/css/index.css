@@ -1,0 +1,26 @@
+.slidesjs-container{
+	margin-bottom: 10px;
+}
+.slidesjs-previous{
+	margin-right: 10px;
+}
+.slidesjs-pagination{
+	float: right;
+}
+.slidesjs-pagination .slidesjs-pagination-item{
+	display: inline-block;
+	margin-right: 10px;
+
+}
+.slidesjs-pagination .slidesjs-pagination-item .active{
+	color: #d22929;
+}
+
+.slide .image{
+	display: none;
+	width: 100%;
+	height: auto;
+}
+.slide .image:first-child{
+	display: block;
+}

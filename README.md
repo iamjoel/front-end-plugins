@@ -165,7 +165,7 @@
 * [turn.js](https://github.com/blasten/turn.js) 做一本书，带漂亮的翻页的效果
 
 ### 幻灯
-* [slidesjs](http://slidesjs.com/) 挺好用的，只是那幻灯导航的CSS都要自己写，呵呵
+* [slidesjs](http://slidesjs.com/) 挺好用的，只是那幻灯导航的CSS都要自己写，呵呵 [详细](detail/jquery.slide)
 * [iSlider](https://github.com/BE-FE/iSlider) 无任何插件依赖的手机平台javascript滑动组件 [详细](detail/iSlider)
 * [Swiper](https://github.com/nolimits4web/swiper/) 开源、免费、强大的移动端触摸滑动插件 [Swiper中文网](http://www.swiper.com.cn/)
 * [coin-slider](https://github.com/kopipejst/coin-slider/) 兼容IE6。蛮好的~。不过其切换方式是一块块的。不能配置切换方式。。。
