@@ -41,7 +41,16 @@
                 $slide.slidesjs({
                     width: 940,
                     height: 350,
-                    navigation: false
+                    navigation: false,
+                    callback: {
+                        start: function(number) {
+                            console.log('SlidesJS: Start Animation on slide #' + number);
+                        },
+                        complete: function(number) {
+                            console.log('SlidesJS: Animation Complete. Current slide is #' + number);
+                        }
+
+                    }
                 });
             }
         }
