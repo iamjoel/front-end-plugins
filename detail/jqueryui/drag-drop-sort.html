@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>拖拽排序</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="left">
+			<div class="sortables box">
+				<h2>在预览中会排序</h2>
+				<div class="box__content">
+					<div class="sortables__item">
+						<div class="block block--blue">蓝</div>
+					</div>
+					<div class="sortables__item">
+						<div class="block block--yellow">黄</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="dragables box">
+				<h2>在预览中不会排序</h2>
+				<div class="box__content">
+					<div class="dragables__item">
+						<div class="block block--red">红</div>
+					</div>
+					<div class="dragables__item">
+						<div class="block block--green">绿</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="right">
+			<div class="preview">
+				
+			</div>
+		</div>
+	</div>
+	<script src="../vendor/jquery.js"></script>
+	<script src="jquery-ui.min.js"></script>
+	<script src="drag-drop-sort.js"></script>
+
+</body>
+</html>
