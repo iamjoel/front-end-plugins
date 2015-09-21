@@ -17,8 +17,11 @@ $(function() {
             drop: function(evt, ui) {
                 if (ui.helper.hasClass('dragables__item')) {
                     var $cloneHelper = ui.helper.clone();
+                    // if($cloneHelper.hasClass('in-preveiew')){
+                        // console.log('is in preview ' + $cloneHelper.hasClass('in-preveiew'));
+                    // }
+                    // $cloneHelper.addClass('in-preveiew');
                     $cloneHelper.draggable({
-                        // helper: 'clone',
                         start: function(evt, ui) {
                             $preview.sortable({
                                 disabled: true
@@ -31,6 +34,14 @@ $(function() {
 
                         }
                     });
+                    var previewL = $preview.offset().left;
+                    var previewT = $preview.offset().top;
+                    var eleL = ui.helper.offset().left;
+                    var eleT = ui.helper.offset().top;
+                    $cloneHelper.css({
+                        left: eleL- previewL,
+                        top: eleT - previewT
+                    })
                     $preview.append($cloneHelper);
                     ui.helper.remove();
                 }
