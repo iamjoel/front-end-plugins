@@ -46,6 +46,9 @@
 	height: 100px;
 	line-height: 100px;
 }
+.dragables__item{
+	z-index: 1000;
+}
 
 
 
