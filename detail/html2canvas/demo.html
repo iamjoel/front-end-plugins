@@ -27,9 +27,10 @@
     .item--selected {
         outline: 2px solid #00f;
     }
-   /* .select-wrap{ 在 display :none;时，是截不了屏的
+    /* .select-wrap{ 在 display :none;时，是截不了屏的
         display: none;
     }*/
+    
     .select-wrap>.item {
         width: 200px;
         margin: 50px auto;
@@ -60,7 +61,8 @@
             </div>
             <!-- 能截取的图片路径必须是同域的，也必须在浏览器上打开 -->
             <img src="img.jpg" class="img item">
-            <!-- <img  class="img item" src="http://221.224.33.142:1112/plan.jpg" alt="" crossOrigin="anonymous"> -->
+            <!-- 截取 CORS: * 的图片还是有问题 -->
+            <img  class="img item" src="http://221.224.33.142:1112/plan.jpg" alt="" crossOrigin="anonymous">
         </div>
     </div>
     <a href="javascript:void(0);" class="confirm-btn">截图</a>
@@ -68,8 +70,9 @@
         <img src="" alt="">
     </div>
     <script src="http://cdn.staticfile.org/jquery/2.1.1-rc2/jquery.js"></script>
-    <script src="html2canvas.min.js"></script>
+    <script src="html2canvas.js"></script>
     <script>
+    // http://html2canvas.hertzen.com/documentation.html
     $(document).ready(function() {
         var $selectWrap = $('.select-wrap');
         var $previewImg = $('.preview').find('>img');
@@ -87,8 +90,13 @@
             if ($dom.length === 0) {
                 $dom = $selectWrap;
             }
-            html2canvas($dom[0]).then(function(canvas) {
-                $previewImg.attr('src', canvas.toDataURL("img/png"));
+            html2canvas($dom[0], {
+                allowTaint: true,
+                logging: true,
+                useCORS: true,
+                onrendered: function(canvas) {
+                    $previewImg.attr('src', canvas.toDataURL("img/png"));
+                }
             });
         })
     });
