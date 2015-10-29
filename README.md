@@ -238,6 +238,7 @@
     * [jRss](https://github.com/malderete/jRss)  简单版的jFeed
 * [scriptcam](http://www.scriptcam.com/) 与摄像头交互
 * [cylon.js](http://cylonjs.com/) 机器人框架，支持35个平台
+* [Masonry](https://github.com/desandro/masonry) 一个瀑布流框架
 
 ## <a name="bootstrap">Bootstrap相关类</a>
 * [Bootbox.js](http://bootboxjs.com/) 对bootstrap的弹出框做的一些封装
