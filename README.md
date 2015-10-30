@@ -47,6 +47,7 @@
 * [director](https://github.com/flatiron/director) 前端路由库
 * [BigDecimal.js](https://github.com/dtrebbien/BigDecimal.js) 提高精度的数字操作
 * [JSDoc](http://usejsdoc.org/) 根据javascript文件中注释的信息，生成API文档 [详细](detail/JSDoc)
+* [hotkeys](http://jslite.io/hotkeys/) 键盘事件的封装
 
 
 ## <a name="browser-strong">浏览器增强类</a>
