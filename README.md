@@ -154,6 +154,9 @@
 * [tinymce](http://www.tinymce.com/tryit/full.php) 对html内容进行实时的编辑
 * [summernote](https://github.com/summernote/summernote) 在移动设备上用不错
 
+### 通知组件
+* [notie.js](https://github.com/jaredreich/notie.js)
+
 ### HTML5播放器
 * [jwplayer](http://www.jwplayer.com/) 被大量网站使用
 * [html5media](http://html5media.info/) 简单的h5player，轻量级
