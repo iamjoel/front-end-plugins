@@ -135,6 +135,7 @@
 
 ### 加载(Loding)效果
 * [CSS Spinners](https://github.com/jlong/css-spinners) CSS做的
+* [Loaders.css](https://connoratherton.com/loaders) CSS做的
 
 
 ### 表格组件
