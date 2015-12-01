@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>发布订阅 demo</title>
+</head>
+
+<body>
+    <script src="Arbiter.js"></script>
+    <script>
+    var id = Arbiter.subscribe('component/*', function(data){
+    	if(data && data.isPrivate){
+    		Arbiter.unsubscribe( id );
+    		return;
+    	}
+    	console.log('component: receive msg: %s', data? JSON.stringify(data) : 'empty msg');
+    });
+    Arbiter.subscribe('component/msg', function(data) {
+        console.log('receive msg: %s', data? JSON.stringify(data) : 'empty msg');
+    });
+    Arbiter.publish('component/msg');
+    Arbiter.publish( 'component/msg', {"data":"value"} );
+    Arbiter.publish( 'component/msg',  {"isPrivate": true});
+    Arbiter.publish( 'component/msg',  {"msg": "you'r so cool~"});
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>异步上传文件demo</title>
+    <script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+    <script src="/jquery.ui.widget.js"></script>
+    <script src="/jquery.fileupload.js"></script>
+</head>
+
+<body>
+    <input id="fileupload" type="file" name="file" />
+    <script>
+    $(function() {
+        $('#fileupload').fileupload({
+            url: '/upload',
+            dataType: 'json',
+            autoUpload: false,
+            add: function(e, data) {
+                // http://stackoverflow.com/questions/17451629/maxfilesize-and-acceptfiletypes-in-blueimp-file-upload-plugin-do-not-work-why
+                var uploadErrors = [];
+                // if (data.files[0] && !/(\.|\/)(gif|jpe?g|png)$/i.test(data.files[0].name)) {
+                //     uploadErrors.push('上传的不是图片');
+                // }
+                // if (data.files[0] && data.files[0].size > 5000000) { // 5M
+                //     uploadErrors.push('图片尺寸太大');
+                // }
+                if (uploadErrors.length > 0) {
+                    alert(uploadErrors.join("\n"));
+                } else {
+                    data.submit();
+                }
+            },
+            done: function(e, data) {
+                data = data.result;
+                if (data.success === 1) {
+                    console.log('upload success!file path:%s', data.href);
+                } else {
+                    console.error(data.msg);
+                }
+            },
+            xhr: function() {
+                // 显示进度。  https://xhr.spec.whatwg.org/#interface-progressevent
+                var xhr = new window.XMLHttpRequest();
+                xhr.upload.addEventListener("progress", function(evt) {
+                    if (evt.lengthComputable) {
+                        var percentComplete = evt.loaded / evt.total;
+                        percentComplete = parseInt(percentComplete * 100);
+                        console.log(percentComplete + '%');
+
+                        if (percentComplete === 100) {
+                            console.log('加载完成')
+                        }
+                    }
+                }, false);
+
+                return xhr;
+            },
+        }).bind('fileuploadsubmit', function(e, data) {
+            // 如果不这么做，会提交整个表单的数据
+            var $file = $('#fileupload');
+            data.formData = $file.serializeArray();
+        });
+    });
+    </script>
+</body>
+
+</html>

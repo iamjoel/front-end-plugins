@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no" />
+    <link rel="stylesheet" href="assets/vendor/islider.css">
+    <style>
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    #text-scroll-wrap {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 0 10px;
+        background-color: #ddd;
+        height: 30px;
+    }
+    
+    #text-scroll {
+        position: absolute;
+        overflow: hidden;
+        width: 90%;
+        height: 30px;
+        line-height: 30px;
+        color: #ff0;
+    }
+    
+    #text-scroll .islider-dom {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -o-text-overflow: ellipsis;
+    }
+    
+    #img-scroll-wrap {
+        height: 200px;
+    }
+    
+    #img-scroll {
+        position: absolute;
+        /* 页面会有横向滚动条 */
+        
+        overflow: hidden;
+        height: 200px;
+        width: 100%;
+    }
+    
+    #img-scroll .islider-pic {
+        /*-webkit-background-size: 100% 100% !important;
+        background-size: 100% 100% !important;*/
+    }
+    
+    .islider-dot-wrap {
+        top: 330px;
+    }
+    
+    .islider-btn-outer {
+        top: 10%;
+    }
+    </style>
+</head>
+
+<body>
+    <h2>文字轮播</h2>
+    <div id="text-scroll-wrap">
+        <div id="text-scroll"></div>
+    </div>
+    <h2>图片轮播</h2>
+    <div id="img-scroll-wrap">
+        <div id="img-scroll"></div>
+    </div>
+    <script src="../vendor/jquery.js"></script>
+    <script src="assets/vendor/islider.js"></script>
+    <script>
+    $(document).ready(function() {
+        var textList = [{
+            'content': '如何成为一个伟大的 JavaScript 程序员如何成为一个伟大的 JavaScript 程序员'
+        }, {
+            'content': '从测试人员的角度看敏捷中的障碍vaScript'
+        }, {
+            'content': '雅虎牵手甲骨文，利用Java推广搜索业务'
+        }, {
+            'content': '当蚊子被雨滴击中会发生什么？'
+        }];
+        var islider = new iSlider({
+            data: textList,
+            type: 'dom', // 不是认为幻灯内容是图片
+            dom: $('#text-scroll')[0],
+            duration: 1000,
+            isVertical: true,
+            isAutoplay: true,
+            // isDebug: true,
+            isLooping: true
+        });
+
+
+        var imgList = [{
+            'content': './assets/image/1.jpg'
+        }, {
+            'content': 'assets/image/2.jpg'
+        }, {
+            'content': 'assets/image/3.jpg'
+        }, {
+            'content': 'assets/image/4.jpg'
+        }];
+
+        var islider = new iSlider({
+            data: imgList,
+            dom: $('#img-scroll')[0],
+            duration: 2000,
+            isAutoplay: true,
+            // isDebug: true,
+            isLooping: true,
+            isOverspread: true, // 让图片平铺整个浏览器屏幕
+            useZoom: true
+        });
+        islider.addBtn(); //添加左右点击按钮
+        islider.addDot(); //添加圆点导航 坑爹啊，尽然生成在幻灯外面。。。
+
+    })
+    </script>
+</body>
+
+</html>

@@ -28,7 +28,7 @@
 * 异步流程控制
     * 发布订阅
         * [eventproxy](https://github.com/JacksonTian/eventproxy) 朴灵出品
-        * [Arbiter.js](http://arbiterjs.com/)
+        * [Arbiter.js](http://arbiterjs.com/) [详细](detail/Arbiter)
     * [q](https://github.com/kriskowal/q/) Promise风格的
     * [Async.js](https://github.com/caolan/async/)
 * [jquery-mockjax](https://github.com/jakerella/jquery-mockjax) [mock](http://baike.baidu.com/view/2445748.htm) ajax请求
@@ -47,6 +47,7 @@
 * [director](https://github.com/flatiron/director) 前端路由库
 * [BigDecimal.js](https://github.com/dtrebbien/BigDecimal.js) 提高精度的数字操作
 * [JSDoc](http://usejsdoc.org/) 根据javascript文件中注释的信息，生成API文档 [详细](detail/JSDoc)
+* [hotkeys](http://jslite.io/hotkeys/) 键盘事件的封装
 
 
 ## <a name="browser-strong">浏览器增强类</a>
@@ -55,6 +56,7 @@
 * [ieBetter](https://github.com/zhangxinxu/ieBetter.js) 让ie6-8有高级浏览器的特性
 * [ExplorerCanvas](https://github.com/arv/ExplorerCanvas) 让IE8-的浏览器支持canvas
 * [CSS3 Pie](http://css3pie.com/) 让IE6-9支持border-radious,box-shadow,linear-gradient。 可以使用.htc文件（注意Mine type）或.js文件。在用Pie.js时，box-radious的元素有背景色时，不显示背景色。。。
+* [formFive](http://etiennetalbot.github.io/formFive/) 让旧的浏览器支持HTML5表单的一些特性，如 placeholder,autofocus
 * [https://github.com/anselmh/object-fit](https://github.com/anselmh/object-fit) 让浏览器支持`object-fit`这css规则
 * [HTML5 Cross Browser Polyfills](https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills) 一堆Polyfills
 
@@ -65,7 +67,7 @@
 * [prefixfree](https://github.com/LeaVerou/prefixfree/) 用了它，写css时，就不需要加浏览器的前缀了
 
 ## <a name="form">表单类</a>
-* [jquery-file-upload](https://github.com/blueimp/jQuery-File-Upload) 上传文件组件
+* [jquery-file-upload](https://github.com/blueimp/jQuery-File-Upload) 上传文件组件 [详细](detail/fileUpload)
 * [zTree](http://www.ztree.me/v3/main.php#_zTreeInfo) 文件树形视图控件
 
 ### 表单验证
@@ -75,6 +77,7 @@
 ### 表单元素美化
 * [uniform](http://uniformjs.com/) 提供对下拉框，单，复选框，按钮等表单元素的美化
 * [select2](http://ivaynberg.github.io/select2/index.html) 多选下拉框
+* [selectivity](http://arendjr.github.io/selectivity/) 和unfirom比较类似
 * [DropKick](http://robdel12.github.io/DropKick/) 下拉框，单，多选。外观比uniform好
 * [switchery](http://abpetkov.github.io/switchery/) ios7风格的开关组件
 * [nouislider](http://refreshless.com/nouislider/) 用滚动条来设置/控制（音量等）
@@ -84,6 +87,7 @@
 * [holderjs](http://imsky.github.io/holder/) 生成占位图片
 * lazyload
 * [imagesLoaded](http://desandro.github.io/imagesloaded/) 选取的图片都加载好后执行调回
+* [CSSgram](https://github.com/una/CSSgram) 用CSS3的Filter实现Instagram滤镜的库
 
 ## <a name="icon">图标类</a>
 * [Icon Font汇总](https://github.com/lvwzhen/iconpark)
@@ -104,6 +108,9 @@
 * [wookmark](http://www.wookmark.com/jquery-plugin)
 
 ## <a name="ui">UI组件类</a>
+### 拖拽
+* [dragula](https://github.com/bevacqua/dragula) 支持Draggable，Dropable和Sortable。感觉比jqueryUI的轻量级，好用的样子
+
 ### 数据可视化(图表)
 * [Echarts](http://echarts.baidu.com/) 百度出品
 * [highcharts](http://www.highcharts.com/) 功能强大。是收费的。
@@ -135,6 +142,8 @@
 * [backgrid](http://backgridjs.com/) 基于Backbone.js的DataGrid
 * [excellentexport](https://github.com/jmaister/excellentexport) 把表格的内容生成excel。兼容 Firefox, Chrome, IE6+
 * [datatables](http://www.datatables.net/) 表格可交互（对内容进行排序，删除等）
+* [handsontable](http://handsontable.com/) 生成Excel外观的数据
+* [JSpreadsheets](http://jspreadsheets.com/) 表格数据的组件库
 
 ### 选取颜色
 * [Spectrum](http://bgrins.github.io/spectrum/?color=&color2=%233355cc&color3=%23000000#toc0)
@@ -149,6 +158,9 @@
 * [tinymce](http://www.tinymce.com/tryit/full.php) 对html内容进行实时的编辑
 * [summernote](https://github.com/summernote/summernote) 在移动设备上用不错
 
+### 通知组件
+* [notie.js](https://github.com/jaredreich/notie.js)
+
 ### HTML5播放器
 * [jwplayer](http://www.jwplayer.com/) 被大量网站使用
 * [html5media](http://html5media.info/) 简单的h5player，轻量级
@@ -162,6 +174,10 @@
 * [turn.js](https://github.com/blasten/turn.js) 做一本书，带漂亮的翻页的效果
 
 ### 幻灯
+* [slidesjs](http://slidesjs.com/) 挺好用的，只是那幻灯导航的CSS都要自己写，呵呵 [详细](detail/jquery.slide)
+* [iSlider](https://github.com/BE-FE/iSlider) 无任何插件依赖的手机平台javascript滑动组件 [详细](detail/iSlider)
+* [bgstretcher](http://www.ajaxblender.com/bgstretcher-2-jquery-stretch-background-plugin-updated.html) 全屏幻灯，会随着页面大小的变化而变化。
+* [Swiper](https://github.com/nolimits4web/swiper/) 开源、免费、强大的移动端触摸滑动插件 [Swiper中文网](http://www.swiper.com.cn/)
 * [coin-slider](https://github.com/kopipejst/coin-slider/) 兼容IE6。蛮好的~。不过其切换方式是一块块的。不能配置切换方式。。。
 * [wowslider](http://wowslider.com/rq/jquery-image-viewer/)  幻灯切换时各种很炫的效果。收费。
 * [cycle2](http://jquery.malsup.com/cycle2/) 普通的幻灯，竟然不支持垂直滚动。。。
@@ -185,6 +201,9 @@
 * [transit](https://github.com/rstacruz/jquery.transit) 对元素进行css的变换
 * [tagcanvas](http://www.goat1000.com/tagcanvas.php) 3D标签云效果 [详细](detail/tagcanvas)
 * [iconate](https://github.com/bitshadow/iconate) 图片切换动画
+* [Snap.js](https://github.com/jakiestfu/Snap.js/) 左/右侧导航的出现效果
+* [CSS shake](http://elrumordelaluz.github.io/csshake/) 抖动动画
+* [ClickSpark.js](http://www.ymc.ch/sandbox/clickspark/demo.html) 点击后的一些酷炫的效果
 
 #### 视觉差插件
 * [scrollorama](https://github.com/johnpolacek/scrollorama) 比较简单
@@ -219,6 +238,7 @@
 
 ## <a name="other">其他类</a>
 * [ZeroClipboard](https://github.com/zeroclipboard/ZeroClipboard) 将内容复制到剪切板兼容主流浏览器的解决方案 [详细](http://www.jianshu.com/p/1a74c112f962)
+* [html2canvas](http://html2canvas.hertzen.com/) html转化成canvas，可以用来做截图。[详细](detail/html2canvas)
 * [Ink](http://zurb.com/ink/) 响应式html邮件框架
 * [性能测试](http://benchmarkjs.com/)
 * 抓取，解析RSS内容（不能跨域，所以后台要做代理，所谓的解析Rss其实就是解析xml）
@@ -226,8 +246,10 @@
     * [jRss](https://github.com/malderete/jRss)  简单版的jFeed
 * [scriptcam](http://www.scriptcam.com/) 与摄像头交互
 * [cylon.js](http://cylonjs.com/) 机器人框架，支持35个平台
+* [Masonry](https://github.com/desandro/masonry) 一个瀑布流框架
 
 ## <a name="bootstrap">Bootstrap相关类</a>
+* [Bootbox.js](http://bootboxjs.com/) 对bootstrap的弹出框做的一些封装
 * 免费皮肤
     * [AdminLTE](https://github.com/almasaeed2010/AdminLTE)
 

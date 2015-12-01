@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+    <title>幻灯的内容动态添加，删除</title>
+    <link rel="stylesheet" href="assets/css/index.css">
+</head>
+
+<body>
+    <div class="slide-wrap">
+        <div class="slide">
+        </div>
+    </div>
+    <a href="javascript:void(0);" class="add-btn">添加</a>
+    <a href="javascript:void(0);" class="remove-btn">删除</a>
+    <script src="../vendor/jquery.js"></script>
+    <script src="assets/vendor/jquery.slides.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        var arr = ['1.jpg', '2.jpg', '3.jpg'];
+        var currentIndex = 0;
+
+        function makeSlide() {
+            var $slideWrap = $('.slide-wrap');
+            $slideWrap.empty();
+            var $slide = $("<div>");
+            $slide.addClass('slide');
+            $slideWrap.append($slide);
+            var html = arr.map(function(name) {
+                var $img = $('<img>');
+                $img.addClass('image').attr('src', 'assets/image/' + name);
+                return $img.prop('outerHTML');
+            });
+            // 自定义
+            html.push('<a href="javasript:vodi(0);" class="slidesjs-previous slidesjs-navigation">上一页</a>');
+            html.push('<a href="javasript:vodi(0);" class="slidesjs-next slidesjs-navigation">下一页</a>');
+            $slide.html(html.join(''));
+            if (arr.length > 1) {
+                $slide.slidesjs({
+                    width: 940,
+                    height: 350,
+                    navigation: false,
+                    callback: {
+                        start: function(number) {
+                            console.log('SlidesJS: Start Animation on slide #' + number);
+                        },
+                        complete: function(number) {
+                            console.log('SlidesJS: Animation Complete. Current slide is #' + number);
+                        }
+
+                    }
+                });
+            }
+        }
+        makeSlide();
+        // http://slidesjs.com/
+
+        $('.add-btn').click(function() {
+            arr.push('3.jpg');
+            makeSlide();
+        });
+
+        $('.remove-btn').click(function() {
+            arr.splice(currentIndex, 1);
+            makeSlide();
+        });
+
+        $('.adplan-slide-wrap').on('click', '.adplan-image', function() {
+            currentIndex = parseInt($(this).attr('slidesjs-index'));
+        });
+
+    });
+    </script>
+</body>
+
+</html>

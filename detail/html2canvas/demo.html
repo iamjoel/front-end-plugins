@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>将DOM转化成canvas来做截图</title>
+    <style>
+    .preview {
+        width: 1000px;
+        height: 1000px;
+        margin: 50px auto;
+        border: 10px dashed #ddd;
+    }
+    
+    .preview>img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: #ccc;
+    }
+    
+    .confirm-btn {
+        display: block;
+        text-align: center;
+    }
+    
+    .item--selected {
+        outline: 2px solid #00f;
+    }
+    /* .select-wrap{ 在 display :none;时，是截不了屏的
+        display: none;
+    }*/
+    
+    .select-wrap>.item {
+        width: 200px;
+        margin: 50px auto;
+        text-align: center;
+    }
+    
+    .block.item {
+        margin: 10px auto;
+        width: 100px;
+        height: 100px;
+        background-color: #f00;
+        border: 2px solid #0f0;
+    }
+    
+    .text.item {
+        text-align: center;
+        color: #fff;
+        border: 2px dashed #00f;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="select-wrap">
+        <div class="item item--selected">
+            <div class="item block">
+                <div class="text item">好好学习，天天向上</div>
+            </div>
+            <!-- 能截取的图片路径必须是同域的，也必须在浏览器上打开 -->
+            <img src="img.jpg" class="img item">
+            <!-- 截取 CORS: * 的图片还是有问题 -->
+            <img  class="img item" src="http://221.224.33.142:1112/plan.jpg" alt="" crossOrigin="anonymous">
+        </div>
+    </div>
+    <a href="javascript:void(0);" class="confirm-btn">截图</a>
+    <div class="preview">
+        <img src="" alt="">
+    </div>
+    <script src="http://cdn.staticfile.org/jquery/2.1.1-rc2/jquery.js"></script>
+    <script src="html2canvas.js"></script>
+    <script>
+    // http://html2canvas.hertzen.com/documentation.html
+    $(document).ready(function() {
+        var $selectWrap = $('.select-wrap');
+        var $previewImg = $('.preview').find('>img');
+        var $canBeSelectedItem = $selectWrap.find('.item');
+
+
+        $canBeSelectedItem.click(function(evt) {
+            evt.stopPropagation();
+            $canBeSelectedItem.removeClass('item--selected');
+            $(this).toggleClass('item--selected');
+        });
+        $('.confirm-btn').click(function() {
+            // var $dom = $('.item--selected');
+            var $dom = $selectWrap;
+            if ($dom.length === 0) {
+                $dom = $selectWrap;
+            }
+            html2canvas($dom[0], {
+                allowTaint: true,
+                logging: true,
+                useCORS: true,
+                onrendered: function(canvas) {
+                    $previewImg.attr('src', canvas.toDataURL("img/png"));
+                }
+            });
+        })
+    });
+    </script>
+</body>
+
+</html>
