@@ -126,6 +126,10 @@
 * [perfect scrollbar](https://github.com/noraesae/perfect-scrollbar) 轻量级的滚动条。外观与mac上chrome的滚动条一样。
 * [iscroll](http://iscrolljs.com) 在移动设备上用不错
 
+### 加载(Loding)效果
+* [CSS Spinners](https://github.com/jlong/css-spinners) CSS做的
+
+
 ### 表格组件
 * [jsGrid](http://js-grid.com/) Data Grid。 [详细](detail/jsGrid)
 * [backgrid](http://backgridjs.com/) 基于Backbone.js的DataGrid
