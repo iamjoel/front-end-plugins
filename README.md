@@ -69,6 +69,7 @@
 ## <a name="form">表单类</a>
 * [jquery-file-upload](https://github.com/blueimp/jQuery-File-Upload) 上传文件组件 [详细](detail/fileUpload)
 * [zTree](http://www.ztree.me/v3/main.php#_zTreeInfo) 文件树形视图控件
+* [FileAPI](https://github.com/mailru/FileAPI) 对文件选择框内的文件的一些处理
 
 ### 表单验证
 * [.Validate](https://github.com/jzaefferer/jquery-validation) [详细](detail/validate)
@@ -132,6 +133,11 @@
 ### 自定义滚动条
 * [perfect scrollbar](https://github.com/noraesae/perfect-scrollbar) 轻量级的滚动条。外观与mac上chrome的滚动条一样。
 * [iscroll](http://iscrolljs.com) 在移动设备上用不错
+
+### 加载(Loding)效果
+* [CSS Spinners](https://github.com/jlong/css-spinners) CSS做的
+* [Loaders.css](https://connoratherton.com/loaders) CSS做的
+
 
 ### 表格组件
 * [jsGrid](http://js-grid.com/) Data Grid。 [详细](detail/jsGrid)
@@ -243,6 +249,7 @@
 * [scriptcam](http://www.scriptcam.com/) 与摄像头交互
 * [cylon.js](http://cylonjs.com/) 机器人框架，支持35个平台
 * [Masonry](https://github.com/desandro/masonry) 一个瀑布流框架
+* [devices.css](https://github.com/marvelapp/devices.css) 移动设备边框的外观。做原型的时候用不错。
 
 ## <a name="bootstrap">Bootstrap相关类</a>
 * [Bootbox.js](http://bootboxjs.com/) 对bootstrap的弹出框做的一些封装
