@@ -111,6 +111,7 @@
 ## <a name="ui">UI组件类</a>
 ### 拖拽
 * [dragula](https://github.com/bevacqua/dragula) 支持Draggable，Dropable和Sortable。感觉比jqueryUI的轻量级，好用的样子
+* [angular-dragula](http://bevacqua.github.io/angular-dragula/) dragular 官方的 angular 版本
 
 ### 数据可视化(图表)
 * [Echarts](http://echarts.baidu.com/) 百度出品
