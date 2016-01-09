@@ -237,6 +237,7 @@
 
 ## <a name="svg">SVG</a>
 * [Snap.svg](http://snapsvg.io/) 控制SVG的JS库
+* [walkway](https://github.com/ConnorAtherton/walkway) 以动画的方式，渐渐地画出 SVG 的路径。
 
 
 ## <a name="other">其他类</a>
