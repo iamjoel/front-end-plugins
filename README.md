@@ -231,6 +231,7 @@
     * [google-code-prettify](https://code.google.com/p/google-code-prettify/)
     * [DlHighlight](http://mihai.bazon.net/projects/javascript-syntax-highlighting-engine) 仅支持JavaScript、CSS、XML、HTML 这4语法高亮
 * [please](http://www.checkman.io/please/) 按要求随机舒服的颜色
+* [Awesomplete](http://leaverou.github.io/awesomplete/) 输入的智能提示，自动补全
 
 ## <a name="anim">动画</a>
 * [velocity](https://github.com/julianshapiro/velocity) 提高Jquery动画的性能。以及颜色动画之类的新特性。
