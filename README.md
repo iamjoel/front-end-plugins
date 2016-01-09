@@ -263,5 +263,6 @@
 * [jster](http://jster.net/)
 * [node modules](https://nodejsmodules.org/)
 * [npmrank](http://anvaka.github.io/npmrank/online/) Sort npm packages by page rank
+* [YOU MIGHT NOT NEED JQUERY PLUGINS](http://youmightnotneedjqueryplugins.com/) 不依赖 jQuery 的 js 插件。
 * [awesome-nodejs](https://github.com/vndmtrx/awesome-nodejs)
 * [OniUI](http://ued.qunar.com/oniui/index.html#avalon.accordion.doc.html) 去哪儿网做的一套基于Avalon的框架
