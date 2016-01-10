@@ -71,6 +71,7 @@
 ## <a name="form">表单类</a>
 * [jquery-file-upload](https://github.com/blueimp/jQuery-File-Upload) 上传文件组件 [详细](detail/fileUpload)
 * [zTree](http://www.ztree.me/v3/main.php#_zTreeInfo) 文件树形视图控件
+* [Treed](http://colorify.rocks/index.html) 树编辑器。感觉展示的感觉很像思维导图
 * [FileAPI](https://github.com/mailru/FileAPI) 对文件选择框内的文件的一些处理
 
 ### 表单验证
