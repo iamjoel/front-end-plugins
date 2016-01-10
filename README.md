@@ -60,6 +60,7 @@
 * [formFive](http://etiennetalbot.github.io/formFive/) 让旧的浏览器支持HTML5表单的一些特性，如 placeholder,autofocus
 * [https://github.com/anselmh/object-fit](https://github.com/anselmh/object-fit) 让浏览器支持`object-fit`这css规则
 * [HTML5 Cross Browser Polyfills](https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills) 一堆Polyfills
+* [flexibility](https://github.com/10up/flexibility) 让旧的 IE 也支持 Flexbox
 
 ### 选择器增强
 * [Lining.js](https://github.com/zmmbreeze/lining.js) 让浏览器实现类似`::nth-line(), ::nth-last-line()`的效果
