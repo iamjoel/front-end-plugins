@@ -6,6 +6,7 @@
 * [JSON Server](https://github.com/typicode/json-server) Get a full fake REST API with zero coding in less than 30 seconds (seriously)
 * [Colorify.js](http://colorify.rocks/index.html) awesome~ 从图片中取颜色，基于这些颜色做一些事情。
 * [mojs](https://github.com/legomushroom/mojs) 值得研究的一个动画库
+* [svg to image](https://github.com/Jam3/svg-to-image) 把 svg 在 canvas 中画出来
 
 
 
