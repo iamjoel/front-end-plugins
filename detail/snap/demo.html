@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>snap demo</title>
+  <style>
+  #target {
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: solid 2px #ccc;
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-right: 10px;
+    font: 1em source-sans-pro, Source Sans Pro, Helvetica, sans-serif;
+  }
+  </style>
+</head>
+
+<body>
+  <svg id="target"></svg>
+  <script src="snap.svg-min.js"></script>
+  <script>
+  (function() {
+    var s = Snap('#target');
+    var bigCircle = s.circle(150, 150, 100); // svg 里加一个圆~
+    bigCircle.attr({
+      stroke: "red",
+      strokeWidth: 5
+    });
+    // 画路径
+    var p = s.path("M110,95,95,110M115,100,100,115").attr({
+        fill: "none",
+        stroke: "#bada55",
+        strokeWidth: 4
+    });
+    var ptrn = p.pattern(100, 100, 10, 10);
+    bigCircle.attr({
+      fill: ptrn
+    });
+    // 动画
+    bigCircle.animate({r: 30}, 3e3, mina.elastic, function(){
+      bigCircle.animate({r: 100}, 1e3);
+    });
+  })();
+  </script>
+</body>
+
+</html>

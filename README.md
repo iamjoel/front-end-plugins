@@ -242,7 +242,7 @@
 * [velocity](https://github.com/julianshapiro/velocity) 提高Jquery动画的性能。以及颜色动画之类的新特性。
 
 ## <a name="svg">SVG</a>
-* [Snap.svg](http://snapsvg.io/) 操作 SVG 的 JS 库。号称 SVG 的 jQuery。
+* [Snap.svg](http://snapsvg.io/) 操作 SVG 的 JS 库。号称 SVG 的 jQuery。[demo](detail/snap)
 * [walkway](https://github.com/ConnorAtherton/walkway) 以动画的方式，渐渐地画出 SVG 的路径。
 
 ## <a name="test">测试</a>
