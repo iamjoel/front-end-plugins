@@ -272,6 +272,7 @@
     * [AdminLTE](https://github.com/almasaeed2010/AdminLTE)
 
 ## <a name="repository">JS Plugins仓库</a>
+* [jQuery Cards](http://jquerycards.com/) 高质量的 jQuery 插件网站
 * [jster](http://jster.net/)
 * [node modules](https://nodejsmodules.org/)
 * [npmrank](http://anvaka.github.io/npmrank/online/) Sort npm packages by page rank
