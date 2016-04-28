@@ -42,7 +42,7 @@
 * 调试
     * [console-polyfill](https://github.com/paulmillr/console-polyfill/) 能放心的使用 console.log()之类的console方法
     * [log](https://github.com/adamschwartz/log) 让控制台输出的log有样式
-    * [Konsole.js](https://github.com/eatcodeplay/Konsole.js) 在页面的一个元素里输出log信息
+    * [Konsole.js](https://github.com/eatcodeplay/Konsole.js) 在页面的一个元素里输出log信息 [详细](detail/konsole)
 * [uri.js](https://github.com/medialize/URI.js) uri操作
 * [cookie](https://github.com/ScottHamper/Cookies) 增删改cookie的工具库
 * [director](https://github.com/flatiron/director) 前端路由库
@@ -279,4 +279,5 @@
 * [npmrank](http://anvaka.github.io/npmrank/online/) Sort npm packages by page rank
 * [YOU MIGHT NOT NEED JQUERY PLUGINS](http://youmightnotneedjqueryplugins.com/) 不依赖 jQuery 的 js 插件。
 * [awesome-nodejs](https://github.com/vndmtrx/awesome-nodejs)
+* [Libraries.io](https://libraries.io/) 各种语言的库
 * [OniUI](http://ued.qunar.com/oniui/index.html#avalon.accordion.doc.html) 去哪儿网做的一套基于Avalon的框架

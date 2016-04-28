@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+  <link rel="stylesheet" href="assets/konsole.css">
+</head>
+
+<body>
+  <script src="../vendor/jquery.js"></script>
+  <script src="assets/konsole.js"></script>
+  <script>
+  $(document).ready(function() {
+    var isDebugger = true;
+    console.log('log');
+    console.info('info');
+    console.warn('warn');
+    console.error('error');
+    console.log(JSON.stringify({
+      name: 'Lily',
+      age: 18,
+      info: {
+        schools: ['Baidai School', 'CX Middle School', 'SY School', 'QH School']
+      }
+    }));
+    for (var i = 0; i < 10; i++) {
+      console.log('log %d', i + 1);
+    }
+    if (isDebugger && console.show) {
+      console.snap = 'bottom'; // console 出现的位置。left,right,top,bottom
+      console.show();
+    }
+  });
+  </script>
+</body>
+
+</html>

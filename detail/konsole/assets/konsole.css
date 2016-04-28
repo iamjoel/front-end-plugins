@@ -1,0 +1,199 @@
+#konsole {
+    display: none;
+    position: fixed;
+    z-index: 100000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #222;
+    background: rgba(0, 0, 0, 0.6);
+    font-family: "Source Code Pro", "Consolas", "Monaco", "Lucida Console", "Courier New", monospace;
+    font-size: 12px;
+    color: #E1E1E1;
+    line-height: 13px;
+    transition: all .25s;
+}
+#konsole span {
+    clear: left;
+    float: left;
+}
+#konsole span.klo {
+    float: none;
+    cursor: pointer;
+}
+#konsole span.klc {
+    float: none;
+    display: none;
+}
+#konsole span.klx {
+    float: none;
+    cursor: pointer;
+}
+#konsole p {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    color: inherit;
+    float: left;
+    padding: 0 40px 0 5px;
+    margin: 0;
+}
+#konsole .log {
+    position: initial;
+    background: inherit;
+    padding: 5px 5px;
+    width: auto;
+    overflow: hidden;
+    transition: all .25s;
+    -webkit-box-sizing: initial;
+    -moz-box-sizing: initial;
+    box-sizing: initial;
+}
+#konsole .log .wrapped {
+    position: initial;
+    background: transparent;
+    padding: 0 5px 0 0;
+    width: 100%;
+    overflow: hidden;
+}
+#konsole.touchable .log .wrapped {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    width: 100% !important;
+}
+#konsole.touchable .log .wrapped::-webkit-scrollbar {
+    display: none;
+}
+#konsole .cmdline {
+    position: initial;
+    background-color: #111;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 0 5px;
+    width: auto;
+    height: 20px;
+    outline-width: 0;
+    border: none;
+    border-top: 1px solid #333;
+    box-shadow: 0 5px 5px #222;
+    -webkit-box-sizing: initial;
+    -moz-box-sizing: initial;
+    box-sizing: initial;
+}
+#konsole .cmdline input {
+    width: 100%;
+    height: 20px;
+    outline-width: 0;
+    border: none;
+    padding: 2px;
+    background-color: transparent;
+    font-family: inherit;
+    font-size: inherit;
+    color: #AAA;
+}
+#konsole .cmdline input:focus {
+    border-color: transparent;
+    -webkit-box-shadow: initial;
+    box-shadow: initial;
+    -webkit-box-sizing: initial;
+    -moz-box-sizing: initial;
+    box-sizing: initial;
+}
+#konsole .log-log {
+    color: #E1E1E1;
+}
+#konsole .log-css span {
+    clear: initial;
+    float: initial
+}
+#konsole .log-css span.selector {
+    color: #D52462;
+}
+#konsole .log-css span.property {
+    color: #55EDF1;
+}
+#konsole .log-css span.comment {
+    color: #999999;
+}
+#konsole .log-info {
+    color: #5ADDFA;
+}
+#konsole .log-event {
+    color: #0FF113;
+}
+#konsole .log-error {
+    color: #E70707;
+}
+#konsole .log-warn {
+    color: #FD9720;
+}
+#konsole .log-system {
+    color: #999999;
+}
+#konsole .inspect {
+    cursor: pointer;
+}
+#konsole .inspect.full {
+    display: none;
+}
+#konsole code {
+    font-family: inherit;
+    font-size: 100%;
+    padding: 0;
+    margin: 0;
+    width: auto;
+    height: auto;
+    background: initial;
+}
+#konsole code span {
+    clear: initial;
+    float: none;
+}
+#konsole-highlight {
+    display: none;
+    position: absolute;
+    z-index: 99999;
+    background-color: #EEBE44;
+    opacity: 0.4;
+}
+.konsole-monitor {
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    z-index: 10000000;
+    background-color: #222;
+    background: rgba(0, 0, 0, 0.6);
+    font-family: "Source Code Pro", "Lucida Console", "Monaco", "Courier New", monospace;
+    font-size: 12px;
+    color: #E1E1E1;
+    line-height: 13px;
+    box-shadow: 0 3px 5px #222;
+    -webkit-box-sizing: initial;
+    -moz-box-sizing: initial;
+    box-sizing: initial;
+    padding: 19px 5px 5px 5px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.konsole-monitor .close {
+    position: absolute;
+    right: 3px;
+    top: 1px;
+    color: black;
+    font-size: 90%;
+    cursor: pointer;
+}
+.konsole-monitor .values {
+    cursor: default !important;
+}
+.konsole-touch {
+    width: 25px;
+    height: 25px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 10000000;
+}
