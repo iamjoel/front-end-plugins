@@ -45,7 +45,7 @@
     * [Konsole.js](https://github.com/eatcodeplay/Konsole.js) 在页面的一个元素里输出log信息 [详细](detail/konsole)
 * [uri.js](https://github.com/medialize/URI.js) uri操作
 * [cookie](https://github.com/ScottHamper/Cookies) 增删改cookie的工具库
-* [director](https://github.com/flatiron/director) 前端路由库
+* [director](https://github.com/flatiron/director) 前端路由库 [详细](detail/director)
 * [BigDecimal.js](https://github.com/dtrebbien/BigDecimal.js) 提高精度的数字操作
 * [JSDoc](http://usejsdoc.org/) 根据javascript文件中注释的信息，生成API文档 [详细](detail/JSDoc)
 * [hotkeys](http://jslite.io/hotkeys/) 键盘事件的封装

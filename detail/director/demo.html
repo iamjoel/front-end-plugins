@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>director</title>
+  <meta name="viewport" content="width=device-width">
+</head>
+<body>
+  <ul>
+    <li><a href="#/normal">普通路由</a></li>
+    <li><a href="#/hasParam/3/Joel">到参数的路由</a></li>
+    <li><a href="#/main/a">子路由a</a></li>
+    <li><a href="#/main/b">子路由b</a></li>
+    <li><button class="go-to-normal-btn">用JS跳到普通路由</button></li>
+    <li><a href="#/normal2">普通路由2</a></li>
+  </ul>
+  <script
+      src="https://rawgit.com/flatiron/director/master/build/director.min.js">
+    </script>
+    <script>
+      // 官网 https://github.com/flatiron/director
+      (function () {
+        // 路由，回调
+        var routes = {
+          '/normal': function () {
+            console.info('普通页面');
+          },
+          // 带参数的路由
+          '/hasParam/:id/:name': function (id, name) {
+            console.info('%s\'s  id is %s', name, id);
+          },
+          '/main':{
+            // 子路由 /main/a
+            '/a': {
+              on: function () {
+                console.info('子页面 a');
+              }
+            },
+            // 子路由 /main/b
+            '/b': {
+              on: function () {
+                console.info('子页面 b');
+              }
+            }
+          }
+
+        };
+
+        var routers = Router(routes).configure({
+          // 进入任意一个路由均会执行
+          on: function () {
+            console.info('进入页面: ' + location.hash);
+          }
+        });
+
+        // 打破迷关
+        routers.on('normal2', function () {
+            console.info('普通页面2');
+        });
+        // 如果进入页面时的路由没找到处理函数，则直接进入 /normal
+        routers.init('/normal');
+
+        // js 控制路由
+        document.querySelector('.go-to-normal-btn').addEventListener('click', function () {
+          location.hash = '/normal';
+        })
+      })();
+    </script>
+</body>
+</html>
