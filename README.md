@@ -33,7 +33,9 @@
         * [Arbiter.js](http://arbiterjs.com/) [详细](detail/Arbiter)
     * [q](https://github.com/kriskowal/q/) Promise风格的
     * [Async.js](https://github.com/caolan/async/)
-* [jquery-mockjax](https://github.com/jakerella/jquery-mockjax) [mock](http://baike.baidu.com/view/2445748.htm) ajax请求
+* mock
+    * [Mock.js](https://github.com/nuysoft/Mock) 生成随机数据和mock Ajax 请求
+    * [jquery-mockjax](https://github.com/jakerella/jquery-mockjax) [mock](http://baike.baidu.com/view/2445748.htm) ajax请求
 * 时间库
     * [moment](http://momentjs.com/)
     * [datejs](http://www.datejs.com/)
@@ -50,6 +52,7 @@
 * [BigDecimal.js](https://github.com/dtrebbien/BigDecimal.js) 提高精度的数字操作
 * [JSDoc](http://usejsdoc.org/) 根据javascript文件中注释的信息，生成API文档 [详细](detail/JSDoc)
 * [hotkeys](http://jslite.io/hotkeys/) 键盘事件的封装
+* [MD5](https://github.com/pvorb/node-md5) 用 MD5 的方式加密文件的库
 
 
 ## <a name="browser-strong">浏览器增强类</a>
