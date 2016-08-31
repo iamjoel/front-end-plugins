@@ -240,9 +240,7 @@
 * [dotdotdot](https://github.com/BeSite/jQuery.dotdotdot) 文字溢出时，添加在文字末尾加省略号
 * [jQuery-menu-aim](https://github.com/kamens/jQuery-menu-aim) 二级菜单的切换如Amazon主页上一样迅速
 * [AnythingZoomer](https://github.com/CSS-Tricks/AnythingZoomer/) 放大镜功能
-* 美化/高亮语法代码
-    * [google-code-prettify](https://code.google.com/p/google-code-prettify/)
-    * [DlHighlight](http://mihai.bazon.net/projects/javascript-syntax-highlighting-engine) 仅支持JavaScript、CSS、XML、HTML 这4语法高亮
+* [PRISM](http://prismjs.com/) 代码语法高亮
 * [please](http://www.checkman.io/please/) 按要求随机舒服的颜色
 * [Awesomplete](http://leaverou.github.io/awesomplete/) 输入的智能提示，自动补全
 * [proTip](http://protip.rocks/) 提示。感觉比 Bootstrap 的 tip 好
