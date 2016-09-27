@@ -1,4 +1,4 @@
-# Plugins整理
+# Web 前端常用插件
 ## 项目文件结构
 * [detail/](detail) 一些组件的详细说明，以及使用 Demo
 
