@@ -1,7 +1,7 @@
-{
+﻿{
+  // 饼图
   {
-    // 饼图
-    var option = {
+    let option = {
       title: {
         text: '某站点用户访问来源',
         bottom: 0,
@@ -40,11 +40,12 @@
         }
       }]
     }
-    var myChart = echarts.init(document.querySelector('.pie'));
+    let myChart = echarts.init(document.querySelector('.pie'));
     myChart.setOption(option);
-  } {
-    // 柱状图
-    var option = {
+  }
+  // 柱状图
+  {
+    let option = {
       title: {
         text: '某站点用户访问来源',
         top: 0,
@@ -118,8 +119,8 @@
         data: [820, 832, 901, 934, 1290, 1330, 1320]
       }]
     };
+    let myChart = echarts.init(document.querySelector('.bar'));
+    myChart.setOption(option);
   }
-  var myChart = echarts.init(document.querySelector('.bar'));
-  myChart.setOption(option);
 
 }
