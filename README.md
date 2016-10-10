@@ -27,6 +27,7 @@
     * [Watch.js](https://github.com/melanke/Watch.JS) 监视对象或属性的变化
     * [bacon.js](https://github.com/baconjs/bacon.js/) 函数式编程，cool
     * [streamjs](https://github.com/winterbe/streamjs) 用流的方式来对数组，对象进行系列操作
+    * [rewrap](https://github.com/taijiweb/rewrap) 正则工具库。相关插件[regexp-frequent](https://github.com/taijiweb/regexp-frequent),[rewrap-patch](https://github.com/taijiweb/rewrap-patch)
 * 异步流程控制
     * 发布订阅
         * [eventproxy](https://github.com/JacksonTian/eventproxy) 朴灵出品
