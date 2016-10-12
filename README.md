@@ -274,6 +274,7 @@
 * [cylon.js](http://cylonjs.com/) 机器人框架，支持35个平台
 * [Masonry](https://github.com/desandro/masonry) 一个瀑布流框架
 * [devices.css](https://github.com/marvelapp/devices.css) 移动设备边框的外观。做原型的时候用不错。
+* [city](https://github.com/basecss/city) 国家行政区划分数据。从国家统计局拿的。 [城市数据](https://github.com/basecss/city/blob/master/lib/citydata.json)
 
 ## <a name="bootstrap">Bootstrap相关类</a>
 * [Bootbox.js](http://bootboxjs.com/) 对bootstrap的弹出框做的一些封装
