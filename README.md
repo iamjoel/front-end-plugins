@@ -16,6 +16,7 @@
 * [测试](#test)
 * [其他类](#other)
 * [Bootstrap相关类](#bootstrap)
+* [Vue.js 相关类](#vue)
 * [JS Plugins仓库](#repository)
 
 ## <a name="tool">工具类</a>
@@ -48,7 +49,7 @@
     * [log](https://github.com/adamschwartz/log) 让控制台输出的log有样式
     * [Konsole.js](https://github.com/eatcodeplay/Konsole.js) 在页面的一个元素里输出log信息 [详细](detail/konsole)
 * [uri.js](https://github.com/medialize/URI.js) uri操作
-* [cookie](https://github.com/ScottHamper/Cookies) 增删改cookie的工具库
+* [Cookie](https://github.com/ScottHamper/Cookies) 增删改cookie的工具库
 * [director](https://github.com/flatiron/director) 前端路由库 [详细](detail/director)
 * [BigDecimal.js](https://github.com/dtrebbien/BigDecimal.js) 提高精度的数字操作
 * [JSDoc](http://usejsdoc.org/) 根据javascript文件中注释的信息，生成API文档 [详细](detail/JSDoc)
@@ -280,6 +281,14 @@
 * [Bootbox.js](http://bootboxjs.com/) 对bootstrap的弹出框做的一些封装
 * 免费皮肤
     * [AdminLTE](https://github.com/almasaeed2010/AdminLTE)
+
+## <a name="vue">Vue相关</a>
+* 手机
+    * [Mint UI](https://github.com/ElemeFE/mint-ui) Mobile UI elements for Vue.js。
+    * [vue-weui](https://github.com/adcentury/vue-weui)
+* PC
+    * [Vue Admin](https://github.com/fundon/vue-admin)
+    * [element](https://github.com/ElemeFE/element)
 
 ## <a name="repository">JS Plugins仓库</a>
 * [jQuery Cards](http://jquerycards.com/) 高质量的 jQuery 插件网站
