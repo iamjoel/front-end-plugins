@@ -285,6 +285,7 @@
 ## <a name="vue">Vue相关</a>
 * 手机
     * [Mint UI](https://github.com/ElemeFE/mint-ui) Mobile UI elements for Vue.js。
+    * [vux](https://github.com/airyland/vux)
     * [vue-weui](https://github.com/adcentury/vue-weui)
 * PC
     * [Vue Admin](https://github.com/fundon/vue-admin)
