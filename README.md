@@ -210,6 +210,8 @@
 * [layer](https://github.com/sentsin/layer) 国人开发的，兼容ie6+。不喜欢其调用方式。
 
 ### 动画效果
+* [animate.css](https://github.com/daneden/animate.css) 预设了很多动画。
+* [transformjs](https://github.com/AlloyTeam/AlloyTouch/tree/master/transformjs) Made css3 transform super easy。腾讯出品。
 * [mixitup](https://mixitup.kunkalabs.com/) 用漂亮的动画效果来完成排序和筛选
 * [jQuery.Marquee](https://github.com/aamirafridi/jQuery.Marquee) 跑马灯效果
 * [quickflip](http://jonraasch.com/blog/quickflip-jquery-plugin) 卡片翻转效果
