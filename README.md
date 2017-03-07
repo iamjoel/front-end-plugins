@@ -22,7 +22,7 @@
 ## <a name="tool">工具类</a>
 * 方便操作对象，数组等的工具库
     * [underscore.js](http://underscorejs.org/)
-    * [lo-dash](http://lodash.com/) 与underscore.js的api基本一致。与underscore比其优势是，效率高；可自定义构建
+    * [lo-dash](https://lodash.com/) 与underscore.js的api基本一致。与underscore比其优势是，效率高；可自定义构建
     * [Sugar](https://github.com/andrewplummer/Sugar/) 在原生对象上增加一些工具方法
     * [functional.js](https://github.com/leecrossley/functional-js/) 提够了一些Curry的支持
     * [Watch.js](https://github.com/melanke/Watch.JS) 监视对象或属性的变化
@@ -67,7 +67,7 @@
 * [formFive](http://etiennetalbot.github.io/formFive/) 让旧的浏览器支持HTML5表单的一些特性，如 placeholder,autofocus
 * [https://github.com/anselmh/object-fit](https://github.com/anselmh/object-fit) 让浏览器支持`object-fit`这css规则
 * [HTML5 Cross Browser Polyfills](https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills) 一堆Polyfills
-* [flexibility](https://github.com/10up/flexibility) 让旧的 IE 也支持 Flexbox
+* [flexibility](https://github.com/jonathantneal/flexibility) 让旧的 IE 也支持 Flexbox
 
 ### 选择器增强
 * [Lining.js](https://github.com/zmmbreeze/lining.js) 让浏览器实现类似`::nth-line(), ::nth-last-line()`的效果
@@ -77,7 +77,7 @@
 
 ## <a name="form">表单类</a>
 * [jquery-file-upload](https://github.com/blueimp/jQuery-File-Upload) 上传文件组件 [详细](detail/fileUpload)
-* [zTree](http://www.ztree.me/v3/main.php#_zTreeInfo) 文件树形视图控件 [详细](detail/ztree)
+* [zTree](http://www.treejs.cn/v3/main.php) 文件树形视图控件 [详细](detail/ztree)
 * [Treed](http://colorify.rocks/index.html) 树编辑器。感觉展示的感觉很像思维导图
 * [FileAPI](https://github.com/mailru/FileAPI) 对文件选择框内的文件的一些处理
 
@@ -91,7 +91,7 @@
 * [selectivity](http://arendjr.github.io/selectivity/) 和unfirom比较类似
 * [DropKick](http://robdel12.github.io/DropKick/) 下拉框，单，多选。外观比uniform好
 * [switchery](http://abpetkov.github.io/switchery/) ios7风格的开关组件
-* [nouislider](http://refreshless.com/nouislider/) 用滚动条来设置/控制（音量等）
+* [nouislider](https://refreshless.com/nouislider/) 用滚动条来设置/控制（音量等）
 * [range.css](http://danielstern.ca/range.css/) 美化`input[type=range]`元素的外观
 
 ## <a name="img">图片类</a>
@@ -109,7 +109,7 @@
 * HTML字符实体图标
     * http://www.amp-what.com/
 * [transformicons](http://www.transformicons.com/) 图标点击时，会有一些变换效果。如，加号变成叉号
-* [css3patterns](http://lea.verou.me/css3patterns) css3 做的可平铺纹理。浏览器兼容性不好。
+* [css3patterns](http://lea.verou.me/css3patterns/) css3 做的可平铺纹理。浏览器兼容性不好。
 
 
 ### 浏览图片
@@ -139,8 +139,8 @@
 ### 时间选取组件
 * [foundation-datepicker](http://foundation-datepicker.peterbeno.com/example.html)
 * [DatePicker](https://github.com/foxrunsoftware/DatePicker/) 一个简单的日历 [详细](detail/datepicker)
-* [full calendar](http://arshaw.com/fullcalendar/) 支持脱放的方式来改变待办事宜的时间
-* [Simple Events Calendar](http://codecanyon.net/item/simple-events-calendar-js/full_screen_preview/462149?ref=themespotters) 外观很喜欢。收费 5$
+* [full calendar](http://fullcalendar.io/) 支持脱放的方式来改变待办事宜的时间
+* [Simple Events Calendar](http://preview.codecanyon.net/item/simple-events-calendar-js/full_screen_preview/462149?ref=themespotters) 外观很喜欢。收费 5$
 * [jQuery ui datepicker](http://jqueryui.com/datepicker/) 经典，不是很好看
 * [pickadate](http://amsul.ca/pickadate.js/) 轻量级，手机友好的，漂亮。但貌似只能在弹出层中显示，而没有下拉这种方式显示。
 * [zebra-datepicker](http://stefangabos.ro/jquery/zebra-datepicker/) 可配置性很强。但貌似只能在弹出在右上方。。。
@@ -160,8 +160,8 @@
 * [jsGrid](http://js-grid.com/) Data Grid。 [详细](detail/jsGrid)
 * [backgrid](http://backgridjs.com/) 基于Backbone.js的DataGrid
 * [excellentexport](https://github.com/jmaister/excellentexport) 把表格的内容生成excel。兼容 Firefox, Chrome, IE6+
-* [datatables](http://www.datatables.net/) 表格可交互（对内容进行排序，删除等）
-* [handsontable](http://handsontable.com/) 生成Excel外观的数据
+* [datatables](https://www.datatables.net/) 表格可交互（对内容进行排序，删除等）
+* [handsontable](https://handsontable.com/) 生成Excel外观的数据
 * [JSpreadsheets](http://jspreadsheets.com/) 表格数据的组件库
 
 ### 选取颜色
@@ -171,23 +171,23 @@
 * [JiaThis](http://www.jiathis.com/) 生成分享代码。
 
 ### 编辑器
-* [ace](http://ace.c9.io) 代码编辑器，可以用来做demo演示
+* [ace](https://ace.c9.io/) 代码编辑器，可以用来做demo演示
 * [ckeditor](http://ckeditor.com/)
 * [ueditor](http://ueditor.baidu.com/website/) 百度做的
-* [tinymce](http://www.tinymce.com/tryit/full.php) 对html内容进行实时的编辑
+* [tinymce](https://www.tinymce.com/tryit/full.php) 对html内容进行实时的编辑
 * [summernote](https://github.com/summernote/summernote) 在移动设备上用不错
 
 ### 通知组件
-* [notie.js](https://github.com/jaredreich/notie.js)
+* [notie.js](https://github.com/jaredreich/notie)
 
 ### HTML5播放器
-* [jwplayer](http://www.jwplayer.com/) 被大量网站使用
-* [html5media](http://html5media.info/) 简单的h5player，轻量级
+* [jwplayer](https://www.jwplayer.com/) 被大量网站使用
+* [html5media](https://html5media.info/) 简单的h5player，轻量级
 * [jplayer](http://jplayer.org/) 功能强太，可换肤
 
 ### 展示
 * [Impress.js](https://developer.cdn.mozilla.net/media/uploads/demos/b/a/bartaz/54e3827142e4149a5c01db64c9517c84/impressjs_1333223745_demo_package/index.html#/bored) 各种旋转，和奇特的体验
-* [fullPage](http://alvarotrigo.com/fullPage) 全屏显示。用滚轮来翻页 [详细](detail/fullpage)
+* [fullPage](http://alvarotrigo.com/fullPage/) 全屏显示。用滚轮来翻页 [详细](detail/fullpage)
 * [zepto.fullpage](https://github.com/yanhaijing/zepto.fullpage) 专注于移动端的fullPage.js，依赖Zepto
 * [pagePiling](http://alvarotrigo.com/pagePiling/) 和fullPage类似
 * [turn.js](https://github.com/blasten/turn.js) 做一本书，带漂亮的翻页的效果
@@ -232,7 +232,7 @@
 * [scrolldeck](https://github.com/johnpolacek/scrolldeck.js)
 
 ### flash
-* [swfobj](http://code.google.com/p/swfobject/wiki/documentation) 能够自动检测PC、Mac机器上各种主流浏览器对Flash插件的支持情况。它使得插入Flash媒体资源尽量简捷、安全。而且它是非常符合搜索引擎优化的原则的。此外，它能够避免您的HTML、XHTML中出现object、embed等非标准标签，从而符合更加标准。 [详细](detail/flash)
+* [swfobj](https://code.google.com/archive/p/swfobject/wikis/documentation.wiki) 能够自动检测PC、Mac机器上各种主流浏览器对Flash插件的支持情况。它使得插入Flash媒体资源尽量简捷、安全。而且它是非常符合搜索引擎优化的原则的。此外，它能够避免您的HTML、XHTML中出现object、embed等非标准标签，从而符合更加标准。 [详细](detail/flash)
 
 ## 抽奖
 * [wScratchPad](https://github.com/websanova/wScratchPad) 刮刮卡刮奖效果
@@ -242,7 +242,7 @@
 * [Intro.js](http://usablica.github.io/intro.js/) 用来介绍网站的功能很不错。也可以做新手引导。
 * [blockUI](http://jquery.malsup.com/block/) Lolding组件。
 * [simple-hint](https://github.com/catc/simple-hint) 提示信息。用css做的。兼容性IE 9+。
-* [dotdotdot](https://github.com/BeSite/jQuery.dotdotdot) 文字溢出时，添加在文字末尾加省略号
+* [dotdotdot](https://github.com/FrDH/jQuery.dotdotdot) 文字溢出时，添加在文字末尾加省略号
 * [jQuery-menu-aim](https://github.com/kamens/jQuery-menu-aim) 二级菜单的切换如Amazon主页上一样迅速
 * [AnythingZoomer](https://github.com/CSS-Tricks/AnythingZoomer/) 放大镜功能
 * [PRISM](http://prismjs.com/) 代码语法高亮
@@ -270,12 +270,12 @@
 * [ZeroClipboard](https://github.com/zeroclipboard/ZeroClipboard) 将内容复制到剪切板兼容主流浏览器的解决方案 [详细](http://www.jianshu.com/p/1a74c112f962)
 * [html2canvas](http://html2canvas.hertzen.com/) html转化成canvas，可以用来做截图。[详细](detail/html2canvas)
 * [Ink](http://zurb.com/ink/) 响应式html邮件框架
-* [性能测试](http://benchmarkjs.com/)
+* [性能测试](https://benchmarkjs.com/)
 * 抓取，解析RSS内容（不能跨域，所以后台要做代理，所谓的解析Rss其实就是解析xml）
     * [jFeed](https://github.com/jfhovinne/jFeed)
     * [jRss](https://github.com/malderete/jRss)  简单版的jFeed
 * [scriptcam](http://www.scriptcam.com/) 与摄像头交互
-* [cylon.js](http://cylonjs.com/) 机器人框架，支持35个平台
+* [cylon.js](https://cylonjs.com/) 机器人框架，支持35个平台
 * [Masonry](https://github.com/desandro/masonry) 一个瀑布流框架
 * [devices.css](https://github.com/marvelapp/devices.css) 移动设备边框的外观。做原型的时候用不错。
 * [city](https://github.com/basecss/city) 国家行政区划分数据。从国家统计局拿的。 [城市数据](https://github.com/basecss/city/blob/master/lib/citydata.json)
