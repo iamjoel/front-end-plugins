@@ -250,6 +250,8 @@
 * [Awesomplete](http://leaverou.github.io/awesomplete/) 输入的智能提示，自动补全
 * [proTip](http://protip.rocks/) 提示。感觉比 Bootstrap 的 tip 好
 * [Hammerjs](http://hammerjs.github.io/) 手势库。封装了 Swipe, Tap, Pinch, Pan等手势
+* [favico.js](http://lab.ejci.net/favico.js/) 动态改 favicon。牛逼是可以放视频~
+
 
 ## <a name="anim">动画</a>
 * [velocity](https://github.com/julianshapiro/velocity) 提高Jquery动画的性能。以及颜色动画之类的新特性。
