@@ -163,6 +163,7 @@
 * [datatables](https://www.datatables.net/) 表格可交互（对内容进行排序，删除等）
 * [handsontable](https://handsontable.com/) 生成Excel外观的数据
 * [JSpreadsheets](http://jspreadsheets.com/) 表格数据的组件库
+* [jQuery Grid](http://gijgo.com/grid) by gijgo.com
 
 ### 选取颜色
 * [Spectrum](http://bgrins.github.io/spectrum/?color=&color2=%233355cc&color3=%23000000#toc0)
