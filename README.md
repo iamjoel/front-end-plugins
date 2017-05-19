@@ -45,9 +45,9 @@
     * [Bowser](https://github.com/ded/bowser) 探测具体浏览器和版本
     * [ua-parser-js](https://github.com/faisalman/ua-parser-js) 探测具体浏览器和版本，操作系统，设备类型等
 * 调试
+    * [vConsole](https://github.com/WechatFE/vConsole) 轻量、可拓展、针对手机网页的前端开发者调试面板插件。微信前端做。
     * [console-polyfill](https://github.com/paulmillr/console-polyfill/) 能放心的使用 console.log()之类的console方法
     * [log](https://github.com/adamschwartz/log) 让控制台输出的log有样式
-    * [Konsole.js](https://github.com/eatcodeplay/Konsole.js) 在页面的一个元素里输出log信息 [详细](detail/konsole)
 * [uri.js](https://github.com/medialize/URI.js) uri操作
 * [Cookie](https://github.com/ScottHamper/Cookies) 增删改cookie的工具库
 * [store.js](https://github.com/marcuswestin/store.js/) 对 localStorage 的封装。兼容 IE6+。
