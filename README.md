@@ -194,14 +194,14 @@
 * [turn.js](https://github.com/blasten/turn.js) 做一本书，带漂亮的翻页的效果
 
 ### 幻灯
-* [SuperSlide](http://www.superslide2.com/) 兼容至 IE6，包含“焦点图/幻灯片”“Tab标签切换”“图片滚动”“无缝滚动”等常见效果，还有支持移动端的 [TouchSlide](http://www.superslide2.com/)
+* [SuperSlide](http://www.superslide2.com/) 兼容IE6，焦点图/幻灯片/Tab标签切换/图片滚动/无缝滚动等常见效果，支持移动端 [TouchSlide](http://www.superslide2.com/)
 * [slidesjs](http://slidesjs.com/) 挺好用的，只是那幻灯导航的CSS都要自己写，呵呵 [详细](detail/jquery.slide)
 * [iSlider](https://github.com/BE-FE/iSlider) 无任何插件依赖的手机平台javascript滑动组件 [详细](detail/iSlider)
 * [bgstretcher](http://www.ajaxblender.com/bgstretcher-2-jquery-stretch-background-plugin-updated.html) 全屏幻灯，会随着页面大小的变化而变化。
 * [Swiper](https://github.com/nolimits4web/swiper/) 开源、免费、强大的移动端触摸滑动插件 [Swiper中文网](http://www.swiper.com.cn/)
-* [coin-slider](https://github.com/kopipejst/coin-slider/) 兼容IE6。蛮好的~。不过其切换方式是一块块的。不能配置切换方式。。。
+* [coin-slider](https://github.com/kopipejst/coin-slider/) 兼容IE6，不过其切换方式是一块块的。不能配置切换方式
 * [wowslider](http://wowslider.com/rq/jquery-image-viewer/)  幻灯切换时各种很炫的效果。收费。
-* [cycle2](http://jquery.malsup.com/cycle2/) 普通的幻灯，竟然不支持垂直滚动。。。
+* [cycle2](http://jquery.malsup.com/cycle2/) 普通的幻灯，竟然不支持垂直滚动
 * [jcarousel](http://sorgalla.com/jcarousel/) 普通的幻灯，不兼容IE6
 * [reveal](https://github.com/hakimel/reveal.js) 3d滚动。做ppt相当不错
 * [nodePPT](https://github.com/ksky521/nodePPT) 国人做的，做ppt也相当不错。有些方面比 reveal做的还好。但生成导出的html有些问题
