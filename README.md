@@ -72,8 +72,8 @@
 ### 选择器增强
 * [Lining.js](https://github.com/zmmbreeze/lining.js) 让浏览器实现类似`::nth-line(), ::nth-last-line()`的效果
 
-### 未归类
-* [prefixfree](https://github.com/LeaVerou/prefixfree/) 用了它，写css时，就不需要加浏览器的前缀了
+### CSS 兼容性
+* [prefixfree](https://github.com/LeaVerou/prefixfree/) 根据 caniuse.com 数据库自动补全 CSS 私有前缀
 
 ## <a name="form">表单类</a>
 * [jquery-file-upload](https://github.com/blueimp/jQuery-File-Upload) 上传文件组件 [详细](detail/fileUpload)
@@ -194,6 +194,7 @@
 * [turn.js](https://github.com/blasten/turn.js) 做一本书，带漂亮的翻页的效果
 
 ### 幻灯
+* [SuperSlide](http://www.superslide2.com/) 兼容至 IE6，包含“焦点图/幻灯片”“Tab标签切换”“图片滚动”“无缝滚动”等常见效果，还有支持移动端的 [TouchSlide](http://www.superslide2.com/)
 * [slidesjs](http://slidesjs.com/) 挺好用的，只是那幻灯导航的CSS都要自己写，呵呵 [详细](detail/jquery.slide)
 * [iSlider](https://github.com/BE-FE/iSlider) 无任何插件依赖的手机平台javascript滑动组件 [详细](detail/iSlider)
 * [bgstretcher](http://www.ajaxblender.com/bgstretcher-2-jquery-stretch-background-plugin-updated.html) 全屏幻灯，会随着页面大小的变化而变化。
@@ -293,6 +294,8 @@
     * [Mint UI](https://github.com/ElemeFE/mint-ui) Mobile UI elements for Vue.js。
     * [vux](https://github.com/airyland/vux)
     * [vue-weui](https://github.com/adcentury/vue-weui)
+    * [vue-resource](https://github.com/pagekit/vue-resource) The HTTP client for Vue.js, Ajax 数据交换
+    * [vue-router](https://github.com/vuejs/vue-router) 官方提供的路由插件
 * PC
     * [Vue Admin](https://github.com/fundon/vue-admin)
     * [element](https://github.com/ElemeFE/element)
