@@ -195,6 +195,7 @@
 * [zepto.fullpage](https://github.com/yanhaijing/zepto.fullpage) 专注于移动端的fullPage.js，依赖Zepto
 * [pagePiling](http://alvarotrigo.com/pagePiling/) 和fullPage类似
 * [turn.js](https://github.com/blasten/turn.js) 做一本书，带漂亮的翻页的效果
+* [timelinejs](https://github.com/ilkeryilmaz/timelinejs/) 用时间轴方式展示信息。
 
 ### 幻灯
 * [slidesjs](http://slidesjs.com/) 挺好用的，只是那幻灯导航的CSS都要自己写，呵呵 [详细](detail/jquery.slide)
