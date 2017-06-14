@@ -232,6 +232,7 @@
 * [ClickSpark.js](http://www.ymc.ch/sandbox/clickspark/demo.html) 点击后的一些酷炫的效果
 
 #### 视觉差插件
+* [ScrollMagic](https://github.com/janpaepke/ScrollMagic) 对 superscrollorama 的重写。
 * [scrollorama](https://github.com/johnpolacek/scrollorama) 比较简单
 * [superscrollorama](https://github.com/johnpolacek/superscrollorama) 能做的效果更多，但要用第三方Tween的库，使用起来比较复杂。
 * [scrolldeck](https://github.com/johnpolacek/scrolldeck.js)
