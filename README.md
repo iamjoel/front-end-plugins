@@ -25,10 +25,20 @@
     * [lo-dash](https://lodash.com/) 与underscore.js的api基本一致。与underscore比其优势是，效率高；可自定义构建
     * [Sugar](https://github.com/andrewplummer/Sugar/) 在原生对象上增加一些工具方法
     * [functional.js](https://github.com/leecrossley/functional-js/) 提够了一些Curry的支持
-    * [Watch.js](https://github.com/melanke/Watch.JS) 监视对象或属性的变化
     * [bacon.js](https://github.com/baconjs/bacon.js/) 函数式编程，cool
     * [streamjs](https://github.com/winterbe/streamjs) 用流的方式来对数组，对象进行系列操作
-    * [rewrap](https://github.com/taijiweb/rewrap) 正则工具库。相关插件[regexp-frequent](https://github.com/taijiweb/regexp-frequent),[rewrap-patch](https://github.com/taijiweb/rewrap-patch)
+* 数据类型
+    * 字符串
+        * [strman](https://github.com/dleitee/strman) 字符串操作库。它为各种实用程序、格式选项和字符串转换，提供了超过 60 种实用的方法。
+    * 数字
+        * [BigDecimal.js](https://github.com/dtrebbien/BigDecimal.js) 提高精度的数字操作
+    * 对象
+        * [Watch.js](https://github.com/melanke/Watch.JS) 监视对象或属性的变化
+    * 时间
+        * [moment](http://momentjs.com/)
+        * [datejs](http://www.datejs.com/)
+    * 正则
+        * [rewrap](https://github.com/taijiweb/rewrap) 正则工具库。相关插件[regexp-frequent](https://github.com/taijiweb/regexp-frequent),[rewrap-patch](https://github.com/taijiweb/rewrap-patch)
 * 异步流程控制
     * 发布订阅
         * [eventproxy](https://github.com/JacksonTian/eventproxy) 朴灵出品
@@ -38,9 +48,6 @@
 * mock
     * [Mock.js](https://github.com/nuysoft/Mock) 生成随机数据和mock Ajax 请求
     * [jquery-mockjax](https://github.com/jakerella/jquery-mockjax) [mock](http://baike.baidu.com/view/2445748.htm) ajax请求
-* 时间库
-    * [moment](http://momentjs.com/)
-    * [datejs](http://www.datejs.com/)
 * 浏览器探测
     * [Bowser](https://github.com/ded/bowser) 探测具体浏览器和版本
     * [ua-parser-js](https://github.com/faisalman/ua-parser-js) 探测具体浏览器和版本，操作系统，设备类型等
@@ -52,7 +59,6 @@
 * [Cookie](https://github.com/ScottHamper/Cookies) 增删改cookie的工具库
 * [store.js](https://github.com/marcuswestin/store.js/) 对 localStorage 的封装。兼容 IE6+。
 * [director](https://github.com/flatiron/director) 前端路由库 [详细](detail/director)
-* [BigDecimal.js](https://github.com/dtrebbien/BigDecimal.js) 提高精度的数字操作
 * [JSDoc](http://usejsdoc.org/) 根据javascript文件中注释的信息，生成API文档 [详细](detail/JSDoc)
 * [hotkeys](http://jslite.io/hotkeys/) 键盘事件的封装
 * [MD5](https://github.com/pvorb/node-md5) 用 MD5 的方式加密文件的库
@@ -209,6 +215,7 @@
 * [reveal](https://github.com/hakimel/reveal.js) 3d滚动。做ppt相当不错
 * [nodePPT](https://github.com/ksky521/nodePPT) 国人做的，做ppt也相当不错。有些方面比 reveal做的还好。但生成导出的html有些问题
 * [roundabout](https://github.com/fredleblanc/roundabout) 3d切换，看的后面图片的边
+* [SmartPhoto](https://github.com/appleple/SmartPhoto) 专为移动设备打造的响应式图像查看器，它易于使用，并支持手势触摸操作，例如捏合或者滑动。同时，它还具备对初学者友好的大量实用的事件处理器，以及用户自定义选项。
 
 ### 弹出框
 * [Magnific-Popup](https://github.com/dimsemenov/Magnific-Popup) 兼容PC，Mobile。还不错，有5k+的star
