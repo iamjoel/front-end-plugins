@@ -1,7 +1,4 @@
 # Web 前端常用插件
-## 项目文件结构
-* [detail/](detail) 一些组件的详细说明，以及使用 Demo
-
 ## 目录
 * [工具类](#tool)
 * [浏览器增强类](#browser-strong)
@@ -294,6 +291,7 @@
 * [Masonry](https://github.com/desandro/masonry) 一个瀑布流框架
 * [devices.css](https://github.com/marvelapp/devices.css) 移动设备边框的外观。做原型的时候用不错。
 * [city](https://github.com/basecss/city) 国家行政区划分数据。从国家统计局拿的。 [城市数据](https://github.com/basecss/city/blob/master/lib/citydata.json)
+* [全栈JavaScript错误监控](https://fundebug.com/) 提供监控报错的服务。
 
 ## <a name="bootstrap">Bootstrap相关类</a>
 * [Bootbox.js](http://bootboxjs.com/) 对bootstrap的弹出框做的一些封装
