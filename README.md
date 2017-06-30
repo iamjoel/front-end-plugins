@@ -96,6 +96,7 @@
 * [switchery](http://abpetkov.github.io/switchery/) ios7风格的开关组件
 * [nouislider](https://refreshless.com/nouislider/) 用滚动条来设置/控制（音量等）
 * [range.css](http://danielstern.ca/range.css/) 美化`input[type=range]`元素的外观
+* [Colorion](http://gradientbuttons.colorion.co/) 背景是渐变色的按钮。hover 时有动画效果。
 
 ## <a name="img">图片类</a>
 * [holderjs](http://imsky.github.io/holder/) 生成占位图片
