@@ -191,7 +191,7 @@
 ### HTML5播放器
 * [jwplayer](https://www.jwplayer.com/) 被大量网站使用
 * [html5media](https://html5media.info/) 简单的h5player，轻量级
-* [jplayer](http://jplayer.org/) 功能强太，可换肤
+* [jplayer](http://jplayer.org/) 功能强大，可换肤
 
 ### 展示
 * [Impress.js](https://developer.cdn.mozilla.net/media/uploads/demos/b/a/bartaz/54e3827142e4149a5c01db64c9517c84/impressjs_1333223745_demo_package/index.html#/bored) 各种旋转，和奇特的体验
