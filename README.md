@@ -75,8 +75,8 @@
 ### 选择器增强
 * [Lining.js](https://github.com/zmmbreeze/lining.js) 让浏览器实现类似`::nth-line(), ::nth-last-line()`的效果
 
-### 未归类
-* [prefixfree](https://github.com/LeaVerou/prefixfree/) 用了它，写css时，就不需要加浏览器的前缀了
+### CSS 兼容性
+* [prefixfree](https://github.com/LeaVerou/prefixfree/) 根据 caniuse.com 数据库自动补全 CSS 私有前缀
 
 ## <a name="form">表单类</a>
 * [jquery-file-upload](https://github.com/blueimp/jQuery-File-Upload) 上传文件组件 [详细](detail/fileUpload)
@@ -202,13 +202,14 @@
 * [timelinejs](https://github.com/ilkeryilmaz/timelinejs/) 用时间轴方式展示信息。
 
 ### 幻灯
+* [SuperSlide](http://www.superslide2.com/)/[TouchSlide](http://www.superslide2.com/) 国产库！兼容IE6，焦点图/幻灯片/Tab标签切换/图片滚动/无缝滚动等常见效果，支持移动端
 * [slidesjs](http://slidesjs.com/) 挺好用的，只是那幻灯导航的CSS都要自己写，呵呵 [详细](detail/jquery.slide)
 * [iSlider](https://github.com/BE-FE/iSlider) 无任何插件依赖的手机平台javascript滑动组件 [详细](detail/iSlider)
 * [bgstretcher](http://www.ajaxblender.com/bgstretcher-2-jquery-stretch-background-plugin-updated.html) 全屏幻灯，会随着页面大小的变化而变化。
 * [Swiper](https://github.com/nolimits4web/swiper/) 开源、免费、强大的移动端触摸滑动插件 [Swiper中文网](http://www.swiper.com.cn/)
-* [coin-slider](https://github.com/kopipejst/coin-slider/) 兼容IE6。蛮好的~。不过其切换方式是一块块的。不能配置切换方式。。。
+* [coin-slider](https://github.com/kopipejst/coin-slider/) 兼容IE6，不过其切换方式是一块块的。不能配置切换方式
 * [wowslider](http://wowslider.com/rq/jquery-image-viewer/)  幻灯切换时各种很炫的效果。收费。
-* [cycle2](http://jquery.malsup.com/cycle2/) 普通的幻灯，竟然不支持垂直滚动。。。
+* [cycle2](http://jquery.malsup.com/cycle2/) 普通的幻灯，竟然不支持垂直滚动
 * [jcarousel](http://sorgalla.com/jcarousel/) 普通的幻灯，不兼容IE6
 * [reveal](https://github.com/hakimel/reveal.js) 3d滚动。做ppt相当不错
 * [nodePPT](https://github.com/ksky521/nodePPT) 国人做的，做ppt也相当不错。有些方面比 reveal做的还好。但生成导出的html有些问题
@@ -304,6 +305,8 @@
     * [Mint UI](https://github.com/ElemeFE/mint-ui) Mobile UI elements for Vue.js。
     * [vux](https://github.com/airyland/vux)
     * [vue-weui](https://github.com/adcentury/vue-weui)
+    * [vue-resource](https://github.com/pagekit/vue-resource) The HTTP client for Vue.js, Ajax 数据交换
+    * [vue-router](https://github.com/vuejs/vue-router) 官方提供的路由插件
 * PC
     * [Vue Admin](https://github.com/fundon/vue-admin)
     * [element](https://github.com/ElemeFE/element)
