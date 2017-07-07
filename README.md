@@ -220,6 +220,9 @@
 * [Magnific-Popup](https://github.com/dimsemenov/Magnific-Popup) 兼容PC，Mobile。还不错，有5k+的star
 * [layer](https://github.com/sentsin/layer) 国人开发的，兼容ie6+。不喜欢其调用方式。
 
+### 二维码
+* [jquery-qrcode](https://github.com/jeromeetienne/jquery-qrcode) 生成二维码图片。基于jQuery，很好用。
+
 ### 动画效果
 * [animate.css](https://github.com/daneden/animate.css) 预设了很多动画。
 * [transformjs](https://github.com/AlloyTeam/AlloyTouch/tree/master/transformjs) Made css3 transform super easy。腾讯出品。
@@ -263,7 +266,6 @@
 * [proTip](http://protip.rocks/) 提示。感觉比 Bootstrap 的 tip 好
 * [Hammerjs](http://hammerjs.github.io/) 手势库。封装了 Swipe, Tap, Pinch, Pan等手势
 * [favico.js](http://lab.ejci.net/favico.js/) 动态改 favicon。牛逼是可以放视频~
-
 
 ## <a name="anim">动画</a>
 * [velocity](https://github.com/julianshapiro/velocity) 提高Jquery动画的性能。以及颜色动画之类的新特性。
