@@ -42,6 +42,8 @@
         * [Arbiter.js](http://arbiterjs.com/) [详细](detail/Arbiter)
     * [q](https://github.com/kriskowal/q/) Promise风格的
     * [Async.js](https://github.com/caolan/async/)
+* 加载器
+    * [little-loader](https://github.com/walmartlabs/little-loader) JS 加载器。Webpack 不支持加载外部js，可用这个。
 * mock
     * [Mock.js](https://github.com/nuysoft/Mock) 生成随机数据和mock Ajax 请求
     * [jquery-mockjax](https://github.com/jakerella/jquery-mockjax) [mock](http://baike.baidu.com/view/2445748.htm) ajax请求
@@ -134,6 +136,7 @@
 
 ### 数据可视化(图表)
 * [Echarts](http://echarts.baidu.com/) 百度出品
+* [D3.js](https://d3js.org/) 超灵活的做数据可视化的工具。
 * [highcharts](http://www.highcharts.com/) 功能强大。是收费的。
 * [Plottable.JS](http://plottablejs.org/) 基于D3的一个图表库
 * [flot](http://www.flotcharts.org/) 文档不给力
@@ -200,6 +203,7 @@
 * [pagePiling](http://alvarotrigo.com/pagePiling/) 和fullPage类似
 * [turn.js](https://github.com/blasten/turn.js) 做一本书，带漂亮的翻页的效果
 * [timelinejs](https://github.com/ilkeryilmaz/timelinejs/) 用时间轴方式展示信息。
+* [coverflow](https://github.com/quietshu/coverflow)  苹果上唱片封面的效果（Apple Cover Flow UI effect）。
 
 ### 幻灯
 * [SuperSlide](http://www.superslide2.com/)/[TouchSlide](http://www.superslide2.com/) 国产库！兼容IE6，焦点图/幻灯片/Tab标签切换/图片滚动/无缝滚动等常见效果，支持移动端
