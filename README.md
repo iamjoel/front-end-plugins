@@ -111,7 +111,7 @@
 * SVG做的图标
     * [svgicons](http://svgicons.sparkk.fr/)
     * [iconic](https://useiconic.com/icons/)
-    * [HYBICON](http://hybicon.softwaretailoring.net/documentation.html) 带交互效果。如 hover, click
+    * [hybicon.js](http://hybicon.softwaretailoring.net/documentation.html) 带交互效果。如 hover, click。 [详细](detail/hybicon)
 * HTML字符实体图标
     * http://www.amp-what.com/
 * [transformicons](http://www.transformicons.com/) 图标点击时，会有一些变换效果。如，加号变成叉号
