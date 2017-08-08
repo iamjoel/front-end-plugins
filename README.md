@@ -62,6 +62,7 @@
 * [hotkeys](http://jslite.io/hotkeys/) 键盘事件的封装
 * [MD5](https://github.com/pvorb/node-md5) 用 MD5 的方式加密文件的库
 * [Exif.js](https://github.com/exif-js/exif-js) 读取 JPEG 图片的拍摄信息。可以通过拍摄信息中的 Orientation 来解决 ios 手机上传竖拍照片会逆时针旋转90度的问题。
+* [download](https://github.com/kevva/download) 实现下载的库。支持 url 和流。 [详细](detail/download)
 
 ## <a name="browser-strong">浏览器增强类</a>
 ### 让一些旧浏览器变牛逼的库

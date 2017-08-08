@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <!-- https://github.com/egoist/slogan/blob/gh-pages/index.html -->
+  <canvas id="canvas" width="100" height="100"></canvas>
+  <script src="https://unpkg.com/downloadjs@1.4.6"></script>
+  <script>
+    var canvas = document.querySelector('#canvas')
+    var ctx = canvas.getContext('2d')
+    ctx.fillStyle = 'yellow'
+    ctx.fillRect(0, 0, 80, 80);
+    canvas.addEventListener('click', function () {
+      var image = canvas.toDataURL();
+      download(image, 'slogan-download.png', 'image/png')
+    })
+    
+  </script>
+</body>
+</html>
