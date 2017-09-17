@@ -63,6 +63,10 @@
 * [MD5](https://github.com/pvorb/node-md5) 用 MD5 的方式加密文件的库
 * [Exif.js](https://github.com/exif-js/exif-js) 读取 JPEG 图片的拍摄信息。可以通过拍摄信息中的 Orientation 来解决 ios 手机上传竖拍照片会逆时针旋转90度的问题。
 * [download](https://github.com/kevva/download) 实现下载的库。支持 url 和流。 [详细](detail/download)
+* 模板引擎
+  * [Handlebar](http://handlebarsjs.com/installation.html)
+  * [Ejs](http://www.embeddedjs.com/)
+  * [Jade](http://jade-lang.com/)
 * 生成pdf
   * [jsPDF](https://github.com/MrRio/jsPDF) 在浏览器端生成 pdf。
   * [pdfkit](http://pdfkit.org/)
@@ -230,7 +234,8 @@
 * [layer](https://github.com/sentsin/layer) 国人开发的，兼容ie6+。不喜欢其调用方式。
 
 ### 二维码
-* [jquery-qrcode](https://github.com/jeromeetienne/jquery-qrcode) 生成二维码图片。基于jQuery，很好用。
+* [QR Code Generator](https://github.com/kazuhikoarase/qrcode-generator/tree/master/js)
+* [jquery-qrcode](https://github.com/jeromeetienne/jquery-qrcode) 生成二维码图片的jQuery 插件，很好用。该插件是基于 QR Code Generator 开发的。
 
 ### 动画效果
 * [animate.css](https://github.com/daneden/animate.css) 预设了很多动画。
