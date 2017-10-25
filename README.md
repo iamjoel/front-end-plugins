@@ -36,6 +36,7 @@
         * [datejs](http://www.datejs.com/)
     * 正则
         * [rewrap](https://github.com/taijiweb/rewrap) 正则工具库。相关插件[regexp-frequent](https://github.com/taijiweb/regexp-frequent),[rewrap-patch](https://github.com/taijiweb/rewrap-patch)
+    * [parameter](https://github.com/node-modules/parameter) 验证参数的格式
 * 异步流程控制
     * 发布订阅
         * [eventproxy](https://github.com/JacksonTian/eventproxy) 朴灵出品
