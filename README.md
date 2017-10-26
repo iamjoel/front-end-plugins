@@ -13,7 +13,8 @@
 * [测试](#test)
 * [其他类](#other)
 * [Bootstrap相关类](#bootstrap)
-* [Vue.js 相关类](#vue)
+* [Vue.js 相关](#vue)
+* [React 相关](#react)
 * [JS Plugins仓库](#repository)
 
 ## <a name="tool">工具类</a>
@@ -319,14 +320,20 @@
 
 ## <a name="vue">Vue相关</a>
 * 手机
-    * [Mint UI](https://github.com/ElemeFE/mint-ui) Mobile UI elements for Vue.js。
+    * [Vant](https://www.youzanyun.com/zanui/vue#/zh-CN/component/quickstart) 有赞出品。组件比 Mint UI 多。
+    * [Mint UI](https://github.com/ElemeFE/mint-ui) 饿了么出品。
     * [vux](https://github.com/airyland/vux)
     * [vue-weui](https://github.com/adcentury/vue-weui)
     * [vue-resource](https://github.com/pagekit/vue-resource) The HTTP client for Vue.js, Ajax 数据交换
     * [vue-router](https://github.com/vuejs/vue-router) 官方提供的路由插件
-* PC
+* 管理后台
+    * [Element UI](https://github.com/ElemeFE/element) 饿了么出品。
     * [Vue Admin](https://github.com/fundon/vue-admin)
-    * [element](https://github.com/ElemeFE/element)
+
+## <a name="react">React 相关</a>
+* 管理后台
+    * [Zent](https://www.youzanyun.com/zanui/react/guides/install) 有赞出品。Zent ( \ˈzent\ ) 是有赞 PC 端 WebUI 规范的 React 实现，提供了一整套基础的 UI 组件以及一些常用的业务组件。 
+
 
 ## <a name="repository">JS Plugins仓库</a>
 * [jQuery Cards](http://jquerycards.com/) 高质量的 jQuery 插件网站
