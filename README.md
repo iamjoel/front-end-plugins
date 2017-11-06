@@ -72,7 +72,7 @@
 * 生成pdf
   * [jsPDF](https://github.com/MrRio/jsPDF) 在浏览器端生成 pdf。
   * [pdfkit](http://pdfkit.org/)
-
+* [compass.js](http://ai.github.io/compass.js/) 指南针。只有在手机浏览器上才能用。
 
 ## <a name="browser-strong">浏览器增强类</a>
 ### 让一些旧浏览器变牛逼的库
