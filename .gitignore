@@ -2,3 +2,5 @@ node_modules
 
 # 源文件的一些处理
 dist
+
+.DS_Store
