@@ -46,14 +46,14 @@
 
 ## <a name="basic">基础组件</a>
 ### [NavBar](components/navbar)
-![](components/navbar/screenshot/demo1.png)
+![](components/navbar/screenshot/basic.png)
 
 头部导航栏。
 
 ### 搜索栏
 
 ### [TabBar](components/tabbar)
-![](components/tabbar/screenshot/demo1.png)
+![](components/tabbar/screenshot/basic.png)
 
 底部选项卡。
 
