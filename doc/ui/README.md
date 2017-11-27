@@ -86,6 +86,8 @@
 ### 选地址
 省，市，区选择。
 
+### 评论
+
 ### 商城类
 #### 商品卡片
 
@@ -125,3 +127,20 @@
   * ...
 * 其他
   * 是否支持列表
+
+## 参考链接
+* 管理后台
+  * [Element UI](http://element-cn.eleme.io/#/zh-CN)
+  * [Ant Design Pro](https://pro.ant.design/index-cn)
+  * [Ant Design 组件定义](https://ant.design/docs/react/introduce-cn)
+  * [Bootstrap3](http://v3.bootcss.com/)
+  * [Bootstrap4](http://v4.bootcss.com/)
+* 手机
+  * [Vant](https://www.youzanyun.com/zanui/vant#/zh-CN/component/quickstart)
+  * [Mint UI](http://mint-ui.github.io/docs/#/zh-cn2)
+  * [WeUI](https://weui.io/) 一套同微信原生视觉体验一致的基础样式库，由微信官方设计团队为微信内网页和微信小程序量身设计，令用户的使用感知更加统一。
+* 组件库
+  * [jQuery Cards](http://jquerycards.com/) 高质量的 jQuery 插件网站
+  * [jster](http://jster.net/)
+
+
