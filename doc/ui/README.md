@@ -58,18 +58,32 @@
 ### [多选框](components/form/checkbox)
 ![](components/form/checkbox/screenshot/basic.png)  
 
-### [开关](components/form/switch)
+### [Switch 开关](components/form/switch)
 ![](components/form/switch/screenshot/basic.png)  
 
 ### Select 下拉框
+![](components/form/select/screenshot/basic.png)  
 
 ### Cascader 级联下拉框
+![](components/form/cascader/screenshot/basic.png)  
 
 ### 时间选择器
+![](components/form/time-picker/screenshot/basic.png)  
 
 ### 日期选择器
+![](components/form/date-picker/screenshot/basic.png)  
+
+### 日期时间选择器
+![](components/form/datetime-picker/screenshot/basic.png)
+
+### 颜色选择器
+![](components/form/color-picker/screenshot/basic.png)  
 
 ### Slider 滑块
+![](components/form/slider/screenshot/basic.png)  
+
+### 上传
+![](components/form/upload/screenshot/basic.png)  
 
 ### Progress 进度条
 
@@ -89,6 +103,10 @@
 
 ### Panel 面板
 放自定义内容。
+
+### Alert 框
+
+### Confirm 框
 
 ### 弹出框
 
@@ -120,6 +138,8 @@
 ### 图片上传
 
 ## <a name="business">业务组件</a>
+### Rate 评分
+
 ### 选地址
 省，市，区选择。
 
