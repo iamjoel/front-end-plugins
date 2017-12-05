@@ -48,6 +48,7 @@
 ![](components/form/number/screenshot/btn-right.png)
 
 ### NumberKeyboard 数字键盘
+![](components/form/number-keyboard/screenshot/basic.png)  
 
 ### 单选框
 
