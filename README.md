@@ -262,6 +262,7 @@
 * [scrollorama](https://github.com/johnpolacek/scrollorama) 比较简单
 * [superscrollorama](https://github.com/johnpolacek/superscrollorama) 能做的效果更多，但要用第三方Tween的库，使用起来比较复杂。
 * [scrolldeck](https://github.com/johnpolacek/scrolldeck.js)
+* [stellar.js](https://github.com/markdalgleish/stellar.js) 让图片或背景图以不同速率移动，已停止维护。
 
 ### flash
 * [swfobj](https://code.google.com/archive/p/swfobject/wikis/documentation.wiki) 能够自动检测PC、Mac机器上各种主流浏览器对Flash插件的支持情况。它使得插入Flash媒体资源尽量简捷、安全。而且它是非常符合搜索引擎优化的原则的。此外，它能够避免您的HTML、XHTML中出现object、embed等非标准标签，从而符合更加标准。 [详细](detail/flash)
@@ -331,6 +332,7 @@
 * 管理后台
     * [Element UI](https://github.com/ElemeFE/element) 饿了么出品。
     * [Vue Admin](https://github.com/fundon/vue-admin)
+* [Vue-head](https://github.com/ktquez/vue-head) 管理head标签中的信息。
 
 ## <a name="react">React 相关</a>
 * 管理后台
