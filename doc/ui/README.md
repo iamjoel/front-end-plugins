@@ -7,6 +7,7 @@
 
 ## 组件目录
 * [原子组件&组合](#atom)
+  * [表单元素](#form)
 * [布局&容器组件](#layout)
 * [基础组件](#basic)
 * [业务组件](#business)
@@ -35,12 +36,16 @@
 ### [Icon 图标/字体图标](components/icon)
 ![](components/icon/screenshot/basic.png)
 
-### [Input 输入框 & 文本域](components/form/field)
+## <a name="form">表单元素</a>
+### [Input 输入框 & 密码框 & 文本域](components/form/field)
 ![](components/form/field/screenshot/basic.png)  
 
 ![](components/form/field/screenshot/area.png)
 
-### 密码框
+### [InputNumber 计数器](components/form/number)
+![](components/form/number/screenshot/basic.png)  
+
+![](components/form/number/screenshot/btn-right.png)
 
 ### NumberKeyboard 数字键盘
 
@@ -50,9 +55,9 @@
 
 ### 开关
 
-### 下拉框
+### Select 下拉框
 
-### 下拉框级联
+### Cascader 级联下拉框
 
 ### Progress 进度条
 

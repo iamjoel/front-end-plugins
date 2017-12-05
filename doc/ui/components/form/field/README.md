@@ -1,4 +1,4 @@
-# Input 输入框 & 文本域
+# Input 输入框 & 密码框 & 文本域
 <div align="center">
   <img src="screenshot/basic.png" alt="外观"> <br>
   <img src="screenshot/area.png" alt="外观">
