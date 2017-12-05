@@ -47,18 +47,28 @@
 
 ![](components/form/number/screenshot/btn-right.png)
 
-### NumberKeyboard 数字键盘
+### [NumberKeyboard 数字键盘](components/form/number-keyboard)
 ![](components/form/number-keyboard/screenshot/basic.png)  
 
-### 单选框
+### [单选框](components/form/radio)
+![](components/form/radio/screenshot/basic.png)  
 
-### 复选框
+![](components/form/radio/screenshot/btn-style.png)
+
+### [多选框](components/form/checkbox)
+![](components/form/checkbox/screenshot/basic.png)  
 
 ### 开关
 
 ### Select 下拉框
 
 ### Cascader 级联下拉框
+
+### 时间选择器
+
+### 日期选择器
+
+### Slider 滑块
 
 ### Progress 进度条
 
