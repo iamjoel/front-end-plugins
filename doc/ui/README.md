@@ -8,6 +8,7 @@
 ## 组件目录
 * [原子组件&组合](#atom)
   * [表单元素](#form)
+  * [提醒](#notice)
 * [布局&容器组件](#layout)
 * [基础组件](#basic)
 * [业务组件](#business)
@@ -86,8 +87,33 @@
 ![](components/form/upload/screenshot/basic.png)  
 
 ### Progress 进度条
+![](components/progress/screenshot/basic.png)  
 
+## <a name="notice">提醒</a>
 ### Loading 加载
+![](components/notice/loading/screenshot/basic.png)  
+
+### Alert 警告
+用于页面中展示重要的提示信息。非浮层元素，不会自动消失。
+
+![](components/notice/alert/screenshot/basic.png)  
+
+### Message 消息提示
+![](components/notice/message/screenshot/basic.png)  
+
+### MessageBox 弹框
+MessageBox 的作用是美化系统自带的 alert、confirm 和 prompt。
+
+![](components/notice/message-box/screenshot/alert.png)  
+
+![](components/notice/message-box/screenshot/confirm.png)  
+
+![](components/notice/message-box/screenshot/promt.png)  
+
+### Notification 通知
+悬浮出现在页面角落，显示全局的通知提醒消息。
+
+![](components/notice/message-notification/screenshot/basic.png)  
 
 ## <a name="layout">布局&容器组件</a>
 布局&容器组件中，可以放任意类型的其他组件。
