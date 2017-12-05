@@ -19,7 +19,13 @@
 ![](components/button-group/screenshot/basic.png)
 
 ### [Badge 标记](components/badge)
-![](components/badge/screenshot/basic.png)
+![](components/badge/screenshot/basic.png)  
+
+![](components/badge/screenshot/max.png)  
+
+![](components/badge/screenshot/string.png)  
+
+![](components/badge/screenshot/dot.png)
 
 ### [Icon 图标/字体图标](components/icon)
 ![](components/icon/screenshot/basic.png)
