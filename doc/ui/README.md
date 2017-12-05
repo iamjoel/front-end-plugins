@@ -58,7 +58,8 @@
 ### [多选框](components/form/checkbox)
 ![](components/form/checkbox/screenshot/basic.png)  
 
-### 开关
+### [开关](components/form/switch)
+![](components/form/switch/screenshot/basic.png)  
 
 ### Select 下拉框
 
