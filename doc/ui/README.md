@@ -1,4 +1,6 @@
 # UI组件
+> 对组件的描述进行标准化。为以后做生成代码工具提供内容。
+
 ## 组件信息
 * [组件定义](#define)
 * [组件实现](#implement)
@@ -26,6 +28,9 @@
 ![](components/badge/screenshot/string.png)  
 
 ![](components/badge/screenshot/dot.png)
+
+### [Tag 标签](components/tag)
+![](components/tag/screenshot/basic.png)  
 
 ### [Icon 图标/字体图标](components/icon)
 ![](components/icon/screenshot/basic.png)
