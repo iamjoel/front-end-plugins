@@ -35,11 +35,10 @@
 ### [Icon 图标/字体图标](components/icon)
 ![](components/icon/screenshot/basic.png)
 
-### Progress 进度条
+### [Input 输入框 & 文本域](components/form/filed)
+![](components/icon/screenshot/basic.png)  
 
-### Loading 加载
-
-### 输入框
+![](components/icon/screenshot/area.png)
 
 ### 密码框
 
@@ -55,10 +54,16 @@
 
 ### 下拉框级联
 
+### Progress 进度条
+
+### Loading 加载
+
 ## <a name="layout">布局&容器组件</a>
 布局&容器组件中，可以放任意类型的其他组件。
 
 ### 删格
+
+### 表单
 
 ### Tab 选项卡
 
@@ -72,7 +77,6 @@
 
 ### 多媒体(Media)组件
 图/音乐/视频 + 文字。
-
 
 ## <a name="basic">基础组件</a>
 

@@ -1,9 +1,9 @@
 # Badge 标记
 <div align="center">
-  <img src="screenshot/basic.png" alt="外观">
-  <img src="screenshot/max.png" alt="外观">
-  <img src="screenshot/string.png" alt="外观">
-  <img src="screenshot/dot.png" alt="外观">
+  <img src="screenshot/basic.png" alt="外观"><br>
+  <img src="screenshot/max.png" alt="外观"><br>
+  <img src="screenshot/string.png" alt="外观"><br>
+  <img src="screenshot/dot.png" alt="外观"><br>
 </div>
 
 ## 功能
