@@ -35,10 +35,10 @@
 ### [Icon 图标/字体图标](components/icon)
 ![](components/icon/screenshot/basic.png)
 
-### [Input 输入框 & 文本域](components/form/filed)
-![](components/icon/screenshot/basic.png)  
+### [Input 输入框 & 文本域](components/form/field)
+![](components/form/field/screenshot/basic.png)  
 
-![](components/icon/screenshot/area.png)
+![](components/form/field/screenshot/area.png)
 
 ### 密码框
 
