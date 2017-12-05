@@ -7,23 +7,39 @@
 * [原子组件&组合](#atom)
 * [布局&容器组件](#layout)
 * [基础组件](#basic)
-* [表单组件](#form)
 * [业务组件](#business)
 
 ## <a name="atom">原子组件&组合</a>
 原子组件指小颗粒的，基本不可拆分的组件。
 
-### 按钮
+### [按钮](components/button)
+![](components/button/screenshot/basic.png)
 
 ### 按钮组
 
-### Icon 图标
+### Icon 图标/字体图标
 
 ### Badge 徽章
 
 ### Progress 进度条
 
 ### Loading 加载
+
+### 输入框
+
+### 密码框
+
+### NumberKeyboard 数字键盘
+
+### 单选框
+
+### 复选框
+
+### 开关
+
+### 下拉框
+
+### 下拉框级联
 
 ## <a name="layout">布局&容器组件</a>
 布局&容器组件中，可以放任意类型的其他组件。
@@ -45,6 +61,8 @@
 
 
 ## <a name="basic">基础组件</a>
+
+
 ### [NavBar](components/navbar)
 ![](components/navbar/screenshot/basic.png)
 
@@ -63,22 +81,6 @@
 ### 轮播
 
 ### 分页
-
-
-## <a name="form">表单组件</a>
-### 输入框
-
-### 密码框
-
-### NumberKeyboard 数字键盘
-
-### 单选框
-
-### 复选框
-
-### 开关
-
-### 下拉框
 
 ### 图片上传
 
