@@ -18,7 +18,8 @@
 ### [按钮组](components/button-group)
 ![](components/button-group/screenshot/basic.png)
 
-### Icon 图标/字体图标
+### [Icon 图标/字体图标](components/icon)
+![](components/icon/screenshot/basic.png)
 
 ### Badge 徽章
 
