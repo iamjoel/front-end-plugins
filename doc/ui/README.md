@@ -15,7 +15,8 @@
 ### [按钮](components/button)
 ![](components/button/screenshot/basic.png)
 
-### 按钮组
+### [按钮组](components/button-group)
+![](components/button-group/screenshot/basic.png)
 
 ### Icon 图标/字体图标
 
