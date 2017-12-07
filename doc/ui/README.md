@@ -216,7 +216,8 @@ MessageBox 的作用是美化系统自带的 alert、confirm 和 prompt。
   * [Element UI](http://element-cn.eleme.io/#/zh-CN)
   * [Ant Design Pro](https://pro.ant.design/index-cn)
   * [Ant Design 组件定义](https://ant.design/docs/react/introduce-cn)
-  * [iView Admin](https://github.com/iview/iview-admin) 里面有些城市级联的不错。
+  * [iView Admin](https://github.com/iview/iview-admin)
+  * [Fish UI](https://github.com/myliang/fish-ui)
   * [Bootstrap3](http://v3.bootcss.com/)
   * [Bootstrap4](http://v4.bootcss.com/)
 * 手机
