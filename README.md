@@ -74,6 +74,9 @@
   * [pdfkit](http://pdfkit.org/)
 * [compass.js](http://ai.github.io/compass.js/) 指南针。只有在手机浏览器上才能用。
 * [中国行政区域数据](https://github.com/airyland/china-area-data)
+* canvas
+  * [jcanvas](https://projects.calebevans.me/jcanvas) 基于 jQuery 的 canvas 工具库，支持托拽。[画画的Demo](https://projects.calebevans.me/painter/)
+
 
 ## <a name="browser-strong">浏览器增强类</a>
 ### 让一些旧浏览器变牛逼的库
