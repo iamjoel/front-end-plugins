@@ -112,7 +112,10 @@
 * [DropKick](http://robdel12.github.io/DropKick/) 下拉框，单，多选。外观比uniform好
 * [switchery](http://abpetkov.github.io/switchery/) ios7风格的开关组件
 * [nouislider](https://refreshless.com/nouislider/) 用滚动条来设置/控制（音量等）
-* [range.css](http://danielstern.ca/range.css/) 美化`input[type=range]`元素的外观
+* 滑块/Range
+  * [vue slider component](https://github.com/NightCatSama/vue-slider-component) 基于 Vue。
+  * [slider](https://github.com/react-component/slider) 基于 React。
+  * [range.css](http://danielstern.ca/range.css/) 美化`input[type=range]`元素的外观
 * [Colorion](http://gradientbuttons.colorion.co/) 背景是渐变色的按钮。hover 时有动画效果。
 
 ## <a name="img">图片类</a>
