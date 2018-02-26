@@ -340,6 +340,7 @@
 * 管理后台
     * [Element UI](https://github.com/ElemeFE/element) 饿了么出品。
     * [Vue Admin](https://github.com/fundon/vue-admin)
+* [Muse UI](https://github.com/museui/muse-ui) Material Design 的 Vue 实现。
 * [Vue-head](https://github.com/ktquez/vue-head) 管理head标签中的信息。
 
 ## <a name="react">React 相关</a>
