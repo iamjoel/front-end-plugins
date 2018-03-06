@@ -175,8 +175,9 @@
 ### 滚动无限加载
 * [vue-recyclerview](https://github.com/hilongjw/vue-recyclerview) 高性能的滚动无限列表加载。为了提高性能，代码有重复利用 DOM。
 
-### 自定义滚动条
-* [perfect scrollbar](https://github.com/noraesae/perfect-scrollbar) 轻量级的滚动条。外观与mac上chrome的滚动条一样。
+### 自定义/美化滚动条
+* [better scroll](https://github.com/ustbhuangyi/better-scroll) [文档](https://ustbhuangyi.github.io/better-scroll/doc/zh-hans/) 在PC上使用时的推荐配置： `{scrollbar:true,mouseWheel: {speed: 20,invert: false}}`
+* [perfect scrollbar](https://github.com/noraesae/perfect-scrollbar) 轻量级的滚动条。外观与mac上chrome的滚动条一样。 对 IE11- 兼容性不好。
 * [iscroll](http://iscrolljs.com) 在移动设备上用不错
 
 ### 加载(Loding)效果
