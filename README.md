@@ -160,6 +160,9 @@
 * [flot](http://www.flotcharts.org/) 文档不给力
 * [chartJs](http://www.chartjs.org/) [中文文档](http://www.bootcss.com/p/chart.js/docs/)  demo很漂亮，很清晰。比较轻量级。
 * [ichartJs](http://www.ichartjs.com/) 中国的一个家伙搞的，感觉还不错。
+* k线图(k line)
+  * [Echarts的k线图](http://echarts.baidu.com/echarts2/doc/doc.html#K) 功能比较简单
+  * [kline](https://github.com/chxj1992/kline) 功能比较多，支持 webpack 等。
 
 ### 时间选取组件
 * [foundation-datepicker](http://foundation-datepicker.peterbeno.com/example.html)
