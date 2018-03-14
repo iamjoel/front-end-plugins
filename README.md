@@ -177,6 +177,7 @@
 
 ### 滚动无限加载
 * [vue-recyclerview](https://github.com/hilongjw/vue-recyclerview) 高性能的滚动无限列表加载。为了提高性能，代码有重复利用 DOM。
+* [React Infinite Scroller](https://github.com/CassetteRocks/react-infinite-scroller) 基于 React。
 
 ### 自定义/美化滚动条
 * [better scroll](https://github.com/ustbhuangyi/better-scroll) [文档](https://ustbhuangyi.github.io/better-scroll/doc/zh-hans/) 在PC上使用时的推荐配置： `{scrollbar:true,mouseWheel: {speed: 20,invert: false}}`
