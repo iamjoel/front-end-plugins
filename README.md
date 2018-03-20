@@ -174,6 +174,7 @@
 * [zebra-datepicker](http://stefangabos.ro/jquery/zebra-datepicker/) 可配置性很强。但貌似只能在弹出在右上方。。。
 * [bootstrap-datepicker](http://www.eyecon.ro/bootstrap-datepicker/) bootstrap风格。
 * [dateRangePicker](https://github.com/dangrossman/bootstrap-daterangepicker) 选取时间段。bootstrap风格。该组件依赖Twitter Bootstrap, Moment.js和jQuery.
+* [v-calendar](https://github.com/nathanreyes/v-calendar) 基于Vue (版本需要 2.5+)。单日历，双日历，日期范围。
 
 ### 滚动无限加载
 * [vue-recyclerview](https://github.com/hilongjw/vue-recyclerview) 高性能的滚动无限列表加载。为了提高性能，代码有重复利用 DOM。
@@ -346,6 +347,7 @@
     * [Element UI](https://github.com/ElemeFE/element) 饿了么出品。
     * [Vue Admin](https://github.com/fundon/vue-admin)
 * [Muse UI](https://github.com/museui/muse-ui) Material Design 的 Vue 实现。
+* [buefy](https://github.com/buefy/buefy) 基于 Vue 的轻量级 UI 组件库。
 * [Vue-head](https://github.com/ktquez/vue-head) 管理head标签中的信息。
 
 ## <a name="react">React 相关</a>
