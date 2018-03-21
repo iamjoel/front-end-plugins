@@ -297,6 +297,7 @@
 * [Hammerjs](http://hammerjs.github.io/) 手势库。封装了 Swipe, Tap, Pinch, Pan等手势
 * [favico.js](http://lab.ejci.net/favico.js/) 动态改 favicon。牛逼是可以放视频~
 * [elevator.js](https://github.com/tholman/elevator.js) 用做电梯的方式，伴着背景乐，返回到页面顶部。
+* [panorama_viewer](https://github.com/peachananr/panorama_viewer) 轻量级全景图。 代码不足两百行，基于 jQuery。
 
 ## <a name="anim">动画</a>
 * [velocity](https://github.com/julianshapiro/velocity) 提高Jquery动画的性能。以及颜色动画之类的新特性。
