@@ -296,8 +296,10 @@
 * [proTip](http://protip.rocks/) 提示。感觉比 Bootstrap 的 tip 好
 * [Hammerjs](http://hammerjs.github.io/) 手势库。封装了 Swipe, Tap, Pinch, Pan等手势
 * [favico.js](http://lab.ejci.net/favico.js/) 动态改 favicon。牛逼是可以放视频~
-* [elevator.js](https://github.com/tholman/elevator.js) 用做电梯的方式，伴着背景乐，返回到页面顶部。
+* [elevator.js](https://github.com/tholman/elevator.js) 用做电梯的方式，伴着背景乐，返回到页面顶部。 Just for fun。
 * [panorama_viewer](https://github.com/peachananr/panorama_viewer) 轻量级全景图。 代码不足两百行，基于 jQuery。
+* Toast
+  * [cxlt](https://github.com/chengxulvtu/cxlt-vue2-toastr) 基于 Vue2。
 
 ## <a name="anim">动画</a>
 * [velocity](https://github.com/julianshapiro/velocity) 提高Jquery动画的性能。以及颜色动画之类的新特性。
@@ -363,5 +365,8 @@
 * [npmrank](http://anvaka.github.io/npmrank/online/) Sort npm packages by page rank
 * [YOU MIGHT NOT NEED JQUERY PLUGINS](http://youmightnotneedjqueryplugins.com/) 不依赖 jQuery 的 js 插件。
 * [awesome-nodejs](https://github.com/vndmtrx/awesome-nodejs)
+* Vue
+  * [Awesome Vue.js](https://github.com/vuejs/awesome-vue)
+  * [awesome-github-vue](https://github.com/vndmtrx/awesome-nodejs)
 * [Libraries.io](https://libraries.io/) 各种语言的库
 * [OniUI](http://ued.qunar.com/oniui/index.html#avalon.accordion.doc.html) 去哪儿网做的一套基于Avalon的框架
