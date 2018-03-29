@@ -177,6 +177,7 @@
 * [v-calendar](https://github.com/nathanreyes/v-calendar) 基于Vue (版本需要 2.5+)。单日历，双日历，日期范围。
 
 ### 滚动无限加载
+* [vue-infinite-scroll](https://github.com/ElemeFE/vue-infinite-scroll) 饿了么出品。
 * [vue-recyclerview](https://github.com/hilongjw/vue-recyclerview) 高性能的滚动无限列表加载。为了提高性能，代码有重复利用 DOM。
 * [React Infinite Scroller](https://github.com/CassetteRocks/react-infinite-scroller) 基于 React。
 
