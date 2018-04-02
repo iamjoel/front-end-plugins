@@ -25,6 +25,7 @@
     * [functional.js](https://github.com/leecrossley/functional-js/) 提够了一些Curry的支持
     * [bacon.js](https://github.com/baconjs/bacon.js/) 函数式编程，cool
     * [streamjs](https://github.com/winterbe/streamjs) 用流的方式来对数组，对象进行系列操作
+    * [clone.js](https://github.com/pvorb/clone) 对各种对象的深度复制。
 * 数据类型
     * 字符串
         * [strman](https://github.com/dleitee/strman) 字符串操作库。它为各种实用程序、格式选项和字符串转换，提供了超过 60 种实用的方法。
