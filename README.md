@@ -187,6 +187,9 @@
 * [perfect scrollbar](https://github.com/noraesae/perfect-scrollbar) 轻量级的滚动条。外观与mac上chrome的滚动条一样。 对 IE11- 兼容性不好。
 * [iscroll](http://iscrolljs.com) 在移动设备上用不错
 
+### 滚动条其他
+* [ScrollFix](https://github.com/joelambert/ScrollFix) 对 IOS 的滚动优化：局部滚动。配合使用： `overflow-y: scroll; /* has to be scroll, not auto */-webkit-overflow-scrolling: touch`。
+
 ### 加载(Loding)效果
 * [CSS Spinners](https://github.com/jlong/css-spinners) CSS做的
 * [Loaders.css](https://connoratherton.com/loaders) CSS做的
