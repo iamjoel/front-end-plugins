@@ -77,6 +77,7 @@
 * [中国行政区域数据](https://github.com/airyland/china-area-data)
 * canvas
   * [jcanvas](https://projects.calebevans.me/jcanvas) 基于 jQuery 的 canvas 工具库，支持托拽。[画画的Demo](https://projects.calebevans.me/painter/)
+* [Prism](https://github.com/PrismJS/prism) 代码高亮。
 
 
 ## <a name="browser-strong">浏览器增强类</a>
