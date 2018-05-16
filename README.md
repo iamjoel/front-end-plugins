@@ -77,7 +77,6 @@
 * [中国行政区域数据](https://github.com/airyland/china-area-data)
 * canvas
   * [jcanvas](https://projects.calebevans.me/jcanvas) 基于 jQuery 的 canvas 工具库，支持托拽。[画画的Demo](https://projects.calebevans.me/painter/)
-* [Prism](https://github.com/PrismJS/prism) 代码高亮。
 
 
 ## <a name="browser-strong">浏览器增强类</a>
@@ -96,6 +95,7 @@
 
 ### CSS 兼容性
 * [prefixfree](https://github.com/LeaVerou/prefixfree/) 根据 caniuse.com 数据库自动补全 CSS 私有前缀
+* [stickybits](https://github.com/dollarshaveclub/stickybits) `position: sticky` polyfills。
 
 ## <a name="form">表单类</a>
 * [jquery-file-upload](https://github.com/blueimp/jQuery-File-Upload) 上传文件组件 [详细](detail/fileUpload)
@@ -296,7 +296,7 @@
 * [dotdotdot](https://github.com/FrDH/jQuery.dotdotdot) 文字溢出时，添加在文字末尾加省略号
 * [jQuery-menu-aim](https://github.com/kamens/jQuery-menu-aim) 二级菜单的切换如Amazon主页上一样迅速
 * [AnythingZoomer](https://github.com/CSS-Tricks/AnythingZoomer/) 放大镜功能
-* [PRISM](http://prismjs.com/) 代码语法高亮
+* [PRISM](http://prismjs.com/) 代码高亮
 * [please](http://www.checkman.io/please/) 按要求随机舒服的颜色
 * [Awesomplete](http://leaverou.github.io/awesomplete/) 输入的智能提示，自动补全
 * [proTip](http://protip.rocks/) 提示。感觉比 Bootstrap 的 tip 好
