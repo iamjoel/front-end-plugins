@@ -15,6 +15,7 @@
 * [Bootstrap相关类](#bootstrap)
 * [Vue.js 相关](#vue)
 * [React 相关](#react)
+* [GraphQL](#graphql)
 * [JS Plugins仓库](#repository)
 
 ## <a name="tool">工具类</a>
@@ -122,8 +123,9 @@
 
 ## <a name="img">图片类</a>
 * [holderjs](http://imsky.github.io/holder/) 生成占位图片
-* lazyload
 * [imagesLoaded](http://desandro.github.io/imagesloaded/) 选取的图片都加载好后执行调回
+* [gif.js](https://github.com/jnordberg/gif.js) 生成 gif 文件。
+* [core-video-to-gif](https://github.com/JackPu/core-video-to-gif) 将视频截取为 gif 的前端 JavaScript 类库。
 * [CSSgram](https://github.com/una/CSSgram) 用CSS3的Filter实现Instagram滤镜的库
 
 ## <a name="icon">图标类</a>
@@ -363,6 +365,8 @@
 * 管理后台
     * [Zent](https://www.youzanyun.com/zanui/react/guides/install) 有赞出品。Zent ( \ˈzent\ ) 是有赞 PC 端 WebUI 规范的 React 实现，提供了一整套基础的 UI 组件以及一些常用的业务组件。 
 
+## <a name="graphql">GraphQL</a>
+* [prisma](https://github.com/prismagraphql/prisma/)  Prisma turns your database into a realtime GraphQL API。
 
 ## <a name="repository">JS Plugins仓库</a>
 * [jQuery Cards](http://jquerycards.com/) 高质量的 jQuery 插件网站
