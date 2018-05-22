@@ -103,6 +103,7 @@
 * [zTree](http://www.treejs.cn/v3/main.php) 文件树形视图控件 [详细](detail/ztree)
 * [Treed](http://colorify.rocks/index.html) 树编辑器。感觉展示的感觉很像思维导图
 * [FileAPI](https://github.com/mailru/FileAPI) 对文件选择框内的文件的一些处理
+* [autosize](https://github.com/jackmoore/autosize) 让 文本域(textarea) 的高度随着文字内容的变高而变高。
 
 ### 表单验证
 * [.Validate](https://github.com/jzaefferer/jquery-validation) [详细](detail/validate)
@@ -149,6 +150,7 @@
 
 ## <a name="ui-framework">UI 框架</a>
 * [WeUI](https://github.com/weui/weui) 由微信官方设计团队为微信 Web 开发量身设计。
+* [SUI Mobile](https://github.com/sdc-alibaba/SUI-Mobile) 阿里巴巴国际UED前端出品的移动端UI库。
 * [Framework7](http://framework7.io/)
 
 ## <a name="ui">UI 组件类</a>
@@ -192,6 +194,7 @@
 
 ### 滚动条其他
 * [ScrollFix](https://github.com/joelambert/ScrollFix) 对 IOS 的滚动优化：局部滚动。配合使用： `overflow-y: scroll; /* has to be scroll, not auto */-webkit-overflow-scrolling: touch`。
+* [xscroll](https://github.com/huxiaoqi567/xscroll) 滚动相关的一堆牛逼功能。
 
 ### 加载(Loding)效果
 * [CSS Spinners](https://github.com/jlong/css-spinners) CSS做的
@@ -347,13 +350,14 @@
     * [AdminLTE](https://github.com/almasaeed2010/AdminLTE)
 
 ## <a name="vue">Vue相关</a>
+* 全家桶
+  * [vue-router](https://github.com/vuejs/vue-router) 官方提供的路由插件
+  * vuex
 * 手机
     * [Vant](https://www.youzanyun.com/zanui/vue#/zh-CN/component/quickstart) 有赞出品。组件比 Mint UI 多。
     * [Mint UI](https://github.com/ElemeFE/mint-ui) 饿了么出品。
     * [vux](https://github.com/airyland/vux)
-    * [vue-weui](https://github.com/adcentury/vue-weui)
-    * [vue-resource](https://github.com/pagekit/vue-resource) The HTTP client for Vue.js, Ajax 数据交换
-    * [vue-router](https://github.com/vuejs/vue-router) 官方提供的路由插件
+    * [vue-weui](https://github.com/aidenZou/vue-weui) weui 的 vue 实现。
 * 管理后台
     * [Element UI](https://github.com/ElemeFE/element) 饿了么出品。
     * [Vue Admin](https://github.com/fundon/vue-admin)
