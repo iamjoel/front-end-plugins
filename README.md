@@ -339,7 +339,9 @@
     * [jRss](https://github.com/malderete/jRss)  简单版的jFeed
 * [scriptcam](http://www.scriptcam.com/) 与摄像头交互
 * [cylon.js](https://cylonjs.com/) 机器人框架，支持35个平台
-* [Masonry](https://github.com/desandro/masonry) 一个瀑布流框架
+* 图片的瀑布流展示
+  * [Masonry](https://github.com/desandro/masonry) 依赖 jQuery。
+  * [bricks.js](https://github.com/callmecavs/bricks.js) 高性能版 Masonry。不依赖 jQuery。
 * [devices.css](https://github.com/marvelapp/devices.css) 移动设备边框的外观。做原型的时候用不错。
 * [city](https://github.com/basecss/city) 国家行政区划分数据。从国家统计局拿的。 [城市数据](https://github.com/basecss/city/blob/master/lib/citydata.json)
 * [全栈JavaScript错误监控](https://fundebug.com/) 提供监控报错的服务。
