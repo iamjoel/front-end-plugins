@@ -35,7 +35,8 @@
     * 对象
         * [Watch.js](https://github.com/melanke/Watch.JS) 监视对象或属性的变化
     * 时间
-        * [moment](http://momentjs.com/)
+        * [Moment.js](http://momentjs.com/)
+        * [day.js](https://github.com/iamkun/dayjs) 和 Moment.js 一样的 API。只有 2KB。
         * [datejs](http://www.datejs.com/)
     * 正则
         * [rewrap](https://github.com/taijiweb/rewrap) 正则工具库。相关插件[regexp-frequent](https://github.com/taijiweb/regexp-frequent),[rewrap-patch](https://github.com/taijiweb/rewrap-patch)
