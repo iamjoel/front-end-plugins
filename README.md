@@ -363,7 +363,9 @@
     * [vue-weui](https://github.com/aidenZou/vue-weui) weui 的 vue 实现。
 * 管理后台
     * [Element UI](https://github.com/ElemeFE/element) 饿了么出品。
+    * [iView Admin](https://github.com/iview/iview-admin) 基于 [iView](https://www.iviewui.com/) 做的后台。 Talking Data 出品。
     * [Vue Admin](https://github.com/fundon/vue-admin)
+    * [Vue Manage System](https://github.com/lin-xin/vue-manage-system) 基于 Element UI。支持多 Tab 选项卡等功能。
 * [Muse UI](https://github.com/museui/muse-ui) Material Design 的 Vue 实现。
 * [buefy](https://github.com/buefy/buefy) 基于 Vue 的轻量级 UI 组件库。
 * [Vue-head](https://github.com/ktquez/vue-head) 管理head标签中的信息。
