@@ -153,11 +153,13 @@
 * [WeUI](https://github.com/weui/weui) 由微信官方设计团队为微信 Web 开发量身设计。
 * [SUI Mobile](https://github.com/sdc-alibaba/SUI-Mobile) 阿里巴巴国际UED前端出品的移动端UI库。
 * [Framework7](http://framework7.io/)
+* [wired elements](https://github.com/wiredjs/wired-elements) 手绘效果的组件库。它的底层是 Web components。
 
 ## <a name="ui">UI 组件类</a>
 ### 拖拽
 * [dragula](https://github.com/bevacqua/dragula) 支持Draggable，Dropable和Sortable。感觉比jqueryUI的轻量级，好用的样子
 * [angular-dragula](http://bevacqua.github.io/angular-dragula/) dragular 官方的 angular 版本
+* [vue-grid-layout](https://github.com/jbaysolutions/vue-grid-layout) 支持托拽和自定义大小网格系统。
 
 ### 数据可视化(图表)
 * [Echarts](http://echarts.baidu.com/) 百度出品
@@ -366,6 +368,7 @@
     * [iView Admin](https://github.com/iview/iview-admin) 基于 [iView](https://www.iviewui.com/) 做的后台。 Talking Data 出品。
     * [Vue Admin](https://github.com/fundon/vue-admin)
     * [Vue Manage System](https://github.com/lin-xin/vue-manage-system) 基于 Element UI。支持多 Tab 选项卡等功能。
+    * [D2 Admin](https://github.com/FairyEver/d2admin-vue-element) 基于 Element UI。简约主题。支持 首屏加载等待动画等。
 * [Muse UI](https://github.com/museui/muse-ui) Material Design 的 Vue 实现。
 * [buefy](https://github.com/buefy/buefy) 基于 Vue 的轻量级 UI 组件库。
 * [Vue-head](https://github.com/ktquez/vue-head) 管理head标签中的信息。
