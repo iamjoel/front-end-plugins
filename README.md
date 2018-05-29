@@ -219,10 +219,11 @@
 ### 分享到SNS
 * [JiaThis](http://www.jiathis.com/) 生成分享代码。
 
-### 编辑器
+### 富文本编辑器
+* [Vue-Quill-Editor](https://github.com/surmon-china/vue-quill-editor) 将 [Quill](https://github.com/quilljs/quill) 封装成 Vue 组件。图片上传默认是把图片转成Base64来存，也支持监听上传事件，来将图片上传到服务器。
 * [ace](https://ace.c9.io/) 代码编辑器，可以用来做demo演示
 * [ckeditor](http://ckeditor.com/)
-* [ueditor](http://ueditor.baidu.com/website/) 百度做的
+* [ueditor](http://ueditor.baidu.com/website/) 百度做的。
 * [tinymce](https://www.tinymce.com/tryit/full.php) 对html内容进行实时的编辑
 * [summernote](https://github.com/summernote/summernote) 在移动设备上用不错
 
