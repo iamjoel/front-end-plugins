@@ -359,10 +359,13 @@
 * 全家桶
   * [vue-router](https://github.com/vuejs/vue-router) 官方提供的路由插件
   * vuex
-* 手机
+* 手机 UI 库
     * [Vant](https://www.youzanyun.com/zanui/vue#/zh-CN/component/quickstart) 有赞出品。组件比 Mint UI 多。
+    * [Weex Ui](https://alibaba.github.io/weex-ui/#/cn/) 阿里出品。有些业务组件是 Vant 没有的。
+    * [Cube UI](https://didi.github.io/cube-ui/#/zh-CN) 滴滴出品。基于 Vue.js 实现的精致移动端组件库。
+    * [Mand Mobile](https://didi.github.io/mand-mobile/#/home) 滴滴出品。面向金融场景的Vue移动端UI组件库。 有些业务组件值得参考。
     * [Mint UI](https://github.com/ElemeFE/mint-ui) 饿了么出品。
-    * [vux](https://github.com/airyland/vux)
+    * [vux](https://github.com/airyland/vux) 一个凑合的 Vue.js 移动端 UI 组件库。
     * [vue-weui](https://github.com/aidenZou/vue-weui) weui 的 vue 实现。
 * 管理后台
     * [Element UI](https://github.com/ElemeFE/element) 饿了么出品。
