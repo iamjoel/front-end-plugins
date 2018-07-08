@@ -41,6 +41,9 @@
     * 正则
         * [rewrap](https://github.com/taijiweb/rewrap) 正则工具库。相关插件[regexp-frequent](https://github.com/taijiweb/regexp-frequent),[rewrap-patch](https://github.com/taijiweb/rewrap-patch)
     * [parameter](https://github.com/node-modules/parameter) 验证参数的格式
+* 与服务器端交互
+  * [axios](https://www.npmjs.com/package/axios) 支持浏览器和 Node.js 的HTTP请求工具。axios 不支持jsonp。
+  * [jsonp](https://github.com/webmodules/jsonp)
 * 异步流程控制
     * 发布订阅
         * [eventproxy](https://github.com/JacksonTian/eventproxy) 朴灵出品
@@ -162,7 +165,7 @@
 * [vue-grid-layout](https://github.com/jbaysolutions/vue-grid-layout) 支持托拽和自定义大小网格系统。
 
 ### 数据可视化(图表)
-* [Echarts](http://echarts.baidu.com/) 百度出品
+* [Echarts](http://echarts.baidu.com/) 百度出品。 [Vue 版 Echart](https://github.com/ecomfe/vue-echarts)。
 * [D3.js](https://d3js.org/) 超灵活的做数据可视化的工具。
 * [highcharts](http://www.highcharts.com/) 功能强大。是收费的。
 * [Plottable.JS](http://plottablejs.org/) 基于D3的一个图表库
