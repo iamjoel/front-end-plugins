@@ -379,6 +379,7 @@
 * [Muse UI](https://github.com/museui/muse-ui) Material Design 的 Vue 实现。
 * [buefy](https://github.com/buefy/buefy) 基于 Vue 的轻量级 UI 组件库。
 * [Vue-head](https://github.com/ktquez/vue-head) 管理head标签中的信息。
+* [vue-i18n](https://github.com/kazupon/vue-i18n) 多语言解决方案。
 
 ## <a name="react">React 相关</a>
 * 管理后台
