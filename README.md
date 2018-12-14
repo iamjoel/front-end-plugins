@@ -167,6 +167,7 @@
 * [vue-grid-layout](https://github.com/jbaysolutions/vue-grid-layout) 支持托拽和自定义大小网格系统。
 
 ### 数据可视化(图表)
+* [F2](https://github.com/antvis/f2/blob/master/README.zh-CN.md) 阿里出品。为移动端而生。
 * [Echarts](http://echarts.baidu.com/) 百度出品。 [Vue 版 Echart](https://github.com/ecomfe/vue-echarts)。
 * [D3.js](https://d3js.org/) 超灵活的做数据可视化的工具。
 * [highcharts](http://www.highcharts.com/) 功能强大。是收费的。
