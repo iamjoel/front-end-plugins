@@ -361,6 +361,7 @@
 * [Bootbox.js](http://bootboxjs.com/) 对bootstrap的弹出框做的一些封装
 * 免费皮肤
     * [AdminLTE](https://github.com/almasaeed2010/AdminLTE)
+    * [gentelella](https://github.com/puikinsh/gentelella)
 
 ## <a name="vue">Vue相关</a>
 * 全家桶
