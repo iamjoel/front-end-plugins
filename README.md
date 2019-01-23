@@ -114,7 +114,9 @@
 ### 表单验证
 * [.Validate](https://github.com/jzaefferer/jquery-validation) [详细](detail/validate)
 * [jQuery-Validation-Engine](http://posabsolute.github.io/jQuery-Validation-Engine/)
-* [IdCard](https://github.com/NoBey/IdCard) 身份证的工具库，支持身份证号验证，获取地址，生日，男女等信息。
+* 身份证验证
+  * [id-card-uitls](libs/id-card-uitls.js)
+  * [IdCard](https://github.com/NoBey/IdCard) 身份证的工具库，支持身份证号验证，获取地址，生日，男女等信息。
 
 ### 表单元素美化
 * [uniform](http://uniformjs.com/) 提供对下拉框，单，复选框，按钮等表单元素的美化
