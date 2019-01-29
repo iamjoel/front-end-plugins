@@ -395,9 +395,16 @@
     * [Zent](https://www.youzanyun.com/zanui/react/guides/install) 有赞出品。Zent ( \ˈzent\ ) 是有赞 PC 端 WebUI 规范的 React 实现，提供了一整套基础的 UI 组件以及一些常用的业务组件。 
 
 ## <a name="min-app">小程序</a>
+* 其他框转小程序(转译型框架)
+  * [mpvue](http://mpvue.com/) 美团出品。 Vue 转小程序,Webapp。
+  * [WePY](https://github.com/Tencent/wepy) 类 Vue 写法转 小程序。
+  * [Taro](https://github.com/NervJS/taro) 京东出品。React 转生成能运行在微信/百度/支付宝/字节跳动小程序、H5、React Native 等的应用。
+  * [uniapp](https://uniapp.dcloud.io/) DClound出品。生成 App，小程序，H5。
+* 增强型小程序框架
+  * [MPX](https://didi.github.io/mpx/) 滴滴出品。致力于提高小程序开发体验的增强型小程序框架，通过Mpx，我们能够最先进的web开发体验(Vue + Webpack)来开发生产性能深度优化的小程序
 * 组件库
   * [MinUI](https://meili.github.io/min/index.html) 蘑菇街出品。
-  * [zanui-weapp](zanui-weapp) Vant UI 的小程序版。有赞出品。
+  * [zanui-weapp](https://github.com/youzan/zanui-weapp) Vant UI 的小程序版。有赞出品。
 
 ## <a name="graphql">GraphQL</a>
 * [prisma](https://github.com/prismagraphql/prisma/)  Prisma turns your database into a realtime GraphQL API。
