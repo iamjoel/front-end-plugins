@@ -396,9 +396,10 @@
 
 ## <a name="min-app">小程序</a>
 * 其他框转小程序(转译型框架)
-  * [mpvue](http://mpvue.com/) 美团出品。 Vue 转小程序,Webapp。
+  * [mpvue](http://mpvue.com/) 美团出品。 Vue 转微信小程序、百度智能小程序、头条小程序 和 支付宝小程序。
   * [WePY](https://github.com/Tencent/wepy) 类 Vue 写法转 小程序。
   * [Taro](https://github.com/NervJS/taro) 京东出品。React 转生成能运行在微信/百度/支付宝/字节跳动小程序、H5、React Native 等的应用。
+  * [Chameleon](https://cmljs.org/doc/) 滴滴出品的不同环境的跨端整体解决方案。
   * [uniapp](https://uniapp.dcloud.io/) DClound出品。生成 App，小程序，H5。
   * [graceUI](http://grace.hcoder.net/) 可生成 uniapp 和 小程序代码。小额收费。
 * 增强型小程序框架
