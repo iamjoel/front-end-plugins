@@ -28,6 +28,7 @@
     * [bacon.js](https://github.com/baconjs/bacon.js/) 函数式编程，cool
     * [streamjs](https://github.com/winterbe/streamjs) 用流的方式来对数组，对象进行系列操作
     * [clone.js](https://github.com/pvorb/clone) 对各种对象的深度复制。
+    * [deepmerge](https://github.com/TehShrike/deepmerge) 深度合并数组和对象。
 * 数据类型
     * 字符串
         * [strman](https://github.com/dleitee/strman) 字符串操作库。它为各种实用程序、格式选项和字符串转换，提供了超过 60 种实用的方法。
@@ -281,6 +282,7 @@
 ### 动画效果
 * [animate.css](https://github.com/daneden/animate.css) 预设了很多动画。
 * [transformjs](https://github.com/AlloyTeam/AlloyTouch/tree/master/transformjs) Made css3 transform super easy。腾讯出品。
+* [Scence.js](https://scene.js.org/) 做基于时间线的动画库。具体的若干时间点，给元素设置指定的样式。
 * [mixitup](https://mixitup.kunkalabs.com/) 用漂亮的动画效果来完成排序和筛选
 * [jQuery.Marquee](https://github.com/aamirafridi/jQuery.Marquee) 跑马灯效果
 * [quickflip](http://jonraasch.com/blog/quickflip-jquery-plugin) 卡片翻转效果
@@ -326,6 +328,7 @@
 * [panorama_viewer](https://github.com/peachananr/panorama_viewer) 轻量级全景图。 代码不足两百行，基于 jQuery。
 * Toast
   * [cxlt](https://github.com/chengxulvtu/cxlt-vue2-toastr) 基于 Vue2。
+* [Darkmode.js](https://github.com/sandoche/Darkmode.js) 给网站加上 dark 模式。
 
 ## <a name="anim">动画</a>
 * [velocity](https://github.com/julianshapiro/velocity) 提高Jquery动画的性能。以及颜色动画之类的新特性。
@@ -373,6 +376,7 @@
   * vuex
 * 手机 UI 库
     * [Vant](https://www.youzanyun.com/zanui/vue#/zh-CN/component/quickstart) 有赞出品。组件比 Mint UI 多。
+    * [Nut UI](https://nutui.jd.com/#/intro) 京东出品。
     * [Weex Ui](https://alibaba.github.io/weex-ui/#/cn/) 阿里出品。有些业务组件是 Vant 没有的。
     * [Cube UI](https://didi.github.io/cube-ui/#/zh-CN) 滴滴出品。基于 Vue.js 实现的精致移动端组件库。
     * [Mand Mobile](https://didi.github.io/mand-mobile/#/home) 滴滴出品。面向金融场景的Vue移动端UI组件库。 有些业务组件值得参考。
