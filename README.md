@@ -82,6 +82,9 @@
 * 生成pdf
   * [jsPDF](https://github.com/MrRio/jsPDF) 在浏览器端生成 pdf。
   * [pdfkit](http://pdfkit.org/)
+* Excel库
+  * [Node XLSX](https://github.com/mgcrea/node-xlsx) 支持解析和生成 xlsx 的问题。
+  * [js-xlsx](https://github.com/SheetJS/js-xlsx)
 * [compass.js](http://ai.github.io/compass.js/) 指南针。只有在手机浏览器上才能用。
 * [中国行政区域数据](https://github.com/airyland/china-area-data)
 * canvas
