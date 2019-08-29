@@ -249,6 +249,9 @@
 * [html5media](https://html5media.info/) 简单的h5player，轻量级
 * [jplayer](http://jplayer.org/) 功能强大，可换肤
 
+## 地图
+* [Leaflet](https://leafletjs.com/index.html) 开源的对移动端友好的地图工具库。
+
 ### 展示
 * [Impress.js](https://developer.cdn.mozilla.net/media/uploads/demos/b/a/bartaz/54e3827142e4149a5c01db64c9517c84/impressjs_1333223745_demo_package/index.html#/bored) 各种旋转，和奇特的体验
 * [fullPage](http://alvarotrigo.com/fullPage/) 全屏显示。用滚轮来翻页 [详细](detail/fullpage) [2.9.7](https://github.com/alvarotrigo/fullPage.js/releases/tag/2.9.7) 以后的版本是收费的。
