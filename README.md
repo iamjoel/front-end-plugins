@@ -398,6 +398,7 @@
     * [Vue Admin](https://github.com/fundon/vue-admin)
     * [Vue Manage System](https://github.com/lin-xin/vue-manage-system) 基于 Element UI。支持多 Tab 选项卡等功能。
     * [D2 Admin](https://github.com/FairyEver/d2admin-vue-element) 基于 Element UI。简约主题。支持 首屏加载等待动画等。
+    * [avue](https://github.com/nmxiaowei/avue) 对 Element UI 的二次封装，收费。
 * [Muse UI](https://github.com/museui/muse-ui) Material Design 的 Vue 实现。
 * [buefy](https://github.com/buefy/buefy) 基于 Vue 的轻量级 UI 组件库。
 * [Vue-head](https://github.com/ktquez/vue-head) 管理head标签中的信息。
