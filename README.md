@@ -337,6 +337,7 @@
 * Toast
   * [cxlt](https://github.com/chengxulvtu/cxlt-vue2-toastr) 基于 Vue2。
 * [Darkmode.js](https://github.com/sandoche/Darkmode.js) 给网站加上 dark 模式。
+* [vue-countTo](https://github.com/PanJiaChen/vue-countTo) 动画到跳到某个数字。Vue 组件。
 
 ## <a name="anim">动画</a>
 * [velocity](https://github.com/julianshapiro/velocity) 提高Jquery动画的性能。以及颜色动画之类的新特性。
