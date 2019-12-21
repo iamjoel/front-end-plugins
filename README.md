@@ -44,6 +44,8 @@
     * 正则
         * [rewrap](https://github.com/taijiweb/rewrap) 正则工具库。相关插件[regexp-frequent](https://github.com/taijiweb/regexp-frequent),[rewrap-patch](https://github.com/taijiweb/rewrap-patch)
     * [parameter](https://github.com/node-modules/parameter) 验证参数的格式
+* 生成 uuid
+  * [Nano ID](https://github.com/ai/nanoid/)
 * 与服务器端交互
   * [axios](https://www.npmjs.com/package/axios) 支持浏览器和 Node.js 的HTTP请求工具。axios 不支持jsonp。
   * [jsonp](https://github.com/webmodules/jsonp)
