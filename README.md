@@ -349,14 +349,21 @@
 * [walkway](https://github.com/ConnorAtherton/walkway) 以动画的方式，渐渐地画出 SVG 的路径。
 
 ## <a name="test">测试</a>
-* Mocha
-* Chai
-* Should
+* 测试框架
+  * [Jest](https://jestjs.io/)
+  * Mocha
+* 断言库
+  * [Power Assert](https://github.com/power-assert-js/power-assert)
+  * Chai
+  * Should
 * Snoion
 * [DeviceMock.js](http://rm-labo.com/labo/devicemock/) mock 设备。
-* 录制浏览器交互并生成测试脚本
-  * [Puppeteer Recorder](https://github.com/checkly/puppeteer-recorder) 生成 Puppeteer 的。
-  * [softest](https://github.com/prprprus/softest/blob/master/README-zh.md) 基于 Puppeteer 构建的。支持多 Tab，截图等 Puppeteer Recorder 不支持的功能。
+* 端到端测试
+  * Puppeteer
+  * [BackstopJS](https://github.com/garris/BackstopJS)
+  * 录制浏览器交互并生成测试脚本
+    * [Puppeteer Recorder](https://github.com/checkly/puppeteer-recorder) 生成 Puppeteer 的。
+    * [softest](https://github.com/prprprus/softest/blob/master/README-zh.md) 基于 Puppeteer 构建的。支持多 Tab，截图等 Puppeteer Recorder 不支持的功能。
 
 
 ## <a name="other">其他类</a>
