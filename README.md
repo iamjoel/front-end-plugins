@@ -93,7 +93,7 @@
 * [中国行政区域数据](https://github.com/airyland/china-area-data)
 * canvas
   * [jcanvas](https://projects.calebevans.me/jcanvas) 基于 jQuery 的 canvas 工具库，支持托拽。[画画的Demo](https://projects.calebevans.me/painter/)
-
+* [lerna](https://github.com/lerna/lerna) 对一个项目中包含若干个 npm 包的管理。对这几个npm包内部依赖版本的管理和npm包的发布比较方便。
 
 ## <a name="browser-strong">浏览器增强类</a>
 ### 让一些旧浏览器变牛逼的库
