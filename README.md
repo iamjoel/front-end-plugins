@@ -171,6 +171,7 @@
 * [WeUI](https://github.com/weui/weui) 由微信官方设计团队为微信 Web 开发量身设计。
 * [SUI Mobile](https://github.com/sdc-alibaba/SUI-Mobile) 阿里巴巴国际UED前端出品的移动端UI库。
 * [Framework7](http://framework7.io/)
+* [UIKit](https://getuikit.com/) Web 组件库，不依赖任何框架，组件类型多、功能强。
 * [wired elements](https://github.com/wiredjs/wired-elements) 手绘效果的组件库。它的底层是 Web components。
 
 ## <a name="ui">UI 组件类</a>
