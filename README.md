@@ -94,6 +94,7 @@
 * canvas
   * [jcanvas](https://projects.calebevans.me/jcanvas) 基于 jQuery 的 canvas 工具库，支持托拽。[画画的Demo](https://projects.calebevans.me/painter/)
 * [lerna](https://github.com/lerna/lerna) 对一个项目中包含若干个 npm 包的管理。对这几个npm包内部依赖版本的管理和npm包的发布比较方便。
+* [TimeCat](https://github.com/oct16/TimeCat/blob/master/README.cn.md) 一套网页录屏的解决方案，利用其独特的算法，提供超高性能，超高压缩比的网页无损录制。可以广泛运作于监控系统，行为分析，案例复盘，远程教育，低流量视频协同等场景。
 
 ## <a name="browser-strong">浏览器增强类</a>
 ### 让一些旧浏览器变牛逼的库
