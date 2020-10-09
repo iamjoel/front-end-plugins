@@ -192,6 +192,8 @@
 * k线图(k line)
   * [Echarts的k线图](http://echarts.baidu.com/echarts2/doc/doc.html#K) 功能比较简单
   * [kline](https://github.com/chxj1992/kline) 功能比较多，支持 webpack 等。
+* 流程图&脑图
+   * [GGEditor](https://ggeditor.com/zh-CN) 基于 G6 和 React 的可视化图编辑器。支持流程图和脑图。阿里出品。
 
 ### 时间选取组件
 * [foundation-datepicker](http://foundation-datepicker.peterbeno.com/example.html)
