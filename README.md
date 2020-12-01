@@ -325,7 +325,7 @@
 * [wScratchPad](https://github.com/websanova/wScratchPad) 刮刮卡刮奖效果
 * [jqueryrotate](http://beneposto.pl/jqueryrotate/) 旋转插件。可以用来做转盘抽奖效果
 
-## 其工具类
+### 其他工具类
 * [vue-clickaway](https://github.com/simplesmiler/vue-clickaway) 点击元素外侧，元素隐藏。
 
 ## <a name="ux">用户体验增强类</a>
