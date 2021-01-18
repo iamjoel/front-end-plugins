@@ -317,6 +317,8 @@
 * [superscrollorama](https://github.com/johnpolacek/superscrollorama) 能做的效果更多，但要用第三方Tween的库，使用起来比较复杂。
 * [scrolldeck](https://github.com/johnpolacek/scrolldeck.js)
 * [stellar.js](https://github.com/markdalgleish/stellar.js) 让图片或背景图以不同速率移动，已停止维护。
+* [lax.js](https://github.com/alexfoxy/lax.js)
+
 
 ### flash
 * [swfobj](https://code.google.com/archive/p/swfobject/wikis/documentation.wiki) 能够自动检测PC、Mac机器上各种主流浏览器对Flash插件的支持情况。它使得插入Flash媒体资源尽量简捷、安全。而且它是非常符合搜索引擎优化的原则的。此外，它能够避免您的HTML、XHTML中出现object、embed等非标准标签，从而符合更加标准。 [详细](detail/flash)
@@ -347,6 +349,7 @@
   * [cxlt](https://github.com/chengxulvtu/cxlt-vue2-toastr) 基于 Vue2。
 * [Darkmode.js](https://github.com/sandoche/Darkmode.js) 给网站加上 dark 模式。
 * [vue-countTo](https://github.com/PanJiaChen/vue-countTo) 动画到跳到某个数字。Vue 组件。
+* [pagemap](https://larsjung.de/pagemap/) 给长页面加网页的缩略图。
 
 ## <a name="anim">动画</a>
 * [velocity](https://github.com/julianshapiro/velocity) 提高Jquery动画的性能。以及颜色动画之类的新特性。
