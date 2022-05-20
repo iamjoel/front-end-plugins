@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "formidable": "^1.0.14",
+    "formidable": "^3.2.4",
     "node-static": "^0.7.3"
   }
 }
